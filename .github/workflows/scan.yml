@@ -114,18 +114,7 @@ jobs:
 
             # Show last 5 detections
             echo "**🔍 Recent Detections (last 5):**" >> $GITHUB_STEP_SUMMARY
-            cat feed/phishing_feed.json | python3 -c "
-import sys, json
-try:
-    data = json.load(sys.stdin)
-    for entry in data[-5:]:
-        domain = entry.get('domain', 'N/A')
-        score = entry.get('score', 0)
-        source = entry.get('source', 'unknown')
-        print(f\"- \`{domain}\` (score: {score}/100) - {source}\")
-except:
-    print('- Unable to parse recent detections')
-            " >> $GITHUB_STEP_SUMMARY 2>/dev/null || echo "- No recent detections" >> $GITHUB_STEP_SUMMARY
+            cat feed/phishing_feed.json | python3 -c "import sys, json; data = json.load(sys.stdin); [print(f\"- \`{e.get('domain', 'N/A')}\` (score: {e.get('score', 0)}/100) - {e.get('source', 'unknown')}\") for e in data[-5:]] if data else print('- Unable to parse recent detections')" >> $GITHUB_STEP_SUMMARY 2>/dev/null || echo "- No recent detections" >> $GITHUB_STEP_SUMMARY
           fi
 
           echo "" >> $GITHUB_STEP_SUMMARY

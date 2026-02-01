@@ -103,32 +103,13 @@ jobs:
 
           # Count analyzed domains from llm-analysis.json
           if [[ -f feed/llm-analysis.json ]]; then
-            ANALYZED=$(cat feed/llm-analysis.json | python3 -c "
-import sys, json
-data = json.load(sys.stdin)
-print(len(data.get('analyzed_domains', [])))
-            " 2>/dev/null || echo "0")
+            ANALYZED=$(cat feed/llm-analysis.json | python3 -c "import sys, json; data = json.load(sys.stdin); print(len(data.get('analyzed_domains', [])))" 2>/dev/null || echo "0")
 
-            HIGH_THREAT=$(cat feed/llm-analysis.json | python3 -c "
-import sys, json
-data = json.load(sys.stdin)
-high = sum(1 for entry in data.get('analyzed_domains', []) if entry.get('threat_level') == 'HIGH')
-print(high)
-            " 2>/dev/null || echo "0")
+            HIGH_THREAT=$(cat feed/llm-analysis.json | python3 -c "import sys, json; data = json.load(sys.stdin); high = sum(1 for entry in data.get('analyzed_domains', []) if entry.get('threat_level') == 'HIGH'); print(high)" 2>/dev/null || echo "0")
 
-            BLOCK_REC=$(cat feed/llm-analysis.json | python3 -c "
-import sys, json
-data = json.load(sys.stdin)
-block = sum(1 for entry in data.get('analyzed_domains', []) if entry.get('decision') == 'BLOCK')
-print(block)
-            " 2>/dev/null || echo "0")
+            BLOCK_REC=$(cat feed/llm-analysis.json | python3 -c "import sys, json; data = json.load(sys.stdin); block = sum(1 for entry in data.get('analyzed_domains', []) if entry.get('decision') == 'BLOCK'); print(block)" 2>/dev/null || echo "0")
 
-            FALSE_POS=$(cat feed/llm-analysis.json | python3 -c "
-import sys, json
-data = json.load(sys.stdin)
-fp = sum(1 for entry in data.get('analyzed_domains', []) if entry.get('decision') == 'FALSE_POSITIVE')
-print(fp)
-            " 2>/dev/null || echo "0")
+            FALSE_POS=$(cat feed/llm-analysis.json | python3 -c "import sys, json; data = json.load(sys.stdin); fp = sum(1 for entry in data.get('analyzed_domains', []) if entry.get('decision') == 'FALSE_POSITIVE'); print(fp)" 2>/dev/null || echo "0")
 
             echo "**📊 Results:**" >> $GITHUB_STEP_SUMMARY
             echo "- Total domains analyzed: **$ANALYZED**" >> $GITHUB_STEP_SUMMARY
@@ -139,20 +120,7 @@ print(fp)
 
             # Show recent high-threat domains
             echo "**🚨 Recent High-Threat Domains:**" >> $GITHUB_STEP_SUMMARY
-            cat feed/llm-analysis.json | python3 -c "
-import sys, json
-try:
-    data = json.load(sys.stdin)
-    high_threats = [e for e in data.get('analyzed_domains', []) if e.get('threat_level') == 'HIGH']
-    for entry in high_threats[-5:]:
-        domain = entry.get('domain', 'N/A')
-        score = entry.get('phishing_score', 0)
-        confidence = entry.get('confidence', 0)
-        decision = entry.get('decision', 'UNKNOWN')
-        print(f\"- \`{domain}\` (score: {score}, confidence: {confidence}%, decision: {decision})\")
-except:
-    print('- No high-threat domains in recent analysis')
-            " >> $GITHUB_STEP_SUMMARY 2>/dev/null || echo "- No high-threat domains" >> $GITHUB_STEP_SUMMARY
+            cat feed/llm-analysis.json | python3 -c "import sys, json; data = json.load(sys.stdin); high_threats = [e for e in data.get('analyzed_domains', []) if e.get('threat_level') == 'HIGH']; [print(f\"- \`{e.get('domain', 'N/A')}\` (score: {e.get('phishing_score', 0)}, confidence: {e.get('confidence', 0)}%, decision: {e.get('decision', 'UNKNOWN')})\") for e in high_threats[-5:]] if high_threats else print('- No high-threat domains in recent analysis')" >> $GITHUB_STEP_SUMMARY 2>/dev/null || echo "- No high-threat domains" >> $GITHUB_STEP_SUMMARY
           fi
 
           echo "" >> $GITHUB_STEP_SUMMARY
