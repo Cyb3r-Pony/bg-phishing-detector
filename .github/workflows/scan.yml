@@ -1,0 +1,132 @@
+name: Hourly Phishing Scanner
+
+on:
+  schedule:
+    # Run every hour at the beginning of the hour (XX:00)
+    - cron: '0 * * * *'
+
+  # Allow manual trigger for testing
+  workflow_dispatch:
+
+# Prevent multiple workflows from running simultaneously
+concurrency:
+  group: phishing-scanner
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25  # Safety timeout to prevent overlaps
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run phishing scanner
+        env:
+          URLSCAN_API_KEY: ${{ secrets.URLSCAN_API_KEY }}
+        run: |
+          echo "Starting phishing scan at $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
+          python detection/bg-phishing-detector.py --sources urlscan google cloudflare
+        continue-on-error: false
+
+      - name: Check for new findings
+        id: check_changes
+        run: |
+          if [[ -n $(git status -s feed/) ]]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "✅ New phishing domains detected"
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "ℹ️  No new findings this scan"
+          fi
+
+      - name: Commit and push findings
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git config --global user.name 'Phishing Scanner Bot'
+          git config --global user.email 'scanner@bg-phishing-detector'
+
+          # Pull latest changes to avoid conflicts
+          git pull --rebase origin main || true
+
+          git add -f feed/phishing_feed.json
+          TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
+          git commit -m "🚨 Phishing scan results - $TIMESTAMP [skip ci]"
+
+          # Push with retry logic (max 3 attempts)
+          for i in {1..3}; do
+            if git push; then
+              echo "✅ Successfully pushed changes"
+              break
+            else
+              if [ $i -lt 3 ]; then
+                echo "⚠️  Push failed, retrying in 5 seconds... (attempt $i/3)"
+                sleep 5
+                git pull --rebase origin main || true
+              else
+                echo "❌ Failed to push after 3 attempts"
+                exit 1
+              fi
+            fi
+          done
+
+      - name: Scan summary
+        if: always()
+        run: |
+          echo "### 🚨 Phishing Scan Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Scan completed at:** $(date -u +"%Y-%m-%d %H:%M:%S UTC")" >> $GITHUB_STEP_SUMMARY
+          echo "**Sources:** URLScan.io, Google CT, Cloudflare CT" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          if [[ -f feed/stats.json ]]; then
+            DOMAINS=$(cat feed/stats.json | python3 -c "import sys, json; print(json.load(sys.stdin).get('domains_processed', 0))" 2>/dev/null || echo "0")
+            FINDINGS=$(cat feed/stats.json | python3 -c "import sys, json; print(json.load(sys.stdin).get('new_findings', 0))" 2>/dev/null || echo "0")
+            RUNTIME=$(cat feed/stats.json | python3 -c "import sys, json; print(json.load(sys.stdin).get('elapsed_time', 0))" 2>/dev/null || echo "0")
+
+            echo "**📊 Statistics:**" >> $GITHUB_STEP_SUMMARY
+            echo "- Domains processed: **$DOMAINS**" >> $GITHUB_STEP_SUMMARY
+            echo "- New phishing domains: **$FINDINGS** 🚨" >> $GITHUB_STEP_SUMMARY
+            echo "- Runtime: **${RUNTIME}s**" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          if [[ -f feed/phishing_feed.json ]]; then
+            TOTAL=$(cat feed/phishing_feed.json | python3 -c "import sys, json; print(len(json.load(sys.stdin)))" 2>/dev/null || echo "0")
+            echo "**📋 Total threats in feed:** $TOTAL" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+
+            # Show last 5 detections
+            echo "**🔍 Recent Detections (last 5):**" >> $GITHUB_STEP_SUMMARY
+            cat feed/phishing_feed.json | python3 -c "
+import sys, json
+try:
+    data = json.load(sys.stdin)
+    for entry in data[-5:]:
+        domain = entry.get('domain', 'N/A')
+        score = entry.get('score', 0)
+        source = entry.get('source', 'unknown')
+        print(f\"- \`{domain}\` (score: {score}/100) - {source}\")
+except:
+    print('- Unable to parse recent detections')
+            " >> $GITHUB_STEP_SUMMARY 2>/dev/null || echo "- No recent detections" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**🎯 Target:** Bulgarian courier services (Econt, Speedy, BulgariaPost, etc.)" >> $GITHUB_STEP_SUMMARY
