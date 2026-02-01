@@ -2471,5 +2471,135 @@
     },
     "detected_at": "2026-02-01T18:15:07.366019+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "hostmaster.new-bgpost.cam",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "bgpost"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": ".cam",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bg-post",
+          "typo": "bgpost",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-01T18:21:23.855732+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "new-bgpost.cam",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "bgpost"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": ".cam",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bg-post",
+          "typo": "bgpost",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-01T18:21:23.924072+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "new.bgpost-dg.live",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "bgpost"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".live",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bg-post",
+          "typo": "bgpost",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-01T18:21:24.493026+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "bgpost.nguo.top",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "bgpost"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bg-post",
+          "typo": "bgpost",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-01T18:21:24.804977+00:00Z",
+    "source": "scanner"
   }
 ]
