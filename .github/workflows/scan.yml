@@ -42,7 +42,7 @@ jobs:
           URLSCAN_API_KEY: ${{ secrets.URLSCAN_API_KEY }}
         run: |
           echo "Starting phishing scan at $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
-          python detection/bg-phishing-detector.py --sources urlscan google cloudflare
+          python detection/bg-phishing-detector.py --sources urlscan
         continue-on-error: false
 
       - name: Check for new findings
@@ -92,7 +92,7 @@ jobs:
           echo "### 🚨 Phishing Scan Summary" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "**Scan completed at:** $(date -u +"%Y-%m-%d %H:%M:%S UTC")" >> $GITHUB_STEP_SUMMARY
-          echo "**Sources:** URLScan.io, Google CT, Cloudflare CT" >> $GITHUB_STEP_SUMMARY
+          echo "**Sources:** URLScan.io" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
 
           if [[ -f feed/stats.json ]]; then
