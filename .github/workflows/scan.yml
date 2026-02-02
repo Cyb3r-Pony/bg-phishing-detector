@@ -73,7 +73,7 @@ jobs:
           # Pull latest changes to avoid conflicts
           git pull --rebase origin main || true
 
-          git add -f feed/phishing_feed.json
+          git add -f feed/phishing_feed.json feed/stats.json
           TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
           git commit -m "🚨 Phishing scan results - $TIMESTAMP [skip ci]"
 
@@ -104,14 +104,24 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
 
           if [[ -f feed/stats.json ]]; then
-            DOMAINS=$(cat feed/stats.json | python3 -c "import sys, json; print(json.load(sys.stdin).get('domains_processed', 0))" 2>/dev/null || echo "0")
-            FINDINGS=$(cat feed/stats.json | python3 -c "import sys, json; print(json.load(sys.stdin).get('new_findings', 0))" 2>/dev/null || echo "0")
-            RUNTIME=$(cat feed/stats.json | python3 -c "import sys, json; print(json.load(sys.stdin).get('elapsed_time', 0))" 2>/dev/null || echo "0")
+            DOMAINS=$(cat feed/stats.json | python3 -c "import sys, json; d=json.load(sys.stdin); print(d.get('last_run_stats', {}).get('domains_processed', 0))" 2>/dev/null || echo "0")
+            FINDINGS=$(cat feed/stats.json | python3 -c "import sys, json; d=json.load(sys.stdin); print(d.get('last_run_stats', {}).get('new_findings', 0))" 2>/dev/null || echo "0")
+            RUNTIME=$(cat feed/stats.json | python3 -c "import sys, json; d=json.load(sys.stdin); print(d.get('last_run_stats', {}).get('elapsed_time', 0))" 2>/dev/null || echo "0")
+            TOTAL_SCANNED=$(cat feed/stats.json | python3 -c "import sys, json; d=json.load(sys.stdin); print(d.get('cumulative_stats', {}).get('total_domains_scanned', 0))" 2>/dev/null || echo "0")
+            TOTAL_PHISHING=$(cat feed/stats.json | python3 -c "import sys, json; d=json.load(sys.stdin); print(d.get('cumulative_stats', {}).get('total_phishing_found', 0))" 2>/dev/null || echo "0")
+            TOTAL_RUNS=$(cat feed/stats.json | python3 -c "import sys, json; d=json.load(sys.stdin); print(d.get('cumulative_stats', {}).get('total_runs', 0))" 2>/dev/null || echo "0")
+            DETECTION_RATE=$(cat feed/stats.json | python3 -c "import sys, json; d=json.load(sys.stdin); print(d.get('cumulative_stats', {}).get('phishing_detection_rate', 0))" 2>/dev/null || echo "0")
 
-            echo "**📊 Statistics:**" >> $GITHUB_STEP_SUMMARY
+            echo "**📊 This Run:**" >> $GITHUB_STEP_SUMMARY
             echo "- Domains processed: **$DOMAINS**" >> $GITHUB_STEP_SUMMARY
             echo "- New phishing domains: **$FINDINGS** 🚨" >> $GITHUB_STEP_SUMMARY
             echo "- Runtime: **${RUNTIME}s**" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "**📈 Cumulative Stats:**" >> $GITHUB_STEP_SUMMARY
+            echo "- Total domains scanned: **$TOTAL_SCANNED**" >> $GITHUB_STEP_SUMMARY
+            echo "- Total phishing found: **$TOTAL_PHISHING**" >> $GITHUB_STEP_SUMMARY
+            echo "- Total runs: **$TOTAL_RUNS**" >> $GITHUB_STEP_SUMMARY
+            echo "- Detection rate: **${DETECTION_RATE}%**" >> $GITHUB_STEP_SUMMARY
             echo "" >> $GITHUB_STEP_SUMMARY
           fi
 

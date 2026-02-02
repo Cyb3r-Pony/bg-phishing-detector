@@ -663,18 +663,43 @@ def add_to_feed(domain: str, score: int, details: Dict, source: str):
 
 
 def save_run_stats(domains_processed: int, new_findings: int, elapsed_time: float):
-    """Save run statistics"""
+    """Save run statistics with cumulative totals"""
+    # Load existing stats to get cumulative totals
+    existing_stats = {}
+    if os.path.exists(STATS_FILE):
+        try:
+            with open(STATS_FILE, 'r') as f:
+                existing_stats = json.load(f)
+        except (json.JSONDecodeError, FileNotFoundError):
+            existing_stats = {}
+
+    # Calculate cumulative totals
+    total_domains_scanned = existing_stats.get('total_domains_scanned', 0) + domains_processed
+    total_phishing_found = existing_stats.get('total_phishing_found', 0) + new_findings
+    total_runs = existing_stats.get('total_runs', 0) + 1
+
+    # Calculate phishing detection rate
+    phishing_rate = (total_phishing_found / total_domains_scanned * 100) if total_domains_scanned > 0 else 0
+
     stats = {
         'last_run': datetime.datetime.now(timezone.utc).isoformat() + 'Z',
-        'domains_processed': domains_processed,
-        'new_findings': new_findings,
-        'elapsed_time': round(elapsed_time, 2)
+        'last_run_stats': {
+            'domains_processed': domains_processed,
+            'new_findings': new_findings,
+            'elapsed_time': round(elapsed_time, 2)
+        },
+        'cumulative_stats': {
+            'total_domains_scanned': total_domains_scanned,
+            'total_phishing_found': total_phishing_found,
+            'total_runs': total_runs,
+            'phishing_detection_rate': round(phishing_rate, 2)
+        }
     }
-    
+
     try:
         with open(STATS_FILE, 'w') as f:
             json.dump(stats, f, indent=2)
-        logging.info(f"📊 Stats saved")
+        logging.info(f"📊 Stats saved: {domains_processed} scanned, {new_findings} new phishing ({total_phishing_found} total)")
     except Exception as e:
         logging.error(f"❌ Error saving stats: {e}")
 
