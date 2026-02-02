@@ -969,7 +969,10 @@ def scan_domains(duration: int = None, sources: List[str] = ['urlscan', 'manual'
     logging.info("✅ Scan Complete!")
     logging.info("=" * 60)
     logging.info(f"Domains processed: {len(processed_domains)}")
-    logging.info(f"Phishing domains found: {findings_count}")
+    if findings_count > 0:
+        logging.info(f"New phishing domains found: {findings_count}")
+    else:
+        logging.info("No new phishing domains found (this is normal if previous scans already detected them)")
     logging.info(f"Elapsed time: {elapsed:.1f}s")
     logging.info("=" * 60)
 
@@ -1048,4 +1051,15 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+        # Explicitly exit with success code
+        sys.exit(0)
+    except KeyboardInterrupt:
+        logging.info("\n⚠️ Scan interrupted by user")
+        sys.exit(130)  # Standard exit code for Ctrl+C
+    except Exception as e:
+        logging.error(f"\n❌ Unexpected error: {e}")
+        import traceback
+        traceback.print_exc()
+        sys.exit(1)

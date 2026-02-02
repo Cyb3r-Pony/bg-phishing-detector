@@ -48,12 +48,20 @@ jobs:
       - name: Check for new findings
         id: check_changes
         run: |
-          if [[ -n $(git status -s feed/) ]]; then
-            echo "has_changes=true" >> $GITHUB_OUTPUT
-            echo "✅ New phishing domains detected"
+          # Check if feed file exists and has content (handles gitignored files)
+          if [[ -f feed/phishing_feed.json ]] && [[ $(wc -l < feed/phishing_feed.json) -gt 2 ]]; then
+            # Force-add to see if there are actual changes
+            git add -f feed/phishing_feed.json feed/stats.json 2>/dev/null || true
+            if [[ -n $(git diff --cached --name-only) ]]; then
+              echo "has_changes=true" >> $GITHUB_OUTPUT
+              echo "✅ New phishing domains detected"
+            else
+              echo "has_changes=false" >> $GITHUB_OUTPUT
+              echo "ℹ️  No new findings this scan"
+            fi
           else
             echo "has_changes=false" >> $GITHUB_OUTPUT
-            echo "ℹ️  No new findings this scan"
+            echo "ℹ️  No feed file generated"
           fi
 
       - name: Commit and push findings
