@@ -2627,5 +2627,36 @@
     },
     "detected_at": "2026-02-02T17:31:59.000992+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "olx.pay-shop-skril1.cfd",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "olx"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".cfd",
+      "free_hosting": null,
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "epay",
+          "typo": "pay",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "non_bg_context_penalty": true
+    },
+    "detected_at": "2026-02-03T19:40:22.537742+00:00Z",
+    "source": "scanner"
   }
 ]
