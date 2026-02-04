@@ -2658,5 +2658,42 @@
     },
     "detected_at": "2026-02-03T19:40:22.537742+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "fastpay-pal-helpservice-supp0rtlive24x7aac.pages.dev",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "fastpay"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": null,
+      "free_hosting": ".pages.dev",
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "easypay",
+          "typo": "fastpay",
+          "distance": 2,
+          "type": "substitution"
+        },
+        {
+          "brand": "epay",
+          "typo": "pal",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ],
+      "non_bg_context_penalty": true
+    },
+    "detected_at": "2026-02-04T16:35:18.928777+00:00Z",
+    "source": "scanner"
   }
 ]
