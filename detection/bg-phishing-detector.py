@@ -69,7 +69,24 @@ WHITELISTED_DOMAINS = [
     'easypay.bg',
     'epay.bg',
     'borica.bg',
-    'fastpay.bg'
+    'fastpay.bg',
+    # Bulgarian banks
+    'ubb.bg',
+    'dskbank.bg',
+    'unicreditbulbank.bg',
+    'fibank.bg',
+    'postbank.bg',
+    'ccbank.bg',
+    'investbank.bg',
+    'procreditbank.bg',
+    'tbibank.bg',
+    'iabank.bg',
+    'bacb.bg',
+    'municipalbank.bg',
+    'teximbank.bg',
+    'tokudabank.bg',
+    'allianz.bg',
+    'bbr.bg'
 ]
 
 # ==================== BRAND KEYWORDS ====================
@@ -99,7 +116,36 @@ BRAND_KEYWORDS = [
     'easypay',
     'epay',
     'borica',
-    'fastpay'
+    'fastpay',
+    # Bulgarian banks
+    'ubb',
+    'dsk',
+    'dskbank',
+    'unicredit',
+    'unicreditbulbank',
+    'bulbank',
+    'fibank',
+    'firstinvestmentbank',
+    'postbank',
+    'eurobank',
+    'ccbank',
+    'centralcooperativebank',
+    'investbank',
+    'procredit',
+    'procreditbank',
+    'tbibank',
+    'tbi',
+    'iabank',
+    'internationalassetbank',
+    'bacb',
+    'bulgarianamericancreditbank',
+    'municipalbank',
+    'teximbank',
+    'tokudabank',
+    'allianz',
+    'allianzbank',
+    'bbr',
+    'bulgariandevelopmentbank'
 ]
 
 # ==================== SECONDARY KEYWORDS ====================
@@ -124,7 +170,25 @@ TRANSACTION_KEYWORDS = [
     'klient',
     'pratka',
     'dostavka',
-    'usluga'
+    'usluga',
+    # Banking-specific keywords
+    'banking',
+    'ebanking',
+    'e-banking',
+    'netbanking',
+    'onlinebanking',
+    'mobilebanking',
+    'authentication',
+    'secure',
+    'securepay',
+    'transfer',
+    'transaction',
+    'balance',
+    'krediti',
+    'credit',
+    'debit',
+    'card',
+    'smetka'
 ]
 
 # ==================== GEOGRAPHIC INDICATORS ====================
