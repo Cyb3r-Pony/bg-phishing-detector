@@ -663,7 +663,7 @@ def add_to_feed(domain: str, score: int, details: Dict, source: str):
 
 
 def save_run_stats(scanned_domains: set, phishing_domains: set, elapsed_time: float):
-    """Save run statistics with unique domain tracking (no duplicates across runs)"""
+    """Save run statistics with unique phishing domain tracking (no duplicates across runs)"""
     # Load existing stats
     existing_stats = {}
     if os.path.exists(STATS_FILE):
@@ -673,48 +673,46 @@ def save_run_stats(scanned_domains: set, phishing_domains: set, elapsed_time: fl
         except (json.JSONDecodeError, FileNotFoundError):
             existing_stats = {}
 
-    # Get existing unique domain sets
-    all_scanned = set(existing_stats.get('all_scanned_domains', []))
+    # Get existing unique phishing domains
     all_phishing = set(existing_stats.get('all_phishing_domains', []))
 
-    # Calculate truly new domains (not seen before)
-    new_scanned = scanned_domains - all_scanned
+    # Calculate truly new phishing domains (not seen before)
     new_phishing = phishing_domains - all_phishing
 
-    # Update cumulative sets
-    all_scanned.update(scanned_domains)
+    # Update cumulative phishing set
     all_phishing.update(phishing_domains)
 
+    # Get cumulative scanned count (we track count, not the full list)
+    prev_total_scanned = existing_stats.get('cumulative_stats', {}).get('total_unique_domains_scanned', 0)
     total_runs = existing_stats.get('cumulative_stats', {}).get('total_runs', 0) + 1
+    total_scanned = prev_total_scanned + len(scanned_domains)
 
-    # Calculate phishing detection rate (unique phishing / unique scanned)
-    phishing_rate = (len(all_phishing) / len(all_scanned) * 100) if len(all_scanned) > 0 else 0
+    # Calculate phishing detection rate (unique phishing / total scanned)
+    phishing_rate = (len(all_phishing) / total_scanned * 100) if total_scanned > 0 else 0
 
     stats = {
         'last_run': datetime.datetime.now(timezone.utc).isoformat() + 'Z',
         'last_run_stats': {
             'domains_processed': len(scanned_domains),
-            'new_unique_domains': len(new_scanned),
             'phishing_detected': len(phishing_domains),
             'new_unique_phishing': len(new_phishing),
             'elapsed_time': round(elapsed_time, 2)
         },
         'cumulative_stats': {
-            'total_unique_domains_scanned': len(all_scanned),
+            'total_unique_domains_scanned': total_scanned,
             'total_unique_phishing_found': len(all_phishing),
             'total_runs': total_runs,
             'phishing_detection_rate': round(phishing_rate, 2)
         },
-        'all_scanned_domains': sorted(list(all_scanned)),
         'all_phishing_domains': sorted(list(all_phishing))
     }
 
     try:
         with open(STATS_FILE, 'w') as f:
             json.dump(stats, f, indent=2)
-        logging.info(f"📊 Stats saved: {len(scanned_domains)} scanned ({len(new_scanned)} new), "
+        logging.info(f"📊 Stats saved: {len(scanned_domains)} scanned, "
                      f"{len(phishing_domains)} phishing ({len(new_phishing)} new) | "
-                     f"Totals: {len(all_scanned)} scanned, {len(all_phishing)} phishing")
+                     f"Totals: {total_scanned} scanned, {len(all_phishing)} phishing")
     except Exception as e:
         logging.error(f"❌ Error saving stats: {e}")
 

@@ -105,7 +105,6 @@ jobs:
 
           if [[ -f feed/stats.json ]]; then
             DOMAINS=$(cat feed/stats.json | python3 -c "import sys, json; d=json.load(sys.stdin); print(d.get('last_run_stats', {}).get('domains_processed', 0))" 2>/dev/null || echo "0")
-            NEW_UNIQUE=$(cat feed/stats.json | python3 -c "import sys, json; d=json.load(sys.stdin); print(d.get('last_run_stats', {}).get('new_unique_domains', 0))" 2>/dev/null || echo "0")
             PHISHING=$(cat feed/stats.json | python3 -c "import sys, json; d=json.load(sys.stdin); print(d.get('last_run_stats', {}).get('phishing_detected', 0))" 2>/dev/null || echo "0")
             NEW_PHISHING=$(cat feed/stats.json | python3 -c "import sys, json; d=json.load(sys.stdin); print(d.get('last_run_stats', {}).get('new_unique_phishing', 0))" 2>/dev/null || echo "0")
             RUNTIME=$(cat feed/stats.json | python3 -c "import sys, json; d=json.load(sys.stdin); print(d.get('last_run_stats', {}).get('elapsed_time', 0))" 2>/dev/null || echo "0")
@@ -115,7 +114,7 @@ jobs:
             DETECTION_RATE=$(cat feed/stats.json | python3 -c "import sys, json; d=json.load(sys.stdin); print(d.get('cumulative_stats', {}).get('phishing_detection_rate', 0))" 2>/dev/null || echo "0")
 
             echo "**📊 This Run:**" >> $GITHUB_STEP_SUMMARY
-            echo "- Domains processed: **$DOMAINS** ($NEW_UNIQUE new)" >> $GITHUB_STEP_SUMMARY
+            echo "- Domains processed: **$DOMAINS**" >> $GITHUB_STEP_SUMMARY
             echo "- Phishing detected: **$PHISHING** ($NEW_PHISHING new) 🚨" >> $GITHUB_STEP_SUMMARY
             echo "- Runtime: **${RUNTIME}s**" >> $GITHUB_STEP_SUMMARY
             echo "" >> $GITHUB_STEP_SUMMARY
