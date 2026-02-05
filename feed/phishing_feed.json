@@ -2695,5 +2695,61 @@
     },
     "detected_at": "2026-02-04T16:35:18.928777+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "econtbg.secure-safe.xyz",
+    "score": 70,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [
+        "secure"
+      ],
+      "geo_indicators": [],
+      "suspicious_tld": ".xyz",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "econt",
+          "typo": "econtbg",
+          "distance": 2,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-05T12:37:01.122578+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "allianz-bg-vqjpl.icu",
+    "score": 85,
+    "details": {
+      "brand_keywords": [
+        "allianz"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "bg-"
+      ],
+      "suspicious_tld": ".icu",
+      "free_hosting": null,
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": []
+    },
+    "detected_at": "2026-02-05T12:37:02.084706+00:00Z",
+    "source": "scanner"
   }
 ]
