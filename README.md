@@ -1,10 +1,15 @@
 # 🚨 Bulgarian Phishing Domain Detector
 
-Automated phishing detection system targeting Bulgarian courier and logistics services using rule-based heuristics and AI analysis.
+Automated phishing detection system targeting Bulgarian courier services, logistics companies, payment platforms, and banks using rule-based heuristics and AI analysis.
 
 ## 🎯 Overview
 
-This system detects phishing domains impersonating Bulgarian courier services (Econt, Speedy, BulgariaPost, OLX, etc.) through a two-stage pipeline:
+This system detects phishing domains impersonating Bulgarian services including:
+- **Courier & Logistics:** Econt, Speedy, BulgariaPost, OLX, Sameday, etc.
+- **Payment Services:** EasyPay, ePay, Borica, FastPay
+- **Banks:** UBB, DSK Bank, UniCredit Bulbank, Fibank, Postbank, and 11 more Bulgarian banks
+
+Detection is performed through a two-stage pipeline:
 
 1. **Stage 1 - Hourly Scanner** (Fast, Rule-based)
    - Polls URLScan.io, Google CT, Cloudflare CT logs
@@ -46,18 +51,51 @@ See [docs/SCORING.md](docs/SCORING.md) for detailed scoring documentation.
 
 ## 🛡️ Protected Brands (Whitelisted)
 
-Legitimate domains and their subdomains are excluded:
+Legitimate domains and their subdomains are excluded from detection:
 
-- econt.com, econt.bg
-- speedy.bg
-- intime.bg
-- interlogistica.bg
-- olx.bg
-- bgpost.bg, bulgariapost.bg
-- samedaybg.com
-- boxnow.bg
-- cityexpress.bg
-- expressone.bg
+### Courier & Logistics Services
+| Domain | Service |
+|--------|---------|
+| econt.com, econt.bg | Econt Express |
+| speedy.bg | Speedy |
+| bgpost.bg, bulgariapost.bg | Bulgarian Posts |
+| olx.bg | OLX Bulgaria |
+| intime.bg | InTime |
+| interlogistica.bg | Interlogistica |
+| samedaybg.com, sameday.bg | Sameday |
+| boxnow.bg | BoxNow |
+| cityexpress.bg | City Express |
+| expressone.bg | Express One |
+| evropat.bg | Evropat |
+| dhl.bg | DHL Bulgaria |
+
+### Payment Services
+| Domain | Service |
+|--------|---------|
+| easypay.bg | EasyPay |
+| epay.bg | ePay |
+| borica.bg | Borica |
+| fastpay.bg | FastPay |
+
+### Bulgarian Banks
+| Domain | Bank |
+|--------|------|
+| ubb.bg | United Bulgarian Bank |
+| dskbank.bg | DSK Bank |
+| unicreditbulbank.bg | UniCredit Bulbank |
+| fibank.bg | First Investment Bank |
+| postbank.bg | Postbank (Eurobank Bulgaria) |
+| ccbank.bg | Central Cooperative Bank |
+| investbank.bg | Investbank |
+| procreditbank.bg | ProCredit Bank |
+| tbibank.bg | TBI Bank |
+| iabank.bg | International Asset Bank |
+| bacb.bg | Bulgarian-American Credit Bank |
+| municipalbank.bg | Municipal Bank |
+| teximbank.bg | Texim Bank |
+| tokudabank.bg | Tokuda Bank |
+| allianz.bg | Allianz Bank Bulgaria |
+| bbr.bg | Bulgarian Development Bank |
 
 ## 🔧 Setup
 
@@ -229,17 +267,27 @@ Contains LLM analysis results (separate file):
 
 ## 🔍 Detection Examples
 
-**Flagged (High Score):**
+**Flagged - Courier Phishing (High Score):**
 
 - ✅ `speedy.bg-pv.cfd` (85/100) - .bg-XX.TLD pattern
 - ✅ `econt-bg-delivery.pages.dev` (90/100) - Brand + free hosting
 - ✅ `speedy.bg-track.cfd` (85/100) - .bg-XX.TLD pattern
 - ✅ `olx-payment-bg.herokuapp.com` (88/100) - Multiple indicators
 
+**Flagged - Bank Phishing (High Score):**
+
+- ✅ `ubb-pay-login.cfd` (85/100) - Bank brand + suspicious TLD
+- ✅ `dskbank-secure.icu` (80/100) - Bank brand + suspicious TLD
+- ✅ `unicreditbulbank.verify-login.xyz` (90/100) - Bank brand impersonation
+- ✅ `postbank-bg-authentication.top` (85/100) - Bank + geo indicator + suspicious TLD
+- ✅ `fibank-ebanking.pages.dev` (88/100) - Bank brand + free hosting
+
 **Whitelisted (Legitimate):**
 
 - ❌ `tracking.econt.bg` (legitimate subdomain)
 - ❌ `my.speedy.bg` (legitimate subdomain)
+- ❌ `ebanking.ubb.bg` (legitimate bank subdomain)
+- ❌ `online.dskbank.bg` (legitimate bank subdomain)
 
 **Filtered Out (Low Score):**
 
