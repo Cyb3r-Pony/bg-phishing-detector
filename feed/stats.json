@@ -1,16 +1,16 @@
 {
-  "last_run": "2026-02-06T04:06:42.557750+00:00Z",
+  "last_run": "2026-02-06T05:46:34.351677+00:00Z",
   "last_run_stats": {
-    "domains_processed": 1180,
+    "domains_processed": 1179,
     "phishing_detected": 95,
     "new_unique_phishing": 0,
-    "elapsed_time": 115.04
+    "elapsed_time": 116.03
   },
   "cumulative_stats": {
-    "total_unique_domains_scanned": 27891,
+    "total_unique_domains_scanned": 29070,
     "total_unique_phishing_found": 97,
-    "total_runs": 76,
-    "phishing_detection_rate": 0.35
+    "total_runs": 77,
+    "phishing_detection_rate": 0.33
   },
   "all_phishing_domains": [
     "1e135c42-6444-4920-ac18-97f5687133c8.new-bgpost.cam",
