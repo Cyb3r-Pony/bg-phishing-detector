@@ -77,7 +77,7 @@ WHITELISTED_DOMAINS = [
     'fibank.bg',
     'postbank.bg',
     'ccbank.bg',
-    'investbank.bg',
+    'ibank.bg',
     'procreditbank.bg',
     'tbibank.bg',
     'iabank.bg',
@@ -86,7 +86,25 @@ WHITELISTED_DOMAINS = [
     'teximbank.bg',
     'tokudabank.bg',
     'allianz.bg',
-    'bbr.bg'
+    'bbr.bg',
+    # Bulgarian bank online banking web apps
+    'dskdirect.bg',        # DSK Bank online banking
+    'dskmobile.bg',        # DSK Bank mobile banking
+    'uac.procreditbank.bg',  # ProCredit Bank online banking
+    'e-postbank.bg',       # Postbank (Eurobank) online banking
+    'ebb.ubb.bg',          # UBB online banking
+    'bulbankonline.bg',    # UniCredit Bulbank online banking
+    'my.fibank.bg',        # Fibank online banking
+    'online.ccbank.bg',    # Central Cooperative Bank online banking
+    'ibanking.ibank.bg',   # Investbank online banking
+    'online.tbibank.bg',   # TBI Bank online banking
+    'assetonline.iabank.bg',  # International Asset Bank online banking
+    'online.bacb.bg',      # Bulgarian-American Credit Bank online banking
+    'sca.municipalbank.bg',  # Municipal Bank online banking
+    'web.teximbank.bg',    # Texim Bank online banking
+    'rbank.tokudabank.bg', # Tokuda Bank online banking
+    'online.bank.allianz.bg',  # Allianz Bank online banking
+    'online.bdbank.bg'     # Bulgarian Development Bank (bbr.bg) online banking
 ]
 
 # ==================== BRAND KEYWORDS ====================
@@ -131,6 +149,7 @@ BRAND_KEYWORDS = [
     'ccbank',
     'centralcooperativebank',
     'investbank',
+    'ibank',
     'procredit',
     'procreditbank',
     'tbibank',
@@ -145,7 +164,18 @@ BRAND_KEYWORDS = [
     'allianz',
     'allianzbank',
     'bbr',
-    'bulgariandevelopmentbank'
+    'bulgariandevelopmentbank',
+    # Online banking web app brands
+    'dskdirect',
+    'dskmobile',
+    'dsk-direct',
+    'dsk-mobile',
+    'epostbank',
+    'e-postbank',
+    'bulbankonline',
+    'ibanking',
+    'assetonline',
+    'bdbank'
 ]
 
 # ==================== SECONDARY KEYWORDS ====================
@@ -627,6 +657,12 @@ def calculate_score(domain: str) -> Tuple[int, Dict]:
         r'bg-?speedy',
         r'bg-?post',
         r'bg-?olx',
+        # Online banking impersonation patterns
+        r'dsk-?direct',
+        r'dsk-?mobile',
+        r'e-?postbank',
+        r'bulbankonline',
+        r'uac-?procredit',
     ]
     
     for pattern in direct_impersonation_patterns:
@@ -840,6 +876,19 @@ def fetch_urlscan_targeted() -> Set[str]:
         'page.domain:bgpost.bg-* AND page.domain:*.cfd*',
         'page.domain:olx.bg-* AND page.domain:*.cfd*',
         
+        # PRIORITY 2.5: Online banking brand impersonation patterns
+        'page.domain:*dskdirect*',
+        'page.domain:*dsk-direct*',
+        'page.domain:*dskmobile*',
+        'page.domain:*dsk-mobile*',
+        'page.domain:*epostbank*',
+        'page.domain:*e-postbank*',
+        'page.domain:*bulbankonline*',
+        'page.domain:*uac-procredit*',
+        'page.domain:*ibanking* AND page.domain:*bg*',
+        'page.domain:*assetonline*',
+        'page.domain:*bdbank*',
+
         # PRIORITY 3: Brand + BG patterns (broad catch)
         'page.domain:*econt* AND page.domain:*bg*',
         'page.domain:*speedy* AND page.domain:*bg*',
@@ -866,7 +915,7 @@ def fetch_urlscan_targeted() -> Set[str]:
         'page.domain:*bg* AND page.domain:*.click*',
     ]
     
-    for query in search_queries[:40]:  # Increased to catch all direct impersonation patterns
+    for query in search_queries[:55]:  # Increased to cover online banking brand impersonation patterns
         try:
             encoded_query = urllib.parse.quote(query)
             url = f"https://urlscan.io/api/v1/search/?q={encoded_query}&size=100"

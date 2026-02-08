@@ -86,7 +86,7 @@ Legitimate domains and their subdomains are excluded from detection:
 | fibank.bg | First Investment Bank |
 | postbank.bg | Postbank (Eurobank Bulgaria) |
 | ccbank.bg | Central Cooperative Bank |
-| investbank.bg | Investbank |
+| ibank.bg | Investbank |
 | procreditbank.bg | ProCredit Bank |
 | tbibank.bg | TBI Bank |
 | iabank.bg | International Asset Bank |
@@ -96,6 +96,27 @@ Legitimate domains and their subdomains are excluded from detection:
 | tokudabank.bg | Tokuda Bank |
 | allianz.bg | Allianz Bank Bulgaria |
 | bbr.bg | Bulgarian Development Bank |
+
+### Bulgarian Bank Online Banking Web Apps
+| Domain | Bank | Description |
+|--------|------|-------------|
+| dskdirect.bg | DSK Bank | Online banking |
+| dskmobile.bg | DSK Bank | Mobile banking |
+| uac.procreditbank.bg | ProCredit Bank | Online banking |
+| e-postbank.bg | Postbank (Eurobank Bulgaria) | Online banking |
+| ebb.ubb.bg | United Bulgarian Bank | Online banking |
+| bulbankonline.bg | UniCredit Bulbank | Online banking |
+| my.fibank.bg | First Investment Bank | Online banking |
+| online.ccbank.bg | Central Cooperative Bank | Online banking |
+| ibanking.ibank.bg | Investbank | Online banking |
+| online.tbibank.bg | TBI Bank | Online banking |
+| assetonline.iabank.bg | International Asset Bank | Online banking |
+| online.bacb.bg | Bulgarian-American Credit Bank | Online banking |
+| sca.municipalbank.bg | Municipal Bank | Online banking |
+| web.teximbank.bg | Texim Bank | Online banking |
+| rbank.tokudabank.bg | Tokuda Bank | Online banking |
+| online.bank.allianz.bg | Allianz Bank Bulgaria | Online banking |
+| online.bdbank.bg | Bulgarian Development Bank | Online banking |
 
 ## 🔧 Setup
 
