@@ -2777,5 +2777,2001 @@
     },
     "detected_at": "2026-02-05T14:00:33.029231+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "dskdirect.buzz",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "dskdirect"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".buzz",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "dsk-direct",
+          "typo": "dskdirect",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:19.833106+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dsk-directlogin5.site",
+    "score": 95,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:20.046829+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "ww25.m.dsk-directlogin03.site",
+    "score": 95,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:20.172590+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dskmobile.bg.rekadiri.xyz",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "dskmobile"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".xyz",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "dsk-mobile",
+          "typo": "dskmobile",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:20.467237+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dskdirectlogin-bg9.sbs",
+    "score": 70,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": ".sbs",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:21.656135+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dsk-direct.firebaseapp.com",
+    "score": 80,
+    "details": {
+      "brand_keywords": [
+        "dsk",
+        "dsk-direct"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": null,
+      "free_hosting": ".firebaseapp.com",
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:21.741288+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "ibanking-nbg.web.app",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "ibanking"
+      ],
+      "transaction_keywords": [
+        "banking"
+      ],
+      "geo_indicators": [],
+      "suspicious_tld": null,
+      "free_hosting": ".web.app",
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": []
+    },
+    "detected_at": "2026-02-08T11:17:22.001283+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dsk-mobile.xyz",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "dsk",
+        "dsk-mobile"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".xyz",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:22.415802+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "cpcontacts.dsk-directlogin1.site",
+    "score": 85,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:22.541307+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "ww38.dsk-directlogin3.site",
+    "score": 85,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:22.751238+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "webdisk.dsk-directlogin03.site",
+    "score": 85,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:23.728502+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "webmail.dskdirect-client0.top",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "dskdirect"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "dsk-direct",
+          "typo": "dskdirect",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:24.263457+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dsk-directlogi4.site",
+    "score": 85,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:25.260529+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "online-dskdirect.web.app",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "dskdirect"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": null,
+      "free_hosting": ".web.app",
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "dsk-direct",
+          "typo": "dskdirect",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:26.659090+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "webdisk.dskdirect-client0.top",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "dskdirect"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "dsk-direct",
+          "typo": "dskdirect",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:26.954040+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dskdirectlogin-bg1.top",
+    "score": 70,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:28.359409+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "ww25.dsk-directbg2x.site",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:28.484906+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "mobile-dskdirect.web.app",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "dskdirect"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": null,
+      "free_hosting": ".web.app",
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "dsk-direct",
+          "typo": "dskdirect",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:29.583525+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dskdirectlogin-bg5.sbs",
+    "score": 70,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": ".sbs",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:29.751657+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dsk-direct.web.app",
+    "score": 80,
+    "details": {
+      "brand_keywords": [
+        "dsk",
+        "dsk-direct"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": null,
+      "free_hosting": ".web.app",
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:30.410107+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dskdirectlogin-bg3.sbs",
+    "score": 70,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": ".sbs",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:30.613624+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dsk-directlogin1.site",
+    "score": 95,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:31.896180+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dsk-directbg20.site",
+    "score": 85,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:32.018904+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dsk-directlogi7.site",
+    "score": 85,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:32.101454+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dsk-directlogin06.site",
+    "score": 95,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:32.669589+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dsk-directlogin07.site",
+    "score": 95,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:32.913858+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "autoconfig.ibanking-nbg.click",
+    "score": 70,
+    "details": {
+      "brand_keywords": [
+        "ibanking"
+      ],
+      "transaction_keywords": [
+        "banking"
+      ],
+      "geo_indicators": [],
+      "suspicious_tld": ".click",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": []
+    },
+    "detected_at": "2026-02-08T11:17:33.561051+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dsk-directlogin7.site",
+    "score": 95,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:33.652194+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "ww38.dsk-directlogin0.site",
+    "score": 85,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:33.735240+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "ww25.cpcalendars.dsk-directlogin03.site",
+    "score": 95,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:34.479708+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dsk-directlogin3.site",
+    "score": 95,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:34.682968+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dskdirectlogin-bg3.top",
+    "score": 70,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:34.849899+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dsk-directbg50.site",
+    "score": 85,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:34.894635+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dskdirect-verna.world",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "dskdirect"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".world",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "dsk-direct",
+          "typo": "dskdirect",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:35.106451+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "mobile-dskdirect.firebaseapp.com",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "dskdirect"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": null,
+      "free_hosting": ".firebaseapp.com",
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "dsk-direct",
+          "typo": "dskdirect",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:35.153892+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "ww25.dsk-directlogin03.site",
+    "score": 85,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:36.599040+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dsk-directlogi5.site",
+    "score": 85,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:37.088333+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dskdirectlogin-bg2.top",
+    "score": 70,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:37.254965+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dsk-directlogin0.site",
+    "score": 95,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:37.504566+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dsk-directlogin6.site",
+    "score": 95,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:38.245578+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dsk-directbg40.site",
+    "score": 85,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:38.674474+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dsk-directlogi6.site",
+    "score": 85,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:38.879581+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dsk-directlogin05.site",
+    "score": 95,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:39.046967+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dskdirectlogin-bg1.sbs",
+    "score": 70,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": ".sbs",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:39.597191+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dsk-directlogin00.site",
+    "score": 95,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:40.659571+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "meine-postbank-de-75077.web.app",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "postbank"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": null,
+      "free_hosting": ".web.app",
+      "multiple_hyphens": true,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "epostbank",
+          "typo": "postbank",
+          "distance": 1,
+          "type": "missing_char"
+        },
+        {
+          "brand": "e-postbank",
+          "typo": "postbank",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:40.706846+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "center-dskdirect.firebaseapp.com",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "dskdirect"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": null,
+      "free_hosting": ".firebaseapp.com",
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "dsk-direct",
+          "typo": "dskdirect",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:42.303452+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dskdirectlogin-bg7.sbs",
+    "score": 70,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": ".sbs",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:42.689094+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "ww38.dsk-directlogin03.site",
+    "score": 85,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:43.019390+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dsk-directbg60.site",
+    "score": 85,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:44.230832+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dskdirect-5ba26.web.app",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "dskdirect"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": null,
+      "free_hosting": ".web.app",
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "dsk-direct",
+          "typo": "dskdirect",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:44.357062+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dsk-directbg30.site",
+    "score": 85,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:44.936293+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dsk-directbg70.site",
+    "score": 85,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:44.982012+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dskdirectlogin-bg0.sbs",
+    "score": 70,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": ".sbs",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:45.028328+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dsk-directlogin2.site",
+    "score": 95,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:45.412293+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dsk-directbg10.site",
+    "score": 85,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:45.458239+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dskdirectlogin-bg2.sbs",
+    "score": 70,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": ".sbs",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:46.834176+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "ww38.gateway.dsk-direct-bg0.site",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "dsk",
+        "dsk-direct"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:47.199840+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "ww38.dsk-directlogin2.site",
+    "score": 85,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:47.868016+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dsk-directbg80.site",
+    "score": 85,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:48.483297+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dsk-directlogin03.site",
+    "score": 95,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:48.608449+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "3ucio7yx.dskdirect.site",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "dskdirect"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "dsk-direct",
+          "typo": "dskdirect",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:49.186485+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dsk-directlogin01.site",
+    "score": 95,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:49.891033+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dskdirectlogin-bg.top",
+    "score": 70,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:49.980583+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "ww38.dsk-directlogin1.site",
+    "score": 85,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:51.033000+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "ftp.ibanking-nbg.click",
+    "score": 70,
+    "details": {
+      "brand_keywords": [
+        "ibanking"
+      ],
+      "transaction_keywords": [
+        "banking"
+      ],
+      "geo_indicators": [],
+      "suspicious_tld": ".click",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": []
+    },
+    "detected_at": "2026-02-08T11:17:51.407306+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "center-dskdirect.web.app",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "dskdirect"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": null,
+      "free_hosting": ".web.app",
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "dsk-direct",
+          "typo": "dskdirect",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:52.118324+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "webdisk.dsk-directlogin2.site",
+    "score": 85,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:52.537753+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "ww38.cpanel.dsk-directlogin03.site",
+    "score": 95,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:52.986322+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dsk-directlogin02.site",
+    "score": 95,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:53.111901+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dsk-directlogin04.site",
+    "score": 95,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:53.532089+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "ibanking-bg.online",
+    "score": 85,
+    "details": {
+      "brand_keywords": [
+        "ibanking"
+      ],
+      "transaction_keywords": [
+        "banking"
+      ],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": ".online",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": []
+    },
+    "detected_at": "2026-02-08T11:17:53.619268+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dskdirectlogin-bg4.sbs",
+    "score": 70,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": ".sbs",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:54.043300+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dskdirectlogin-bg0.top",
+    "score": 70,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:55.038151+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "e-postbankbg.cfd",
+    "score": 70,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".cfd",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "postbank",
+          "typo": "postbankbg",
+          "distance": 2,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-08T11:17:55.165444+00:00Z",
+    "source": "scanner"
   }
 ]
