@@ -58,11 +58,11 @@ Legitimate domains and their subdomains are excluded from detection:
 |--------|---------|
 | econt.com, econt.bg | Econt Express |
 | speedy.bg | Speedy |
-| bgpost.bg, bulgariapost.bg | Bulgarian Posts |
+| bgpost.bg | Bulgarian Posts |
 | olx.bg | OLX Bulgaria |
 | intime.bg | InTime |
 | interlogistica.bg | Interlogistica |
-| samedaybg.com, sameday.bg | Sameday |
+| sameday.bg | Sameday |
 | boxnow.bg | BoxNow |
 | cityexpress.bg | City Express |
 | expressone.bg | Express One |
