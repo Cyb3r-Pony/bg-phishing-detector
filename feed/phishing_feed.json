@@ -4773,5 +4773,36 @@
     },
     "detected_at": "2026-02-08T11:17:55.165444+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "olx-send-post.pages.dev",
+    "score": 80,
+    "details": {
+      "brand_keywords": [
+        "olx"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": null,
+      "free_hosting": ".pages.dev",
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bgpost",
+          "typo": "post",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ],
+      "non_bg_context_penalty": true
+    },
+    "detected_at": "2026-02-12T12:40:55.188500+00:00Z",
+    "source": "scanner"
   }
 ]
