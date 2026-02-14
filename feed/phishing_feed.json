@@ -4804,5 +4804,31 @@
     },
     "detected_at": "2026-02-12T12:40:55.188500+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "econt-bg.bg-an462831.cfd",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "econt"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".cfd",
+      "free_hosting": null,
+      "multiple_hyphens": true,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-14T20:16:32.686165+00:00Z",
+    "source": "scanner"
   }
 ]
