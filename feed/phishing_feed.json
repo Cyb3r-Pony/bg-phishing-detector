@@ -5424,5 +5424,33 @@
     },
     "detected_at": "2026-02-17T14:02:39.098886+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "acc-review-quality-cw3o-emsn-x8bg.pages.dev",
+    "score": 70,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": null,
+      "free_hosting": ".pages.dev",
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bacb",
+          "typo": "acc",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ]
+    },
+    "detected_at": "2026-02-17T18:43:38.354573+00:00Z",
+    "source": "scanner"
   }
 ]

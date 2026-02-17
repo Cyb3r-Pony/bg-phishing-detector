@@ -1,20 +1,21 @@
 {
-  "last_run": "2026-02-17T17:49:54.768071+00:00Z",
+  "last_run": "2026-02-17T18:44:09.190749+00:00Z",
   "last_run_stats": {
-    "domains_processed": 1562,
-    "phishing_detected": 167,
-    "new_unique_phishing": 0,
-    "elapsed_time": 207.06
+    "domains_processed": 1575,
+    "phishing_detected": 170,
+    "new_unique_phishing": 1,
+    "elapsed_time": 185.06
   },
   "cumulative_stats": {
-    "total_unique_domains_scanned": 365393,
-    "total_unique_phishing_found": 197,
-    "total_runs": 311,
+    "total_unique_domains_scanned": 366968,
+    "total_unique_phishing_found": 198,
+    "total_runs": 312,
     "phishing_detection_rate": 0.05
   },
   "all_phishing_domains": [
     "1e135c42-6444-4920-ac18-97f5687133c8.new-bgpost.cam",
     "3ucio7yx.dskdirect.site",
+    "acc-review-quality-cw3o-emsn-x8bg.pages.dev",
     "allianz-bg-vqjpl.icu",
     "autoconfig.ibanking-nbg.click",
     "bgpost-bg.cc",
