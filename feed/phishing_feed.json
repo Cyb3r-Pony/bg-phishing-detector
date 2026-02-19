@@ -5514,5 +5514,36 @@
     },
     "detected_at": "2026-02-19T05:53:49.613907+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "dskdirect.pw",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "dskdirect"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".pw",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "dsk-direct",
+          "typo": "dskdirect",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-02-19T15:40:28.199898+00:00Z",
+    "source": "scanner"
   }
 ]
