@@ -5545,5 +5545,35 @@
     },
     "detected_at": "2026-02-19T15:40:28.199898+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "update.lyjbgozon.pochtabank.sbermegamarket.pay.blablacar.blablacar.ltdavid12345.0233233.xyz",
+    "score": 75,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [
+        "update"
+      ],
+      "geo_indicators": [],
+      "suspicious_tld": ".xyz",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "epay",
+          "typo": "pay",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ]
+    },
+    "detected_at": "2026-02-21T13:38:02.482238+00:00Z",
+    "source": "scanner"
   }
 ]
