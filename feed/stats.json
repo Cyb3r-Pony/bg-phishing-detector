@@ -1,15 +1,15 @@
 {
-  "last_run": "2026-02-25T12:39:59.107152+00:00Z",
+  "last_run": "2026-02-25T14:05:17.834849+00:00Z",
   "last_run_stats": {
-    "domains_processed": 1593,
+    "domains_processed": 1603,
     "phishing_detected": 173,
-    "new_unique_phishing": 0,
-    "elapsed_time": 175.86
+    "new_unique_phishing": 1,
+    "elapsed_time": 187.44
   },
   "cumulative_stats": {
-    "total_unique_domains_scanned": 608872,
-    "total_unique_phishing_found": 206,
-    "total_runs": 468,
+    "total_unique_domains_scanned": 610475,
+    "total_unique_phishing_found": 207,
+    "total_runs": 469,
     "phishing_detection_rate": 0.03
   },
   "all_phishing_domains": [
@@ -91,6 +91,7 @@
     "dskdirect.buzz",
     "dskdirect.cc",
     "dskdirect.pw",
+    "dskdirect.site",
     "dskdirect.store",
     "dskdirectlogin-bg.top",
     "dskdirectlogin-bg0.sbs",
