@@ -5730,5 +5730,60 @@
     },
     "detected_at": "2026-02-25T14:04:43.174296+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "ibank.11288211.xyz",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "ibank"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".xyz",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "fibank",
+          "typo": "ibank",
+          "distance": 1,
+          "type": "missing_char"
+        },
+        {
+          "brand": "ccbank",
+          "typo": "ibank",
+          "distance": 2,
+          "type": "missing_char"
+        },
+        {
+          "brand": "tbibank",
+          "typo": "ibank",
+          "distance": 2,
+          "type": "missing_char"
+        },
+        {
+          "brand": "iabank",
+          "typo": "ibank",
+          "distance": 1,
+          "type": "missing_char"
+        },
+        {
+          "brand": "bdbank",
+          "typo": "ibank",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ],
+      "non_bg_context_penalty": true
+    },
+    "detected_at": "2026-02-27T07:40:48.904968+00:00Z",
+    "source": "scanner"
   }
 ]
