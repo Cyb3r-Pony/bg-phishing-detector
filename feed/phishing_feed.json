@@ -5811,5 +5811,31 @@
     },
     "detected_at": "2026-02-28T06:25:53.619713+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "speedy.bg-ul.cfd",
+    "score": 85,
+    "details": {
+      "brand_keywords": [
+        "speedy"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".cfd",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "bg_tld_abuse": true
+    },
+    "detected_at": "2026-03-03T01:10:01.995938+00:00Z",
+    "source": "scanner"
   }
 ]
