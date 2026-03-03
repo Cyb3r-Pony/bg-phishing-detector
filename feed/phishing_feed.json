@@ -5837,5 +5837,33 @@
     },
     "detected_at": "2026-03-03T01:10:01.995938+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "acc-health-adsing-vk3x8-mbgl-2mcxn.pages.dev",
+    "score": 70,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": null,
+      "free_hosting": ".pages.dev",
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bacb",
+          "typo": "acc",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ]
+    },
+    "detected_at": "2026-03-03T19:35:01.710084+00:00Z",
+    "source": "scanner"
   }
 ]
