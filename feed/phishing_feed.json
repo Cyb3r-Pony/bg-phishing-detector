@@ -5917,5 +5917,31 @@
     },
     "detected_at": "2026-03-04T13:51:25.719253+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "speedy.bg-ia.cfd",
+    "score": 85,
+    "details": {
+      "brand_keywords": [
+        "speedy"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".cfd",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "bg_tld_abuse": true
+    },
+    "detected_at": "2026-03-07T15:14:48.443758+00:00Z",
+    "source": "scanner"
   }
 ]
