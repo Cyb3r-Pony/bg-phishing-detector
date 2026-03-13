@@ -5998,5 +5998,30 @@
     },
     "detected_at": "2026-03-09T22:20:18.514540+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "passport-abu-bg-usua-app-profiles-login-987ythi876tyghw456.pages.dev",
+    "score": 70,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [
+        "bg-"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".pages.dev",
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": []
+    },
+    "detected_at": "2026-03-13T11:25:15.093681+00:00Z",
+    "source": "scanner"
   }
 ]
