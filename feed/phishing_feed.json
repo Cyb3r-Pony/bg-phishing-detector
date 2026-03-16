@@ -6080,5 +6080,31 @@
     },
     "detected_at": "2026-03-15T04:25:24.681938+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "dhl-delivery-online-addresmismatch-kfjes76yjhkmjh4b2323k2b.pages.dev",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "dhl"
+      ],
+      "transaction_keywords": [
+        "delivery"
+      ],
+      "geo_indicators": [],
+      "suspicious_tld": null,
+      "free_hosting": ".pages.dev",
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "non_bg_context_penalty": true
+    },
+    "detected_at": "2026-03-16T23:23:44.856359+00:00Z",
+    "source": "scanner"
   }
 ]

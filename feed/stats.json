@@ -1,15 +1,15 @@
 {
-  "last_run": "2026-03-16T22:25:28.743670+00:00Z",
+  "last_run": "2026-03-16T23:23:48.588317+00:00Z",
   "last_run_stats": {
-    "domains_processed": 1680,
-    "phishing_detected": 175,
-    "new_unique_phishing": 0,
-    "elapsed_time": 194.78
+    "domains_processed": 1649,
+    "phishing_detected": 176,
+    "new_unique_phishing": 1,
+    "elapsed_time": 178.15
   },
   "cumulative_stats": {
-    "total_unique_domains_scanned": 1243864,
-    "total_unique_phishing_found": 218,
-    "total_runs": 863,
+    "total_unique_domains_scanned": 1245513,
+    "total_unique_phishing_found": 219,
+    "total_runs": 864,
     "phishing_detection_rate": 0.02
   },
   "all_phishing_domains": [
@@ -40,6 +40,7 @@
     "cpcalendars.dsk-directlogin5.site",
     "cpcontacts.dsk-directlogin1.site",
     "cpcontacts.dsk-directlogin3.site",
+    "dhl-delivery-online-addresmismatch-kfjes76yjhkmjh4b2323k2b.pages.dev",
     "dhl-express-unaabuhkvgljtaxtyrjajmln.pages.dev",
     "dsk-direct-bg0.site",
     "dsk-direct-bg1.site",
