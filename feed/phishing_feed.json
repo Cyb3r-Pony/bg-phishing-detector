@@ -6349,5 +6349,35 @@
     },
     "detected_at": "2026-03-26T17:54:17.649679+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "diskominfo-muka-dua-bgst.pages.dev",
+    "score": 75,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".pages.dev",
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bgpost",
+          "typo": "bgst",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ]
+    },
+    "detected_at": "2026-03-27T08:41:28.041316+00:00Z",
+    "source": "scanner"
   }
 ]

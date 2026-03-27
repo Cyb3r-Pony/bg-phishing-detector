@@ -1,15 +1,15 @@
 {
-  "last_run": "2026-03-27T07:55:20.359082+00:00Z",
+  "last_run": "2026-03-27T08:41:33.750833+00:00Z",
   "last_run_stats": {
-    "domains_processed": 1686,
-    "phishing_detected": 174,
-    "new_unique_phishing": 0,
-    "elapsed_time": 174.35
+    "domains_processed": 1682,
+    "phishing_detected": 171,
+    "new_unique_phishing": 1,
+    "elapsed_time": 192.82
   },
   "cumulative_stats": {
-    "total_unique_domains_scanned": 1581273,
-    "total_unique_phishing_found": 226,
-    "total_runs": 1067,
+    "total_unique_domains_scanned": 1582955,
+    "total_unique_phishing_found": 227,
+    "total_runs": 1068,
     "phishing_detection_rate": 0.01
   },
   "all_phishing_domains": [
@@ -46,6 +46,7 @@
     "dhl-clients-office-mag-new-dyheneuurn-delivery-korean.pages.dev",
     "dhl-delivery-online-addresmismatch-kfjes76yjhkmjh4b2323k2b.pages.dev",
     "dhl-express-unaabuhkvgljtaxtyrjajmln.pages.dev",
+    "diskominfo-muka-dua-bgst.pages.dev",
     "dsk-direct-bg0.site",
     "dsk-direct-bg1.site",
     "dsk-direct-bg2.site",
