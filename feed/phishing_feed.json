@@ -6490,5 +6490,37 @@
     },
     "detected_at": "2026-04-08T08:08:26.211346+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "playfastcasinologin-org-bgc.pages.dev",
+    "score": 95,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".pages.dev",
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bacb",
+          "typo": "bgc",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ]
+    },
+    "detected_at": "2026-04-11T04:12:30.958575+00:00Z",
+    "source": "scanner"
   }
 ]
