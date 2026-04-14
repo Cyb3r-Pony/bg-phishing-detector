@@ -6522,5 +6522,35 @@
     },
     "detected_at": "2026-04-11T04:12:30.958575+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "cost-of-bg-trans-flush-service.pages.dev",
+    "score": 75,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "bg-"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".pages.dev",
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "econt",
+          "typo": "cost",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ]
+    },
+    "detected_at": "2026-04-14T16:03:32.219099+00:00Z",
+    "source": "scanner"
   }
 ]
