@@ -6552,5 +6552,31 @@
     },
     "detected_at": "2026-04-14T16:03:32.219099+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "olx-ua-safedeal-payment512451.pages.dev",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "olx"
+      ],
+      "transaction_keywords": [
+        "payment"
+      ],
+      "geo_indicators": [],
+      "suspicious_tld": null,
+      "free_hosting": ".pages.dev",
+      "multiple_hyphens": true,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "non_bg_context_penalty": true
+    },
+    "detected_at": "2026-04-15T17:00:01.139452+00:00Z",
+    "source": "scanner"
   }
 ]
