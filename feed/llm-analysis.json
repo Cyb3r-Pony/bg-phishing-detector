@@ -1,22 +1,65 @@
 {
-  "analyzed_at": "2026-04-20T03:52:45.837906Z",
+  "analyzed_at": "2026-04-21T03:42:02.900114Z",
   "total_analyzed": 50,
   "domains": [
     {
-      "domain": "www.olx-bg.paymenting.site",
-      "detected_at": "2026-02-02T08:31:54.650599+00:00Z",
+      "domain": "www.olx-bg.delivery-pay.xyz",
+      "detected_at": "2026-02-02T08:31:54.615097+00:00Z",
       "phishing_score": 100,
       "detection_details": {
         "brand_keywords": [
           "olx"
         ],
         "transaction_keywords": [
-          "payment"
+          "delivery"
         ],
         "geo_indicators": [
           "-bg"
         ],
-        "suspicious_tld": ".site",
+        "suspicious_tld": ".xyz",
+        "free_hosting": null,
+        "multiple_hyphens": true,
+        "numeric_suffix": false,
+        "subdomain_stacking": false,
+        "high_entropy": false,
+        "homoglyphs_detected": false,
+        "homoglyphs_used": [],
+        "typosquatting_detected": true,
+        "typosquatting_details": [
+          {
+            "brand": "epay",
+            "typo": "pay",
+            "distance": 1,
+            "type": "missing_char"
+          }
+        ],
+        "direct_impersonation": true
+      },
+      "llm_analysis": {
+        "threat_level": "HIGH",
+        "confidence": 95,
+        "phishing_score": 100,
+        "mimicked_domain": "olx.bg",
+        "decision": "BLOCK",
+        "reasoning": "Domain mimics OLX brand with suspicious delivery-pay subdomain and non-Bulgarian TLD.",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: olx.bg\nDECISION: BLOCK\nREASONING: Domain mimics OLX brand with suspicious delivery-pay subdomain and non-Bulgarian TLD.",
+        "model": "arcee-ai/trinity-large-preview:free",
+        "analyzed_at": "2026-04-21T03:38:36.404983Z"
+      }
+    },
+    {
+      "domain": "bgpost.confirmed-application.icu",
+      "detected_at": "2026-02-02T08:31:54.656784+00:00Z",
+      "phishing_score": 100,
+      "detection_details": {
+        "brand_keywords": [
+          "bgpost"
+        ],
+        "transaction_keywords": [
+          "confirm"
+        ],
+        "geo_indicators": [],
+        "suspicious_tld": ".icu",
         "free_hosting": null,
         "multiple_hyphens": false,
         "numeric_suffix": false,
@@ -24,269 +67,32 @@
         "high_entropy": false,
         "homoglyphs_detected": false,
         "homoglyphs_used": [],
-        "typosquatting_detected": false,
-        "typosquatting_details": [],
+        "typosquatting_detected": true,
+        "typosquatting_details": [
+          {
+            "brand": "bg-post",
+            "typo": "bgpost",
+            "distance": 1,
+            "type": "missing_char"
+          }
+        ],
         "direct_impersonation": true
       },
       "llm_analysis": {
         "threat_level": "HIGH",
         "confidence": 100,
         "phishing_score": 100,
-        "mimicked_domain": "olx.bg",
-        "decision": "BLOCK",
-        "reasoning": "Domain mimics legitimate Bulgarian marketplace with suspicious payment subdomain.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 100\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: olx.bg\nDECISION: BLOCK\nREASONING: Domain mimics legitimate Bulgarian marketplace with suspicious payment subdomain.",
-        "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:47:02.870824Z"
-      }
-    },
-    {
-      "domain": "nev-bgpost.cfd",
-      "detected_at": "2026-02-02T08:31:54.776687+00:00Z",
-      "phishing_score": 100,
-      "detection_details": {
-        "brand_keywords": [
-          "bgpost"
-        ],
-        "transaction_keywords": [],
-        "geo_indicators": [
-          "-bg"
-        ],
-        "suspicious_tld": ".cfd",
-        "free_hosting": null,
-        "multiple_hyphens": false,
-        "numeric_suffix": false,
-        "subdomain_stacking": false,
-        "high_entropy": false,
-        "homoglyphs_detected": false,
-        "homoglyphs_used": [],
-        "typosquatting_detected": true,
-        "typosquatting_details": [
-          {
-            "brand": "bg-post",
-            "typo": "bgpost",
-            "distance": 1,
-            "type": "missing_char"
-          }
-        ],
-        "direct_impersonation": true
-      },
-      "llm_analysis": {
-        "threat_level": "HIGH",
-        "confidence": 95,
-        "phishing_score": 100,
         "mimicked_domain": "bgpost.bg",
         "decision": "BLOCK",
-        "reasoning": "Domain mimics bgpost.bg with suspicious .cfd TLD for Bulgarian postal service.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: bgpost.bg\nDECISION: BLOCK\nREASONING: Domain mimics bgpost.bg with suspicious .cfd TLD for Bulgarian postal service.",
+        "reasoning": "Domain mimics Bulgarian Post with suspicious .icu TLD and transaction keyword.",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 100\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: bgpost.bg\nDECISION: BLOCK\nREASONING: Domain mimics Bulgarian Post with suspicious .icu TLD and transaction keyword.",
         "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:47:08.979525Z"
+        "analyzed_at": "2026-04-21T03:38:40.915246Z"
       }
     },
     {
-      "domain": "new-bgpost.cfd",
-      "detected_at": "2026-02-02T08:31:54.827202+00:00Z",
-      "phishing_score": 100,
-      "detection_details": {
-        "brand_keywords": [
-          "bgpost"
-        ],
-        "transaction_keywords": [],
-        "geo_indicators": [
-          "-bg"
-        ],
-        "suspicious_tld": ".cfd",
-        "free_hosting": null,
-        "multiple_hyphens": false,
-        "numeric_suffix": false,
-        "subdomain_stacking": false,
-        "high_entropy": false,
-        "homoglyphs_detected": false,
-        "homoglyphs_used": [],
-        "typosquatting_detected": true,
-        "typosquatting_details": [
-          {
-            "brand": "bg-post",
-            "typo": "bgpost",
-            "distance": 1,
-            "type": "missing_char"
-          }
-        ],
-        "direct_impersonation": true
-      },
-      "llm_analysis": {
-        "threat_level": "HIGH",
-        "confidence": 95,
-        "phishing_score": 100,
-        "mimicked_domain": "bgpost.bg",
-        "decision": "BLOCK",
-        "reasoning": "Domain mimics bgpost.bg using suspicious .cfd TLD for Bulgarian postal service impersonation.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: bgpost.bg\nDECISION: BLOCK\nREASONING: Domain mimics bgpost.bg using suspicious .cfd TLD for Bulgarian postal service impersonation.",
-        "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:47:15.579257Z"
-      }
-    },
-    {
-      "domain": "www.econt-bg.confirm-5345631.tk",
-      "detected_at": "2026-02-02T08:31:54.954715+00:00Z",
-      "phishing_score": 100,
-      "detection_details": {
-        "brand_keywords": [
-          "econt"
-        ],
-        "transaction_keywords": [
-          "confirm"
-        ],
-        "geo_indicators": [
-          "-bg"
-        ],
-        "suspicious_tld": ".tk",
-        "free_hosting": null,
-        "multiple_hyphens": true,
-        "numeric_suffix": true,
-        "subdomain_stacking": false,
-        "high_entropy": false,
-        "homoglyphs_detected": false,
-        "homoglyphs_used": [],
-        "typosquatting_detected": false,
-        "typosquatting_details": [],
-        "direct_impersonation": true
-      },
-      "llm_analysis": {
-        "threat_level": "HIGH",
-        "confidence": 95,
-        "phishing_score": 100,
-        "mimicked_domain": "econt.bg",
-        "decision": "BLOCK",
-        "reasoning": "Domain mimics econt.bg with suspicious subdomain and free TLD.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: econt.bg\nDECISION: BLOCK\nREASONING: Domain mimics econt.bg with suspicious subdomain and free TLD.",
-        "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:47:23.651804Z"
-      }
-    },
-    {
-      "domain": "bgpost.live",
-      "detected_at": "2026-02-02T08:31:55.022422+00:00Z",
-      "phishing_score": 100,
-      "detection_details": {
-        "brand_keywords": [
-          "bgpost"
-        ],
-        "transaction_keywords": [],
-        "geo_indicators": [],
-        "suspicious_tld": ".live",
-        "free_hosting": null,
-        "multiple_hyphens": false,
-        "numeric_suffix": false,
-        "subdomain_stacking": false,
-        "high_entropy": false,
-        "homoglyphs_detected": false,
-        "homoglyphs_used": [],
-        "typosquatting_detected": true,
-        "typosquatting_details": [
-          {
-            "brand": "bg-post",
-            "typo": "bgpost",
-            "distance": 1,
-            "type": "missing_char"
-          }
-        ],
-        "direct_impersonation": true
-      },
-      "llm_analysis": {
-        "threat_level": "HIGH",
-        "confidence": 95,
-        "phishing_score": 100,
-        "mimicked_domain": "bgpost.bg",
-        "decision": "BLOCK",
-        "reasoning": "Domain uses .live TLD to impersonate legitimate Bulgarian postal service.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: bgpost.bg\nDECISION: BLOCK\nREASONING: Domain uses .live TLD to impersonate legitimate Bulgarian postal service.",
-        "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:47:32.235432Z"
-      }
-    },
-    {
-      "domain": "bgpost-bg.cfd",
-      "detected_at": "2026-02-02T08:31:55.058137+00:00Z",
-      "phishing_score": 100,
-      "detection_details": {
-        "brand_keywords": [
-          "bgpost"
-        ],
-        "transaction_keywords": [],
-        "geo_indicators": [
-          "-bg"
-        ],
-        "suspicious_tld": ".cfd",
-        "free_hosting": null,
-        "multiple_hyphens": false,
-        "numeric_suffix": false,
-        "subdomain_stacking": false,
-        "high_entropy": false,
-        "homoglyphs_detected": false,
-        "homoglyphs_used": [],
-        "typosquatting_detected": true,
-        "typosquatting_details": [
-          {
-            "brand": "bg-post",
-            "typo": "bgpost",
-            "distance": 1,
-            "type": "missing_char"
-          }
-        ],
-        "direct_impersonation": true
-      },
-      "llm_analysis": {
-        "threat_level": "HIGH",
-        "confidence": 95,
-        "phishing_score": 100,
-        "mimicked_domain": "bgpost.bg",
-        "decision": "BLOCK",
-        "reasoning": "Domain mimics bgpost.bg with suspicious .cfd TLD and high phishing score.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: bgpost.bg\nDECISION: BLOCK\nREASONING: Domain mimics bgpost.bg with suspicious .cfd TLD and high phishing score.",
-        "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:47:38.286463Z"
-      }
-    },
-    {
-      "domain": "olx-bg.receipt-cash.site",
-      "detected_at": "2026-02-02T08:31:55.140029+00:00Z",
-      "phishing_score": 100,
-      "detection_details": {
-        "brand_keywords": [
-          "olx"
-        ],
-        "transaction_keywords": [],
-        "geo_indicators": [
-          "-bg"
-        ],
-        "suspicious_tld": ".site",
-        "free_hosting": null,
-        "multiple_hyphens": true,
-        "numeric_suffix": false,
-        "subdomain_stacking": false,
-        "high_entropy": false,
-        "homoglyphs_detected": false,
-        "homoglyphs_used": [],
-        "typosquatting_detected": false,
-        "typosquatting_details": [],
-        "direct_impersonation": true
-      },
-      "llm_analysis": {
-        "threat_level": "HIGH",
-        "confidence": 95,
-        "phishing_score": 100,
-        "mimicked_domain": "olx.bg",
-        "decision": "BLOCK",
-        "reasoning": "Domain mimics OLX brand with suspicious receipt-cash subdomain pattern.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: olx.bg\nDECISION: BLOCK\nREASONING: Domain mimics OLX brand with suspicious receipt-cash subdomain pattern.",
-        "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:47:42.800207Z"
-      }
-    },
-    {
-      "domain": "olx-bg.delivery-nfc.site",
-      "detected_at": "2026-02-02T08:31:55.170732+00:00Z",
+      "domain": "www.olx-bg.delivery-nfc.site",
+      "detected_at": "2026-02-02T08:31:54.697707+00:00Z",
       "phishing_score": 100,
       "detection_details": {
         "brand_keywords": [
@@ -316,15 +122,101 @@
         "phishing_score": 100,
         "mimicked_domain": "olx.bg",
         "decision": "BLOCK",
-        "reasoning": "Domain mimics OLX brand with suspicious delivery-related subdomain.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: olx.bg\nDECISION: BLOCK\nREASONING: Domain mimics OLX brand with suspicious delivery-related subdomain.",
+        "reasoning": "Domain mimics Olx.bg brand with suspicious delivery-related subdomain.",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: olx.bg\nDECISION: BLOCK\nREASONING: Domain mimics Olx.bg brand with suspicious delivery-related subdomain.",
         "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:47:48.046833Z"
+        "analyzed_at": "2026-04-21T03:38:44.898225Z"
       }
     },
     {
-      "domain": "www.olx-bg.get-money.link",
-      "detected_at": "2026-02-02T08:31:55.307169+00:00Z",
+      "domain": "www.new-bgpost.cam",
+      "detected_at": "2026-02-02T08:31:54.767356+00:00Z",
+      "phishing_score": 100,
+      "detection_details": {
+        "brand_keywords": [
+          "bgpost"
+        ],
+        "transaction_keywords": [],
+        "geo_indicators": [
+          "-bg"
+        ],
+        "suspicious_tld": ".cam",
+        "free_hosting": null,
+        "multiple_hyphens": false,
+        "numeric_suffix": false,
+        "subdomain_stacking": false,
+        "high_entropy": false,
+        "homoglyphs_detected": false,
+        "homoglyphs_used": [],
+        "typosquatting_detected": true,
+        "typosquatting_details": [
+          {
+            "brand": "bg-post",
+            "typo": "bgpost",
+            "distance": 1,
+            "type": "missing_char"
+          }
+        ],
+        "direct_impersonation": true
+      },
+      "llm_analysis": {
+        "threat_level": "HIGH",
+        "confidence": 95,
+        "phishing_score": 100,
+        "mimicked_domain": "bgpost.bg",
+        "decision": "BLOCK",
+        "reasoning": "Domain uses .cam TLD with \"new-bgpost\" to impersonate Bulgarian Post.",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: bgpost.bg\nDECISION: BLOCK\nREASONING: Domain uses .cam TLD with \"new-bgpost\" to impersonate Bulgarian Post.",
+        "model": "arcee-ai/trinity-large-preview:free",
+        "analyzed_at": "2026-04-21T03:38:49.041332Z"
+      }
+    },
+    {
+      "domain": "new-bgpost.cam",
+      "detected_at": "2026-02-02T08:31:54.774695+00:00Z",
+      "phishing_score": 100,
+      "detection_details": {
+        "brand_keywords": [
+          "bgpost"
+        ],
+        "transaction_keywords": [],
+        "geo_indicators": [
+          "-bg"
+        ],
+        "suspicious_tld": ".cam",
+        "free_hosting": null,
+        "multiple_hyphens": false,
+        "numeric_suffix": false,
+        "subdomain_stacking": false,
+        "high_entropy": false,
+        "homoglyphs_detected": false,
+        "homoglyphs_used": [],
+        "typosquatting_detected": true,
+        "typosquatting_details": [
+          {
+            "brand": "bg-post",
+            "typo": "bgpost",
+            "distance": 1,
+            "type": "missing_char"
+          }
+        ],
+        "direct_impersonation": true
+      },
+      "llm_analysis": {
+        "threat_level": "HIGH",
+        "confidence": 95,
+        "phishing_score": 100,
+        "mimicked_domain": "bgpost.bg",
+        "decision": "BLOCK",
+        "reasoning": "Domain mimics bgpost.bg with suspicious .cam TLD for Bulgarian postal service.",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: bgpost.bg\nDECISION: BLOCK\nREASONING: Domain mimics bgpost.bg with suspicious .cam TLD for Bulgarian postal service.",
+        "model": "arcee-ai/trinity-large-preview:free",
+        "analyzed_at": "2026-04-21T03:38:53.111838Z"
+      }
+    },
+    {
+      "domain": "www.olx-bg.safen-pay.site",
+      "detected_at": "2026-02-02T08:31:54.799775+00:00Z",
       "phishing_score": 100,
       "detection_details": {
         "brand_keywords": [
@@ -334,7 +226,160 @@
         "geo_indicators": [
           "-bg"
         ],
-        "suspicious_tld": ".link",
+        "suspicious_tld": ".site",
+        "free_hosting": null,
+        "multiple_hyphens": true,
+        "numeric_suffix": false,
+        "subdomain_stacking": false,
+        "high_entropy": false,
+        "homoglyphs_detected": false,
+        "homoglyphs_used": [],
+        "typosquatting_detected": true,
+        "typosquatting_details": [
+          {
+            "brand": "epay",
+            "typo": "pay",
+            "distance": 1,
+            "type": "missing_char"
+          }
+        ],
+        "direct_impersonation": true
+      },
+      "llm_analysis": {
+        "threat_level": "HIGH",
+        "confidence": 100,
+        "phishing_score": 100,
+        "mimicked_domain": "olx.bg",
+        "decision": "BLOCK",
+        "reasoning": "Domain mimics olx.bg with suspicious subdomain structure and high-risk TLD.",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 100\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: olx.bg\nDECISION: BLOCK\nREASONING: Domain mimics olx.bg with suspicious subdomain structure and high-risk TLD.",
+        "model": "arcee-ai/trinity-large-preview:free",
+        "analyzed_at": "2026-04-21T03:38:57.503082Z"
+      }
+    },
+    {
+      "domain": "speedy-bg-public.cfd",
+      "detected_at": "2026-02-02T08:31:54.804698+00:00Z",
+      "phishing_score": 100,
+      "detection_details": {
+        "brand_keywords": [
+          "speedy"
+        ],
+        "transaction_keywords": [],
+        "geo_indicators": [
+          "bg-"
+        ],
+        "suspicious_tld": ".cfd",
+        "free_hosting": null,
+        "multiple_hyphens": true,
+        "numeric_suffix": false,
+        "subdomain_stacking": false,
+        "high_entropy": false,
+        "homoglyphs_detected": false,
+        "homoglyphs_used": [],
+        "typosquatting_detected": false,
+        "typosquatting_details": [],
+        "direct_impersonation": true
+      },
+      "llm_analysis": {
+        "threat_level": "HIGH",
+        "confidence": 95,
+        "phishing_score": 100,
+        "mimicked_domain": "speedy.bg",
+        "decision": "BLOCK",
+        "reasoning": "Domain mimics Speedy brand with suspicious .cfd TLD and \"public\" subdomain.",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: speedy.bg\nDECISION: BLOCK\nREASONING: Domain mimics Speedy brand with suspicious .cfd TLD and \"public\" subdomain.",
+        "model": "arcee-ai/trinity-large-preview:free",
+        "analyzed_at": "2026-04-21T03:39:02.093179Z"
+      }
+    },
+    {
+      "domain": "olx-bg.order8762.site",
+      "detected_at": "2026-02-02T08:31:54.822007+00:00Z",
+      "phishing_score": 100,
+      "detection_details": {
+        "brand_keywords": [
+          "olx"
+        ],
+        "transaction_keywords": [],
+        "geo_indicators": [
+          "-bg"
+        ],
+        "suspicious_tld": ".site",
+        "free_hosting": null,
+        "multiple_hyphens": false,
+        "numeric_suffix": true,
+        "subdomain_stacking": false,
+        "high_entropy": false,
+        "homoglyphs_detected": false,
+        "homoglyphs_used": [],
+        "typosquatting_detected": false,
+        "typosquatting_details": [],
+        "direct_impersonation": true
+      },
+      "llm_analysis": {
+        "threat_level": "HIGH",
+        "confidence": 95,
+        "phishing_score": 100,
+        "mimicked_domain": "olx.bg",
+        "decision": "BLOCK",
+        "reasoning": "Domain mimics Olx.bg with suspicious subdomain structure.",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: olx.bg\nDECISION: BLOCK\nREASONING: Domain mimics Olx.bg with suspicious subdomain structure.",
+        "model": "arcee-ai/trinity-large-preview:free",
+        "analyzed_at": "2026-04-21T03:39:06.163681Z"
+      }
+    },
+    {
+      "domain": "www.econt-bg.online-verification.cf",
+      "detected_at": "2026-02-02T08:31:54.896116+00:00Z",
+      "phishing_score": 100,
+      "detection_details": {
+        "brand_keywords": [
+          "econt"
+        ],
+        "transaction_keywords": [],
+        "geo_indicators": [
+          "-bg"
+        ],
+        "suspicious_tld": ".cf",
+        "free_hosting": null,
+        "multiple_hyphens": true,
+        "numeric_suffix": false,
+        "subdomain_stacking": false,
+        "high_entropy": false,
+        "homoglyphs_detected": false,
+        "homoglyphs_used": [],
+        "typosquatting_detected": false,
+        "typosquatting_details": [],
+        "direct_impersonation": true
+      },
+      "llm_analysis": {
+        "threat_level": "HIGH",
+        "confidence": 95,
+        "phishing_score": 100,
+        "mimicked_domain": "econt.bg",
+        "decision": "BLOCK",
+        "reasoning": "Suspicious subdomain mimicking econt.bg with .cf TLD and verification path.",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: econt.bg\nDECISION: BLOCK\nREASONING: Suspicious subdomain mimicking econt.bg with .cf TLD and verification path.",
+        "model": "arcee-ai/trinity-large-preview:free",
+        "analyzed_at": "2026-04-21T03:39:12.185734Z"
+      }
+    },
+    {
+      "domain": "www.olx-bg.payments-id.site",
+      "detected_at": "2026-02-02T08:31:54.915781+00:00Z",
+      "phishing_score": 100,
+      "detection_details": {
+        "brand_keywords": [
+          "olx"
+        ],
+        "transaction_keywords": [
+          "payment"
+        ],
+        "geo_indicators": [
+          "-bg"
+        ],
+        "suspicious_tld": ".site",
         "free_hosting": null,
         "multiple_hyphens": true,
         "numeric_suffix": false,
@@ -352,15 +397,58 @@
         "phishing_score": 100,
         "mimicked_domain": "olx.bg",
         "decision": "BLOCK",
-        "reasoning": "Domain mimics Olx.bg with suspicious .link TLD and get-money subdomain.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: olx.bg\nDECISION: BLOCK\nREASONING: Domain mimics Olx.bg with suspicious .link TLD and get-money subdomain.",
+        "reasoning": "Domain mimics OLX with suspicious payment subdomain targeting Bulgarian users.",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: olx.bg\nDECISION: BLOCK\nREASONING: Domain mimics OLX with suspicious payment subdomain targeting Bulgarian users.",
         "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:47:56.213401Z"
+        "analyzed_at": "2026-04-21T03:39:16.221738Z"
       }
     },
     {
-      "domain": "bgpost.nguo.top",
-      "detected_at": "2026-02-02T08:31:55.471452+00:00Z",
+      "domain": "www.hostmaster.new-bgpost.cam",
+      "detected_at": "2026-02-02T08:31:54.920506+00:00Z",
+      "phishing_score": 100,
+      "detection_details": {
+        "brand_keywords": [
+          "bgpost"
+        ],
+        "transaction_keywords": [],
+        "geo_indicators": [
+          "-bg"
+        ],
+        "suspicious_tld": ".cam",
+        "free_hosting": null,
+        "multiple_hyphens": false,
+        "numeric_suffix": false,
+        "subdomain_stacking": false,
+        "high_entropy": false,
+        "homoglyphs_detected": false,
+        "homoglyphs_used": [],
+        "typosquatting_detected": true,
+        "typosquatting_details": [
+          {
+            "brand": "bg-post",
+            "typo": "bgpost",
+            "distance": 1,
+            "type": "missing_char"
+          }
+        ],
+        "direct_impersonation": true
+      },
+      "llm_analysis": {
+        "threat_level": "HIGH",
+        "confidence": 95,
+        "phishing_score": 100,
+        "mimicked_domain": "bgpost.bg",
+        "decision": "BLOCK",
+        "reasoning": "Domain mimics bgpost.bg using suspicious .cam TLD with \"new-bgpost\" subdomain pattern.",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: bgpost.bg\nDECISION: BLOCK\nREASONING: Domain mimics bgpost.bg using suspicious .cam TLD with \"new-bgpost\" subdomain pattern.",
+        "model": "arcee-ai/trinity-large-preview:free",
+        "analyzed_at": "2026-04-21T03:39:20.251964Z"
+      }
+    },
+    {
+      "domain": "bgpost.com-five.cfd",
+      "detected_at": "2026-02-02T08:31:54.929380+00:00Z",
       "phishing_score": 100,
       "detection_details": {
         "brand_keywords": [
@@ -368,6 +456,174 @@
         ],
         "transaction_keywords": [],
         "geo_indicators": [],
+        "suspicious_tld": ".cfd",
+        "free_hosting": null,
+        "multiple_hyphens": false,
+        "numeric_suffix": false,
+        "subdomain_stacking": false,
+        "high_entropy": false,
+        "homoglyphs_detected": false,
+        "homoglyphs_used": [],
+        "typosquatting_detected": true,
+        "typosquatting_details": [
+          {
+            "brand": "bg-post",
+            "typo": "bgpost",
+            "distance": 1,
+            "type": "missing_char"
+          }
+        ],
+        "direct_impersonation": true
+      },
+      "llm_analysis": {
+        "threat_level": "HIGH",
+        "confidence": 100,
+        "phishing_score": 100,
+        "mimicked_domain": "bgpost.bg",
+        "decision": "BLOCK",
+        "reasoning": "Domain mimics legitimate Bulgarian postal service with suspicious subdomain structure.",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 100\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: bgpost.bg\nDECISION: BLOCK\nREASONING: Domain mimics legitimate Bulgarian postal service with suspicious subdomain structure.",
+        "model": "arcee-ai/trinity-large-preview:free",
+        "analyzed_at": "2026-04-21T03:39:24.255344Z"
+      }
+    },
+    {
+      "domain": "bgpost.com-shop.cc",
+      "detected_at": "2026-02-02T08:31:54.940521+00:00Z",
+      "phishing_score": 100,
+      "detection_details": {
+        "brand_keywords": [
+          "bgpost"
+        ],
+        "transaction_keywords": [],
+        "geo_indicators": [],
+        "suspicious_tld": ".cc",
+        "free_hosting": null,
+        "multiple_hyphens": false,
+        "numeric_suffix": false,
+        "subdomain_stacking": false,
+        "high_entropy": false,
+        "homoglyphs_detected": false,
+        "homoglyphs_used": [],
+        "typosquatting_detected": true,
+        "typosquatting_details": [
+          {
+            "brand": "bg-post",
+            "typo": "bgpost",
+            "distance": 1,
+            "type": "missing_char"
+          }
+        ],
+        "direct_impersonation": true
+      },
+      "llm_analysis": {
+        "threat_level": "HIGH",
+        "confidence": 100,
+        "phishing_score": 100,
+        "mimicked_domain": "bgpost.bg",
+        "decision": "BLOCK",
+        "reasoning": "Domain mimics Bulgarian Post with suspicious .cc TLD and shop suffix.",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 100\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: bgpost.bg\nDECISION: BLOCK\nREASONING: Domain mimics Bulgarian Post with suspicious .cc TLD and shop suffix.",
+        "model": "arcee-ai/trinity-large-preview:free",
+        "analyzed_at": "2026-04-21T03:39:28.310473Z"
+      }
+    },
+    {
+      "domain": "bgpost.sbs",
+      "detected_at": "2026-02-02T08:31:54.951849+00:00Z",
+      "phishing_score": 100,
+      "detection_details": {
+        "brand_keywords": [
+          "bgpost"
+        ],
+        "transaction_keywords": [],
+        "geo_indicators": [],
+        "suspicious_tld": ".sbs",
+        "free_hosting": null,
+        "multiple_hyphens": false,
+        "numeric_suffix": false,
+        "subdomain_stacking": false,
+        "high_entropy": false,
+        "homoglyphs_detected": false,
+        "homoglyphs_used": [],
+        "typosquatting_detected": true,
+        "typosquatting_details": [
+          {
+            "brand": "bg-post",
+            "typo": "bgpost",
+            "distance": 1,
+            "type": "missing_char"
+          }
+        ],
+        "direct_impersonation": true
+      },
+      "llm_analysis": {
+        "threat_level": "HIGH",
+        "confidence": 95,
+        "phishing_score": 100,
+        "mimicked_domain": "bgpost.bg",
+        "decision": "BLOCK",
+        "reasoning": "Domain mimics legitimate Bulgarian postal service with suspicious .sbs TLD.",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: bgpost.bg\nDECISION: BLOCK\nREASONING: Domain mimics legitimate Bulgarian postal service with suspicious .sbs TLD.",
+        "model": "arcee-ai/trinity-large-preview:free",
+        "analyzed_at": "2026-04-21T03:39:32.445628Z"
+      }
+    },
+    {
+      "domain": "bgpost-bg.site",
+      "detected_at": "2026-02-02T08:31:54.973389+00:00Z",
+      "phishing_score": 100,
+      "detection_details": {
+        "brand_keywords": [
+          "bgpost"
+        ],
+        "transaction_keywords": [],
+        "geo_indicators": [
+          "-bg"
+        ],
+        "suspicious_tld": ".site",
+        "free_hosting": null,
+        "multiple_hyphens": false,
+        "numeric_suffix": false,
+        "subdomain_stacking": false,
+        "high_entropy": false,
+        "homoglyphs_detected": false,
+        "homoglyphs_used": [],
+        "typosquatting_detected": true,
+        "typosquatting_details": [
+          {
+            "brand": "bg-post",
+            "typo": "bgpost",
+            "distance": 1,
+            "type": "missing_char"
+          }
+        ],
+        "direct_impersonation": true
+      },
+      "llm_analysis": {
+        "threat_level": "HIGH",
+        "confidence": 100,
+        "phishing_score": 100,
+        "mimicked_domain": "bgpost.bg",
+        "decision": "BLOCK",
+        "reasoning": "Domain mimics legitimate Bulgarian postal service with suspicious .site TLD.",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 100\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: bgpost.bg\nDECISION: BLOCK\nREASONING: Domain mimics legitimate Bulgarian postal service with suspicious .site TLD.",
+        "model": "arcee-ai/trinity-large-preview:free",
+        "analyzed_at": "2026-04-21T03:39:36.465431Z"
+      }
+    },
+    {
+      "domain": "bgpost-bg.top",
+      "detected_at": "2026-02-02T08:31:55.029277+00:00Z",
+      "phishing_score": 100,
+      "detection_details": {
+        "brand_keywords": [
+          "bgpost"
+        ],
+        "transaction_keywords": [],
+        "geo_indicators": [
+          "-bg"
+        ],
         "suspicious_tld": ".top",
         "free_hosting": null,
         "multiple_hyphens": false,
@@ -396,22 +652,24 @@
         "reasoning": "Domain mimics legitimate Bulgarian postal service with suspicious .top TLD.",
         "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 100\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: bgpost.bg\nDECISION: BLOCK\nREASONING: Domain mimics legitimate Bulgarian postal service with suspicious .top TLD.",
         "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:48:03.968342Z"
+        "analyzed_at": "2026-04-21T03:39:40.448415Z"
       }
     },
     {
-      "domain": "olx-bg-transfer.site",
-      "detected_at": "2026-02-02T08:31:55.502902+00:00Z",
+      "domain": "revolut.dostavka-olx-bg-parite.online",
+      "detected_at": "2026-02-02T08:31:55.081582+00:00Z",
       "phishing_score": 100,
       "detection_details": {
         "brand_keywords": [
           "olx"
         ],
-        "transaction_keywords": [],
+        "transaction_keywords": [
+          "dostavka"
+        ],
         "geo_indicators": [
           "bg-"
         ],
-        "suspicious_tld": ".site",
+        "suspicious_tld": ".online",
         "free_hosting": null,
         "multiple_hyphens": true,
         "numeric_suffix": false,
@@ -429,29 +687,29 @@
         "phishing_score": 100,
         "mimicked_domain": "olx.bg",
         "decision": "BLOCK",
-        "reasoning": "Domain mimics Olx brand with suspicious .site TLD and transfer keyword.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: olx.bg\nDECISION: BLOCK\nREASONING: Domain mimics Olx brand with suspicious .site TLD and transfer keyword.",
+        "reasoning": "Domain mimics OLX with suspicious transaction keywords and high-risk TLD.",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: olx.bg\nDECISION: BLOCK\nREASONING: Domain mimics OLX with suspicious transaction keywords and high-risk TLD.",
         "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:48:10.766475Z"
+        "analyzed_at": "2026-04-21T03:39:44.423527Z"
       }
     },
     {
-      "domain": "econt-bg.paymentonly.online",
-      "detected_at": "2026-02-02T08:31:55.507227+00:00Z",
+      "domain": "econt-bg.online-verify.click",
+      "detected_at": "2026-02-02T08:31:55.182543+00:00Z",
       "phishing_score": 100,
       "detection_details": {
         "brand_keywords": [
           "econt"
         ],
         "transaction_keywords": [
-          "payment"
+          "verify"
         ],
         "geo_indicators": [
           "-bg"
         ],
-        "suspicious_tld": ".online",
+        "suspicious_tld": ".click",
         "free_hosting": null,
-        "multiple_hyphens": false,
+        "multiple_hyphens": true,
         "numeric_suffix": false,
         "subdomain_stacking": false,
         "high_entropy": false,
@@ -467,15 +725,420 @@
         "phishing_score": 100,
         "mimicked_domain": "econt.bg",
         "decision": "BLOCK",
-        "reasoning": "Domain mimics econt.bg with suspicious payment subdomain and .online TLD.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: econt.bg\nDECISION: BLOCK\nREASONING: Domain mimics econt.bg with suspicious payment subdomain and .online TLD.",
+        "reasoning": "Suspicious subdomain mimicking econt.bg with phishing-related TLD and transaction keyword.",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: econt.bg\nDECISION: BLOCK\nREASONING: Suspicious subdomain mimicking econt.bg with phishing-related TLD and transaction keyword.",
         "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:48:17.890479Z"
+        "analyzed_at": "2026-04-21T03:39:48.464506Z"
       }
     },
     {
-      "domain": "new-bgpost.cc",
-      "detected_at": "2026-02-02T08:31:55.558351+00:00Z",
+      "domain": "new-bgpost-bg.xyz",
+      "detected_at": "2026-02-02T08:31:55.208228+00:00Z",
+      "phishing_score": 100,
+      "detection_details": {
+        "brand_keywords": [
+          "bgpost"
+        ],
+        "transaction_keywords": [],
+        "geo_indicators": [
+          "-bg"
+        ],
+        "suspicious_tld": ".xyz",
+        "free_hosting": null,
+        "multiple_hyphens": true,
+        "numeric_suffix": false,
+        "subdomain_stacking": false,
+        "high_entropy": false,
+        "homoglyphs_detected": false,
+        "homoglyphs_used": [],
+        "typosquatting_detected": true,
+        "typosquatting_details": [
+          {
+            "brand": "bg-post",
+            "typo": "bgpost",
+            "distance": 1,
+            "type": "missing_char"
+          }
+        ],
+        "direct_impersonation": true
+      },
+      "llm_analysis": {
+        "threat_level": "HIGH",
+        "confidence": 95,
+        "phishing_score": 100,
+        "mimicked_domain": "bgpost.bg",
+        "decision": "BLOCK",
+        "reasoning": "Domain mimics bgpost.bg using deceptive subdomain structure with suspicious .xyz TLD.",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: bgpost.bg\nDECISION: BLOCK\nREASONING: Domain mimics bgpost.bg using deceptive subdomain structure with suspicious .xyz TLD.",
+        "model": "arcee-ai/trinity-large-preview:free",
+        "analyzed_at": "2026-04-21T03:39:52.444720Z"
+      }
+    },
+    {
+      "domain": "www.econt-bg.3ds-service24.cf",
+      "detected_at": "2026-02-02T08:31:55.327268+00:00Z",
+      "phishing_score": 100,
+      "detection_details": {
+        "brand_keywords": [
+          "econt"
+        ],
+        "transaction_keywords": [],
+        "geo_indicators": [
+          "-bg"
+        ],
+        "suspicious_tld": ".cf",
+        "free_hosting": null,
+        "multiple_hyphens": true,
+        "numeric_suffix": false,
+        "subdomain_stacking": false,
+        "high_entropy": false,
+        "homoglyphs_detected": false,
+        "homoglyphs_used": [],
+        "typosquatting_detected": false,
+        "typosquatting_details": [],
+        "direct_impersonation": true
+      },
+      "llm_analysis": {
+        "threat_level": "HIGH",
+        "confidence": 100,
+        "phishing_score": 100,
+        "mimicked_domain": "econt.bg",
+        "decision": "BLOCK",
+        "reasoning": "Domain uses suspicious subdomain structure mimicking econt.bg with free TLD.",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 100\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: econt.bg\nDECISION: BLOCK\nREASONING: Domain uses suspicious subdomain structure mimicking econt.bg with free TLD.",
+        "model": "arcee-ai/trinity-large-preview:free",
+        "analyzed_at": "2026-04-21T03:39:56.488641Z"
+      }
+    },
+    {
+      "domain": "new.bgpost-dg.live",
+      "detected_at": "2026-02-02T08:31:55.350891+00:00Z",
+      "phishing_score": 100,
+      "detection_details": {
+        "brand_keywords": [
+          "bgpost"
+        ],
+        "transaction_keywords": [],
+        "geo_indicators": [
+          ".bg"
+        ],
+        "suspicious_tld": ".live",
+        "free_hosting": null,
+        "multiple_hyphens": false,
+        "numeric_suffix": false,
+        "subdomain_stacking": false,
+        "high_entropy": false,
+        "homoglyphs_detected": false,
+        "homoglyphs_used": [],
+        "typosquatting_detected": true,
+        "typosquatting_details": [
+          {
+            "brand": "bg-post",
+            "typo": "bgpost",
+            "distance": 1,
+            "type": "missing_char"
+          }
+        ],
+        "direct_impersonation": true
+      },
+      "llm_analysis": {
+        "threat_level": "HIGH",
+        "confidence": 95,
+        "phishing_score": 100,
+        "mimicked_domain": "bgpost.bg",
+        "decision": "BLOCK",
+        "reasoning": "Domain mimics bgpost.bg with suspicious subdomain and .live TLD.",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: bgpost.bg\nDECISION: BLOCK\nREASONING: Domain mimics bgpost.bg with suspicious subdomain and .live TLD.",
+        "model": "arcee-ai/trinity-large-preview:free",
+        "analyzed_at": "2026-04-21T03:40:00.495867Z"
+      }
+    },
+    {
+      "domain": "econt-bg.id0214622.top",
+      "detected_at": "2026-02-02T08:31:55.369670+00:00Z",
+      "phishing_score": 100,
+      "detection_details": {
+        "brand_keywords": [
+          "econt"
+        ],
+        "transaction_keywords": [],
+        "geo_indicators": [
+          "-bg"
+        ],
+        "suspicious_tld": ".top",
+        "free_hosting": null,
+        "multiple_hyphens": false,
+        "numeric_suffix": true,
+        "subdomain_stacking": false,
+        "high_entropy": false,
+        "homoglyphs_detected": false,
+        "homoglyphs_used": [],
+        "typosquatting_detected": false,
+        "typosquatting_details": [],
+        "direct_impersonation": true
+      },
+      "llm_analysis": {
+        "threat_level": "HIGH",
+        "confidence": 95,
+        "phishing_score": 100,
+        "mimicked_domain": "econt.bg",
+        "decision": "BLOCK",
+        "reasoning": "Domain mimics econt.bg with suspicious .top TLD and high phishing score.",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: econt.bg\nDECISION: BLOCK\nREASONING: Domain mimics econt.bg with suspicious .top TLD and high phishing score.",
+        "model": "arcee-ai/trinity-large-preview:free",
+        "analyzed_at": "2026-04-21T03:40:05.759331Z"
+      }
+    },
+    {
+      "domain": "bgpost.cfd",
+      "detected_at": "2026-02-02T08:31:55.415629+00:00Z",
+      "phishing_score": 100,
+      "detection_details": {
+        "brand_keywords": [
+          "bgpost"
+        ],
+        "transaction_keywords": [],
+        "geo_indicators": [],
+        "suspicious_tld": ".cfd",
+        "free_hosting": null,
+        "multiple_hyphens": false,
+        "numeric_suffix": false,
+        "subdomain_stacking": false,
+        "high_entropy": false,
+        "homoglyphs_detected": false,
+        "homoglyphs_used": [],
+        "typosquatting_detected": true,
+        "typosquatting_details": [
+          {
+            "brand": "bg-post",
+            "typo": "bgpost",
+            "distance": 1,
+            "type": "missing_char"
+          }
+        ],
+        "direct_impersonation": true
+      },
+      "llm_analysis": {
+        "threat_level": "HIGH",
+        "confidence": 95,
+        "phishing_score": 100,
+        "mimicked_domain": "bgpost.bg",
+        "decision": "BLOCK",
+        "reasoning": "Domain uses .cfd TLD to impersonate legitimate Bulgarian postal service.",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: bgpost.bg\nDECISION: BLOCK\nREASONING: Domain uses .cfd TLD to impersonate legitimate Bulgarian postal service.",
+        "model": "arcee-ai/trinity-large-preview:free",
+        "analyzed_at": "2026-04-21T03:40:10.222892Z"
+      }
+    },
+    {
+      "domain": "1e135c42-6444-4920-ac18-97f5687133c8.new-bgpost.cam",
+      "detected_at": "2026-02-02T08:31:55.463972+00:00Z",
+      "phishing_score": 100,
+      "detection_details": {
+        "brand_keywords": [
+          "bgpost"
+        ],
+        "transaction_keywords": [],
+        "geo_indicators": [
+          "-bg"
+        ],
+        "suspicious_tld": ".cam",
+        "free_hosting": null,
+        "multiple_hyphens": true,
+        "numeric_suffix": false,
+        "subdomain_stacking": false,
+        "high_entropy": true,
+        "homoglyphs_detected": false,
+        "homoglyphs_used": [],
+        "typosquatting_detected": true,
+        "typosquatting_details": [
+          {
+            "brand": "bg-post",
+            "typo": "bgpost",
+            "distance": 1,
+            "type": "missing_char"
+          }
+        ],
+        "direct_impersonation": true
+      },
+      "llm_analysis": {
+        "threat_level": "HIGH",
+        "confidence": 95,
+        "phishing_score": 100,
+        "mimicked_domain": "bgpost.bg",
+        "decision": "BLOCK",
+        "reasoning": "Random UUID prefix with .cam TLD mimics legitimate Bulgarian postal service.",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: bgpost.bg\nDECISION: BLOCK\nREASONING: Random UUID prefix with .cam TLD mimics legitimate Bulgarian postal service.",
+        "model": "arcee-ai/trinity-large-preview:free",
+        "analyzed_at": "2026-04-21T03:40:14.251966Z"
+      }
+    },
+    {
+      "domain": "bgpost.icu",
+      "detected_at": "2026-02-02T08:31:55.485907+00:00Z",
+      "phishing_score": 100,
+      "detection_details": {
+        "brand_keywords": [
+          "bgpost"
+        ],
+        "transaction_keywords": [],
+        "geo_indicators": [],
+        "suspicious_tld": ".icu",
+        "free_hosting": null,
+        "multiple_hyphens": false,
+        "numeric_suffix": false,
+        "subdomain_stacking": false,
+        "high_entropy": false,
+        "homoglyphs_detected": false,
+        "homoglyphs_used": [],
+        "typosquatting_detected": true,
+        "typosquatting_details": [
+          {
+            "brand": "bg-post",
+            "typo": "bgpost",
+            "distance": 1,
+            "type": "missing_char"
+          }
+        ],
+        "direct_impersonation": true
+      },
+      "llm_analysis": {
+        "threat_level": "HIGH",
+        "confidence": 100,
+        "phishing_score": 100,
+        "mimicked_domain": "bgpost.bg",
+        "decision": "BLOCK",
+        "reasoning": "Domain uses .icu TLD to impersonate legitimate Bulgarian postal service bgpost.bg",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 100\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: bgpost.bg\nDECISION: BLOCK\nREASONING: Domain uses .icu TLD to impersonate legitimate Bulgarian postal service bgpost.bg",
+        "model": "arcee-ai/trinity-large-preview:free",
+        "analyzed_at": "2026-04-21T03:40:18.561458Z"
+      }
+    },
+    {
+      "domain": "econt-bg.bg-ink6382.live",
+      "detected_at": "2026-02-02T08:31:55.512756+00:00Z",
+      "phishing_score": 100,
+      "detection_details": {
+        "brand_keywords": [
+          "econt"
+        ],
+        "transaction_keywords": [],
+        "geo_indicators": [
+          ".bg"
+        ],
+        "suspicious_tld": ".live",
+        "free_hosting": null,
+        "multiple_hyphens": true,
+        "numeric_suffix": true,
+        "subdomain_stacking": false,
+        "high_entropy": false,
+        "homoglyphs_detected": false,
+        "homoglyphs_used": [],
+        "typosquatting_detected": false,
+        "typosquatting_details": [],
+        "direct_impersonation": true
+      },
+      "llm_analysis": {
+        "threat_level": "HIGH",
+        "confidence": 95,
+        "phishing_score": 100,
+        "mimicked_domain": "econt.bg",
+        "decision": "BLOCK",
+        "reasoning": "Suspicious subdomain mimicking econt.bg with high-risk .live TLD.",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: econt.bg\nDECISION: BLOCK\nREASONING: Suspicious subdomain mimicking econt.bg with high-risk .live TLD.",
+        "model": "arcee-ai/trinity-large-preview:free",
+        "analyzed_at": "2026-04-21T03:40:22.552212Z"
+      }
+    },
+    {
+      "domain": "hostmaster.new-bgpost.cam",
+      "detected_at": "2026-02-02T08:31:55.522090+00:00Z",
+      "phishing_score": 100,
+      "detection_details": {
+        "brand_keywords": [
+          "bgpost"
+        ],
+        "transaction_keywords": [],
+        "geo_indicators": [
+          "-bg"
+        ],
+        "suspicious_tld": ".cam",
+        "free_hosting": null,
+        "multiple_hyphens": false,
+        "numeric_suffix": false,
+        "subdomain_stacking": false,
+        "high_entropy": false,
+        "homoglyphs_detected": false,
+        "homoglyphs_used": [],
+        "typosquatting_detected": true,
+        "typosquatting_details": [
+          {
+            "brand": "bg-post",
+            "typo": "bgpost",
+            "distance": 1,
+            "type": "missing_char"
+          }
+        ],
+        "direct_impersonation": true
+      },
+      "llm_analysis": {
+        "threat_level": "HIGH",
+        "confidence": 95,
+        "phishing_score": 100,
+        "mimicked_domain": "bgpost.bg",
+        "decision": "BLOCK",
+        "reasoning": "Domain mimics bgpost.bg using suspicious .cam TLD with \"new-bgpost\" subdomain pattern.",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: bgpost.bg\nDECISION: BLOCK\nREASONING: Domain mimics bgpost.bg using suspicious .cam TLD with \"new-bgpost\" subdomain pattern.",
+        "model": "arcee-ai/trinity-large-preview:free",
+        "analyzed_at": "2026-04-21T03:40:26.584303Z"
+      }
+    },
+    {
+      "domain": "www.olx-bg-pay.online",
+      "detected_at": "2026-02-02T08:31:55.572224+00:00Z",
+      "phishing_score": 100,
+      "detection_details": {
+        "brand_keywords": [
+          "olx"
+        ],
+        "transaction_keywords": [],
+        "geo_indicators": [
+          "bg-"
+        ],
+        "suspicious_tld": ".online",
+        "free_hosting": null,
+        "multiple_hyphens": true,
+        "numeric_suffix": false,
+        "subdomain_stacking": false,
+        "high_entropy": false,
+        "homoglyphs_detected": false,
+        "homoglyphs_used": [],
+        "typosquatting_detected": true,
+        "typosquatting_details": [
+          {
+            "brand": "epay",
+            "typo": "pay",
+            "distance": 1,
+            "type": "missing_char"
+          }
+        ],
+        "direct_impersonation": true
+      },
+      "llm_analysis": {
+        "threat_level": "HIGH",
+        "confidence": 95,
+        "phishing_score": 100,
+        "mimicked_domain": "olx.bg",
+        "decision": "BLOCK",
+        "reasoning": "Domain mimics Olx.bg with suspicious .online TLD and payment-related subdomain.",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: olx.bg\nDECISION: BLOCK\nREASONING: Domain mimics Olx.bg with suspicious .online TLD and payment-related subdomain.",
+        "model": "arcee-ai/trinity-large-preview:free",
+        "analyzed_at": "2026-04-21T03:40:30.633302Z"
+      }
+    },
+    {
+      "domain": "bgpost-bg.cc",
+      "detected_at": "2026-02-02T08:31:55.620076+00:00Z",
       "phishing_score": 100,
       "detection_details": {
         "brand_keywords": [
@@ -510,15 +1173,15 @@
         "phishing_score": 100,
         "mimicked_domain": "bgpost.bg",
         "decision": "BLOCK",
-        "reasoning": "Domain mimics Bulgarian Post with suspicious .cc TLD and high phishing score.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: bgpost.bg\nDECISION: BLOCK\nREASONING: Domain mimics Bulgarian Post with suspicious .cc TLD and high phishing score.",
+        "reasoning": "Domain mimics bgpost.bg with suspicious .cc TLD and perfect brand match.",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: bgpost.bg\nDECISION: BLOCK\nREASONING: Domain mimics bgpost.bg with suspicious .cc TLD and perfect brand match.",
         "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:48:25.375950Z"
+        "analyzed_at": "2026-04-21T03:40:34.587477Z"
       }
     },
     {
-      "domain": "www.olx-bg.24pay-delivers.site",
-      "detected_at": "2026-02-02T08:31:55.770085+00:00Z",
+      "domain": "olx-bg.pays-get.site",
+      "detected_at": "2026-02-02T08:31:55.687502+00:00Z",
       "phishing_score": 100,
       "detection_details": {
         "brand_keywords": [
@@ -540,9 +1203,9 @@
         "typosquatting_details": [
           {
             "brand": "epay",
-            "typo": "24pay",
+            "typo": "pays",
             "distance": 2,
-            "type": "extra_char"
+            "type": "substitution"
           }
         ],
         "direct_impersonation": true
@@ -553,95 +1216,19 @@
         "phishing_score": 100,
         "mimicked_domain": "olx.bg",
         "decision": "BLOCK",
-        "reasoning": "Domain combines OLX brand with suspicious subdomain mimicking legitimate courier service.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: olx.bg\nDECISION: BLOCK\nREASONING: Domain combines OLX brand with suspicious subdomain mimicking legitimate courier service.",
+        "reasoning": "Domain mimics legitimate Bulgarian marketplace with suspicious subdomain structure.",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: olx.bg\nDECISION: BLOCK\nREASONING: Domain mimics legitimate Bulgarian marketplace with suspicious subdomain structure.",
         "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:48:32.878753Z"
+        "analyzed_at": "2026-04-21T03:40:38.529998Z"
       }
     },
     {
-      "domain": "www.econt-bg.verify-9874.tk",
-      "detected_at": "2026-02-02T08:31:55.865536+00:00Z",
-      "phishing_score": 100,
-      "detection_details": {
-        "brand_keywords": [
-          "econt"
-        ],
-        "transaction_keywords": [
-          "verify"
-        ],
-        "geo_indicators": [
-          "-bg"
-        ],
-        "suspicious_tld": ".tk",
-        "free_hosting": null,
-        "multiple_hyphens": true,
-        "numeric_suffix": true,
-        "subdomain_stacking": false,
-        "high_entropy": false,
-        "homoglyphs_detected": false,
-        "homoglyphs_used": [],
-        "typosquatting_detected": false,
-        "typosquatting_details": [],
-        "direct_impersonation": true
-      },
-      "llm_analysis": {
-        "threat_level": "HIGH",
-        "confidence": 95,
-        "phishing_score": 100,
-        "mimicked_domain": "econt.bg",
-        "decision": "BLOCK",
-        "reasoning": "Domain mimics econt.bg with suspicious verify subdomain and free .tk TLD.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: econt.bg\nDECISION: BLOCK\nREASONING: Domain mimics econt.bg with suspicious verify subdomain and free .tk TLD.",
-        "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:48:38.803019Z"
-      }
-    },
-    {
-      "domain": "olx-bg.payment-id1313142.site",
-      "detected_at": "2026-02-02T08:31:55.978411+00:00Z",
+      "domain": "olx-bg.transfers-pay.site",
+      "detected_at": "2026-02-02T08:31:55.838785+00:00Z",
       "phishing_score": 100,
       "detection_details": {
         "brand_keywords": [
           "olx"
-        ],
-        "transaction_keywords": [
-          "payment"
-        ],
-        "geo_indicators": [
-          "-bg"
-        ],
-        "suspicious_tld": ".site",
-        "free_hosting": null,
-        "multiple_hyphens": true,
-        "numeric_suffix": true,
-        "subdomain_stacking": false,
-        "high_entropy": false,
-        "homoglyphs_detected": false,
-        "homoglyphs_used": [],
-        "typosquatting_detected": false,
-        "typosquatting_details": [],
-        "direct_impersonation": true
-      },
-      "llm_analysis": {
-        "threat_level": "HIGH",
-        "confidence": 100,
-        "phishing_score": 100,
-        "mimicked_domain": "olx.bg",
-        "decision": "BLOCK",
-        "reasoning": "Domain mimics Olx with suspicious payment subdomain and non-legitimate TLD.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 100\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: olx.bg\nDECISION: BLOCK\nREASONING: Domain mimics Olx with suspicious payment subdomain and non-legitimate TLD.",
-        "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:48:46.369298Z"
-      }
-    },
-    {
-      "domain": "econt-bg.request1933.site",
-      "detected_at": "2026-02-02T08:31:56.045279+00:00Z",
-      "phishing_score": 100,
-      "detection_details": {
-        "brand_keywords": [
-          "econt"
         ],
         "transaction_keywords": [],
         "geo_indicators": [
@@ -649,8 +1236,51 @@
         ],
         "suspicious_tld": ".site",
         "free_hosting": null,
-        "multiple_hyphens": false,
-        "numeric_suffix": true,
+        "multiple_hyphens": true,
+        "numeric_suffix": false,
+        "subdomain_stacking": false,
+        "high_entropy": false,
+        "homoglyphs_detected": false,
+        "homoglyphs_used": [],
+        "typosquatting_detected": true,
+        "typosquatting_details": [
+          {
+            "brand": "epay",
+            "typo": "pay",
+            "distance": 1,
+            "type": "missing_char"
+          }
+        ],
+        "direct_impersonation": true
+      },
+      "llm_analysis": {
+        "threat_level": "HIGH",
+        "confidence": 95,
+        "phishing_score": 100,
+        "mimicked_domain": "olx.bg",
+        "decision": "BLOCK",
+        "reasoning": "Domain mimics Olx.bg with suspicious subdomain structure.",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: olx.bg\nDECISION: BLOCK\nREASONING: Domain mimics Olx.bg with suspicious subdomain structure.",
+        "model": "arcee-ai/trinity-large-preview:free",
+        "analyzed_at": "2026-04-21T03:40:42.462814Z"
+      }
+    },
+    {
+      "domain": "olx-bg.logistic-s.site",
+      "detected_at": "2026-02-02T08:31:55.859031+00:00Z",
+      "phishing_score": 100,
+      "detection_details": {
+        "brand_keywords": [
+          "olx"
+        ],
+        "transaction_keywords": [],
+        "geo_indicators": [
+          "-bg"
+        ],
+        "suspicious_tld": ".site",
+        "free_hosting": null,
+        "multiple_hyphens": true,
+        "numeric_suffix": false,
         "subdomain_stacking": false,
         "high_entropy": false,
         "homoglyphs_detected": false,
@@ -663,17 +1293,53 @@
         "threat_level": "HIGH",
         "confidence": 95,
         "phishing_score": 100,
-        "mimicked_domain": "econt.bg",
+        "mimicked_domain": "olx.bg",
         "decision": "BLOCK",
-        "reasoning": "Domain mimics econt.bg with suspicious subdomain structure and high phishing score.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: econt.bg\nDECISION: BLOCK\nREASONING: Domain mimics econt.bg with suspicious subdomain structure and high phishing score.",
+        "reasoning": "Domain mimics Olx brand with suspicious subdomain structure.",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: olx.bg\nDECISION: BLOCK\nREASONING: Domain mimics Olx brand with suspicious subdomain structure.",
         "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:48:53.864986Z"
+        "analyzed_at": "2026-04-21T03:40:46.399886Z"
       }
     },
     {
-      "domain": "new-bgpost-bgg.xyz",
-      "detected_at": "2026-02-02T08:31:56.057193+00:00Z",
+      "domain": "www.speedy-bg-public.cfd",
+      "detected_at": "2026-02-02T08:31:55.885525+00:00Z",
+      "phishing_score": 100,
+      "detection_details": {
+        "brand_keywords": [
+          "speedy"
+        ],
+        "transaction_keywords": [],
+        "geo_indicators": [
+          "bg-"
+        ],
+        "suspicious_tld": ".cfd",
+        "free_hosting": null,
+        "multiple_hyphens": true,
+        "numeric_suffix": false,
+        "subdomain_stacking": false,
+        "high_entropy": false,
+        "homoglyphs_detected": false,
+        "homoglyphs_used": [],
+        "typosquatting_detected": false,
+        "typosquatting_details": [],
+        "direct_impersonation": true
+      },
+      "llm_analysis": {
+        "threat_level": "HIGH",
+        "confidence": 95,
+        "phishing_score": 100,
+        "mimicked_domain": "speedy.bg",
+        "decision": "BLOCK",
+        "reasoning": "Suspicious .cfd TLD mimicking legitimate speedy.bg domain",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: speedy.bg\nDECISION: BLOCK\nREASONING: Suspicious .cfd TLD mimicking legitimate speedy.bg domain",
+        "model": "arcee-ai/trinity-large-preview:free",
+        "analyzed_at": "2026-04-21T03:40:50.306891Z"
+      }
+    },
+    {
+      "domain": "new-bgpost-bg.top",
+      "detected_at": "2026-02-02T08:31:55.984503+00:00Z",
       "phishing_score": 100,
       "detection_details": {
         "brand_keywords": [
@@ -683,12 +1349,12 @@
         "geo_indicators": [
           "-bg"
         ],
-        "suspicious_tld": ".xyz",
+        "suspicious_tld": ".top",
         "free_hosting": null,
         "multiple_hyphens": true,
         "numeric_suffix": false,
         "subdomain_stacking": false,
-        "high_entropy": true,
+        "high_entropy": false,
         "homoglyphs_detected": false,
         "homoglyphs_used": [],
         "typosquatting_detected": true,
@@ -704,349 +1370,19 @@
       },
       "llm_analysis": {
         "threat_level": "HIGH",
-        "confidence": 95,
+        "confidence": 100,
         "phishing_score": 100,
         "mimicked_domain": "bgpost.bg",
         "decision": "BLOCK",
-        "reasoning": "Domain mimics bgpost.bg with suspicious subdomain structure and high-risk TLD.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: bgpost.bg\nDECISION: BLOCK\nREASONING: Domain mimics bgpost.bg with suspicious subdomain structure and high-risk TLD.",
+        "reasoning": "Domain mimics bgpost.bg with suspicious .top TLD and high phishing score.",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 100\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: bgpost.bg\nDECISION: BLOCK\nREASONING: Domain mimics bgpost.bg with suspicious .top TLD and high phishing score.",
         "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:48:58.956794Z"
+        "analyzed_at": "2026-04-21T03:40:54.347314Z"
       }
     },
     {
-      "domain": "dskdirect.buzz",
-      "detected_at": "2026-02-08T11:17:19.833106+00:00Z",
-      "phishing_score": 100,
-      "detection_details": {
-        "brand_keywords": [
-          "dskdirect"
-        ],
-        "transaction_keywords": [],
-        "geo_indicators": [],
-        "suspicious_tld": ".buzz",
-        "free_hosting": null,
-        "multiple_hyphens": false,
-        "numeric_suffix": false,
-        "subdomain_stacking": false,
-        "high_entropy": false,
-        "homoglyphs_detected": false,
-        "homoglyphs_used": [],
-        "typosquatting_detected": true,
-        "typosquatting_details": [
-          {
-            "brand": "dsk-direct",
-            "typo": "dskdirect",
-            "distance": 1,
-            "type": "missing_char"
-          }
-        ],
-        "direct_impersonation": true
-      },
-      "llm_analysis": {
-        "threat_level": "MEDIUM",
-        "confidence": 85,
-        "phishing_score": 100,
-        "mimicked_domain": "NONE",
-        "decision": "INVESTIGATE",
-        "reasoning": "Suspicious .buzz TLD mimicking legitimate Bulgarian courier brand without clear target.",
-        "raw_analysis": "THREAT_LEVEL: MEDIUM\nCONFIDENCE: 85\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: NONE\nDECISION: INVESTIGATE\nREASONING: Suspicious .buzz TLD mimicking legitimate Bulgarian courier brand without clear target.",
-        "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:49:08.833216Z"
-      }
-    },
-    {
-      "domain": "dskmobile.bg.rekadiri.xyz",
-      "detected_at": "2026-02-08T11:17:20.467237+00:00Z",
-      "phishing_score": 100,
-      "detection_details": {
-        "brand_keywords": [
-          "dskmobile"
-        ],
-        "transaction_keywords": [],
-        "geo_indicators": [
-          ".bg"
-        ],
-        "suspicious_tld": ".xyz",
-        "free_hosting": null,
-        "multiple_hyphens": false,
-        "numeric_suffix": false,
-        "subdomain_stacking": true,
-        "high_entropy": false,
-        "homoglyphs_detected": false,
-        "homoglyphs_used": [],
-        "typosquatting_detected": true,
-        "typosquatting_details": [
-          {
-            "brand": "dsk-mobile",
-            "typo": "dskmobile",
-            "distance": 1,
-            "type": "missing_char"
-          }
-        ],
-        "direct_impersonation": true
-      },
-      "llm_analysis": {
-        "threat_level": "HIGH",
-        "confidence": 95,
-        "phishing_score": 100,
-        "mimicked_domain": "dskmobile.bg",
-        "decision": "BLOCK",
-        "reasoning": "Domain uses suspicious subdomain structure mimicking legitimate Bulgarian brand.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: dskmobile.bg\nDECISION: BLOCK\nREASONING: Domain uses suspicious subdomain structure mimicking legitimate Bulgarian brand.",
-        "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:49:17.488615Z"
-      }
-    },
-    {
-      "domain": "webmail.dskdirect-client0.top",
-      "detected_at": "2026-02-08T11:17:24.263457+00:00Z",
-      "phishing_score": 100,
-      "detection_details": {
-        "brand_keywords": [
-          "dskdirect"
-        ],
-        "transaction_keywords": [],
-        "geo_indicators": [],
-        "suspicious_tld": ".top",
-        "free_hosting": null,
-        "multiple_hyphens": false,
-        "numeric_suffix": false,
-        "subdomain_stacking": false,
-        "high_entropy": false,
-        "homoglyphs_detected": false,
-        "homoglyphs_used": [],
-        "typosquatting_detected": true,
-        "typosquatting_details": [
-          {
-            "brand": "dsk-direct",
-            "typo": "dskdirect",
-            "distance": 1,
-            "type": "missing_char"
-          }
-        ],
-        "direct_impersonation": true
-      },
-      "llm_analysis": {
-        "threat_level": "HIGH",
-        "confidence": 95,
-        "phishing_score": 100,
-        "mimicked_domain": "dskdirect",
-        "decision": "BLOCK",
-        "reasoning": "Domain mimics dskdirect with suspicious .top TLD and client0 subdomain pattern.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: dskdirect\nDECISION: BLOCK\nREASONING: Domain mimics dskdirect with suspicious .top TLD and client0 subdomain pattern.",
-        "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:49:23.990242Z"
-      }
-    },
-    {
-      "domain": "online-dskdirect.web.app",
-      "detected_at": "2026-02-08T11:17:26.659090+00:00Z",
-      "phishing_score": 100,
-      "detection_details": {
-        "brand_keywords": [
-          "dskdirect"
-        ],
-        "transaction_keywords": [],
-        "geo_indicators": [],
-        "suspicious_tld": null,
-        "free_hosting": ".web.app",
-        "multiple_hyphens": false,
-        "numeric_suffix": false,
-        "subdomain_stacking": false,
-        "high_entropy": false,
-        "homoglyphs_detected": false,
-        "homoglyphs_used": [],
-        "typosquatting_detected": true,
-        "typosquatting_details": [
-          {
-            "brand": "dsk-direct",
-            "typo": "dskdirect",
-            "distance": 1,
-            "type": "missing_char"
-          }
-        ],
-        "direct_impersonation": true
-      },
-      "llm_analysis": {
-        "threat_level": "HIGH",
-        "confidence": 95,
-        "phishing_score": 100,
-        "mimicked_domain": "dskdirect",
-        "decision": "BLOCK",
-        "reasoning": "Domain mimics legitimate brand with suspicious web.app TLD.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: dskdirect\nDECISION: BLOCK\nREASONING: Domain mimics legitimate brand with suspicious web.app TLD.",
-        "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:49:28.663658Z"
-      }
-    },
-    {
-      "domain": "webdisk.dskdirect-client0.top",
-      "detected_at": "2026-02-08T11:17:26.954040+00:00Z",
-      "phishing_score": 100,
-      "detection_details": {
-        "brand_keywords": [
-          "dskdirect"
-        ],
-        "transaction_keywords": [],
-        "geo_indicators": [],
-        "suspicious_tld": ".top",
-        "free_hosting": null,
-        "multiple_hyphens": false,
-        "numeric_suffix": false,
-        "subdomain_stacking": false,
-        "high_entropy": false,
-        "homoglyphs_detected": false,
-        "homoglyphs_used": [],
-        "typosquatting_detected": true,
-        "typosquatting_details": [
-          {
-            "brand": "dsk-direct",
-            "typo": "dskdirect",
-            "distance": 1,
-            "type": "missing_char"
-          }
-        ],
-        "direct_impersonation": true
-      },
-      "llm_analysis": {
-        "threat_level": "HIGH",
-        "confidence": 95,
-        "phishing_score": 100,
-        "mimicked_domain": "dskdirect",
-        "decision": "BLOCK",
-        "reasoning": "Domain mimics legitimate Bulgarian courier service with suspicious .top TLD and high phishing score.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: dskdirect\nDECISION: BLOCK\nREASONING: Domain mimics legitimate Bulgarian courier service with suspicious .top TLD and high phishing score.",
-        "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:49:37.248192Z"
-      }
-    },
-    {
-      "domain": "mobile-dskdirect.web.app",
-      "detected_at": "2026-02-08T11:17:29.583525+00:00Z",
-      "phishing_score": 100,
-      "detection_details": {
-        "brand_keywords": [
-          "dskdirect"
-        ],
-        "transaction_keywords": [],
-        "geo_indicators": [],
-        "suspicious_tld": null,
-        "free_hosting": ".web.app",
-        "multiple_hyphens": false,
-        "numeric_suffix": false,
-        "subdomain_stacking": false,
-        "high_entropy": false,
-        "homoglyphs_detected": false,
-        "homoglyphs_used": [],
-        "typosquatting_detected": true,
-        "typosquatting_details": [
-          {
-            "brand": "dsk-direct",
-            "typo": "dskdirect",
-            "distance": 1,
-            "type": "missing_char"
-          }
-        ],
-        "direct_impersonation": true
-      },
-      "llm_analysis": {
-        "threat_level": "HIGH",
-        "confidence": 95,
-        "phishing_score": 100,
-        "mimicked_domain": "dskdirect",
-        "decision": "BLOCK",
-        "reasoning": "Domain mimics legitimate brand with suspicious subdomain structure.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: dskdirect\nDECISION: BLOCK\nREASONING: Domain mimics legitimate brand with suspicious subdomain structure.",
-        "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:49:43.893751Z"
-      }
-    },
-    {
-      "domain": "dskdirect-verna.world",
-      "detected_at": "2026-02-08T11:17:35.106451+00:00Z",
-      "phishing_score": 100,
-      "detection_details": {
-        "brand_keywords": [
-          "dskdirect"
-        ],
-        "transaction_keywords": [],
-        "geo_indicators": [],
-        "suspicious_tld": ".world",
-        "free_hosting": null,
-        "multiple_hyphens": false,
-        "numeric_suffix": false,
-        "subdomain_stacking": false,
-        "high_entropy": false,
-        "homoglyphs_detected": false,
-        "homoglyphs_used": [],
-        "typosquatting_detected": true,
-        "typosquatting_details": [
-          {
-            "brand": "dsk-direct",
-            "typo": "dskdirect",
-            "distance": 1,
-            "type": "missing_char"
-          }
-        ],
-        "direct_impersonation": true
-      },
-      "llm_analysis": {
-        "threat_level": "MEDIUM",
-        "confidence": 85,
-        "phishing_score": 100,
-        "mimicked_domain": "NONE",
-        "decision": "INVESTIGATE",
-        "reasoning": "Suspicious domain mimicking Bulgarian brand with high phishing score.",
-        "raw_analysis": "THREAT_LEVEL: MEDIUM\nCONFIDENCE: 85\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: NONE\nDECISION: INVESTIGATE\nREASONING: Suspicious domain mimicking Bulgarian brand with high phishing score.",
-        "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:49:50.897258Z"
-      }
-    },
-    {
-      "domain": "mobile-dskdirect.firebaseapp.com",
-      "detected_at": "2026-02-08T11:17:35.153892+00:00Z",
-      "phishing_score": 100,
-      "detection_details": {
-        "brand_keywords": [
-          "dskdirect"
-        ],
-        "transaction_keywords": [],
-        "geo_indicators": [],
-        "suspicious_tld": null,
-        "free_hosting": ".firebaseapp.com",
-        "multiple_hyphens": false,
-        "numeric_suffix": false,
-        "subdomain_stacking": false,
-        "high_entropy": false,
-        "homoglyphs_detected": false,
-        "homoglyphs_used": [],
-        "typosquatting_detected": true,
-        "typosquatting_details": [
-          {
-            "brand": "dsk-direct",
-            "typo": "dskdirect",
-            "distance": 1,
-            "type": "missing_char"
-          }
-        ],
-        "direct_impersonation": true
-      },
-      "llm_analysis": {
-        "threat_level": "HIGH",
-        "confidence": 95,
-        "phishing_score": 100,
-        "mimicked_domain": "dskdirect",
-        "decision": "BLOCK",
-        "reasoning": "Domain mimics legitimate Bulgarian financial service with suspicious Firebase hosting.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: dskdirect\nDECISION: BLOCK\nREASONING: Domain mimics legitimate Bulgarian financial service with suspicious Firebase hosting.",
-        "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:49:55.815351Z"
-      }
-    },
-    {
-      "domain": "meine-postbank-de-75077.web.app",
-      "detected_at": "2026-02-08T11:17:40.706846+00:00Z",
+      "domain": "meine-postbank.online",
+      "detected_at": "2026-03-23T06:06:32.604801+00:00Z",
       "phishing_score": 100,
       "detection_details": {
         "brand_keywords": [
@@ -1054,10 +1390,10 @@
         ],
         "transaction_keywords": [],
         "geo_indicators": [],
-        "suspicious_tld": null,
-        "free_hosting": ".web.app",
-        "multiple_hyphens": true,
-        "numeric_suffix": true,
+        "suspicious_tld": ".online",
+        "free_hosting": null,
+        "multiple_hyphens": false,
+        "numeric_suffix": false,
         "subdomain_stacking": false,
         "high_entropy": false,
         "homoglyphs_detected": false,
@@ -1085,807 +1421,65 @@
         "phishing_score": 100,
         "mimicked_domain": "NONE",
         "decision": "BLOCK",
-        "reasoning": "Domain mimics Postbank brand with suspicious subdomain structure.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: NONE\nDECISION: BLOCK\nREASONING: Domain mimics Postbank brand with suspicious subdomain structure.",
+        "reasoning": "Domain uses \"postbank\" brand name with suspicious .online TLD.",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: NONE\nDECISION: BLOCK\nREASONING: Domain uses \"postbank\" brand name with suspicious .online TLD.",
         "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:50:00.431636Z"
+        "analyzed_at": "2026-04-21T03:40:58.365766Z"
       }
     },
     {
-      "domain": "center-dskdirect.firebaseapp.com",
-      "detected_at": "2026-02-08T11:17:42.303452+00:00Z",
+      "domain": "e-postbank-bg.online",
+      "detected_at": "2026-03-23T06:06:38.962877+00:00Z",
       "phishing_score": 100,
       "detection_details": {
         "brand_keywords": [
-          "dskdirect"
-        ],
-        "transaction_keywords": [],
-        "geo_indicators": [],
-        "suspicious_tld": null,
-        "free_hosting": ".firebaseapp.com",
-        "multiple_hyphens": false,
-        "numeric_suffix": false,
-        "subdomain_stacking": false,
-        "high_entropy": false,
-        "homoglyphs_detected": false,
-        "homoglyphs_used": [],
-        "typosquatting_detected": true,
-        "typosquatting_details": [
-          {
-            "brand": "dsk-direct",
-            "typo": "dskdirect",
-            "distance": 1,
-            "type": "missing_char"
-          }
-        ],
-        "direct_impersonation": true
-      },
-      "llm_analysis": {
-        "threat_level": "HIGH",
-        "confidence": 95,
-        "phishing_score": 100,
-        "mimicked_domain": "dskdirect",
-        "decision": "BLOCK",
-        "reasoning": "Domain mimics legitimate Bulgarian courier service with high phishing score.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: dskdirect\nDECISION: BLOCK\nREASONING: Domain mimics legitimate Bulgarian courier service with high phishing score.",
-        "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:50:05.217218Z"
-      }
-    },
-    {
-      "domain": "dskdirect-5ba26.web.app",
-      "detected_at": "2026-02-08T11:17:44.357062+00:00Z",
-      "phishing_score": 100,
-      "detection_details": {
-        "brand_keywords": [
-          "dskdirect"
-        ],
-        "transaction_keywords": [],
-        "geo_indicators": [],
-        "suspicious_tld": null,
-        "free_hosting": ".web.app",
-        "multiple_hyphens": false,
-        "numeric_suffix": false,
-        "subdomain_stacking": false,
-        "high_entropy": false,
-        "homoglyphs_detected": false,
-        "homoglyphs_used": [],
-        "typosquatting_detected": true,
-        "typosquatting_details": [
-          {
-            "brand": "dsk-direct",
-            "typo": "dskdirect",
-            "distance": 1,
-            "type": "missing_char"
-          }
-        ],
-        "direct_impersonation": true
-      },
-      "llm_analysis": {
-        "threat_level": "HIGH",
-        "confidence": 95,
-        "phishing_score": 100,
-        "mimicked_domain": "dskdirect",
-        "decision": "BLOCK",
-        "reasoning": "Domain mimics legitimate Bulgarian brand with suspicious subdomain structure.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: dskdirect\nDECISION: BLOCK\nREASONING: Domain mimics legitimate Bulgarian brand with suspicious subdomain structure.",
-        "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:50:14.007149Z"
-      }
-    },
-    {
-      "domain": "ww38.gateway.dsk-direct-bg0.site",
-      "detected_at": "2026-02-08T11:17:47.199840+00:00Z",
-      "phishing_score": 100,
-      "detection_details": {
-        "brand_keywords": [
-          "dsk",
-          "dsk-direct"
+          "postbank",
+          "e-postbank"
         ],
         "transaction_keywords": [],
         "geo_indicators": [
           "-bg"
-        ],
-        "suspicious_tld": ".site",
-        "free_hosting": null,
-        "multiple_hyphens": true,
-        "numeric_suffix": false,
-        "subdomain_stacking": true,
-        "high_entropy": false,
-        "homoglyphs_detected": false,
-        "homoglyphs_used": [],
-        "typosquatting_detected": false,
-        "typosquatting_details": [],
-        "direct_impersonation": true
-      },
-      "llm_analysis": {
-        "threat_level": "HIGH",
-        "confidence": 95,
-        "phishing_score": 100,
-        "mimicked_domain": "dsk-direct",
-        "decision": "BLOCK",
-        "reasoning": "Domain mimics DSK brand with suspicious subdomain structure and high phishing score.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: dsk-direct\nDECISION: BLOCK\nREASONING: Domain mimics DSK brand with suspicious subdomain structure and high phishing score.",
-        "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:50:20.999821Z"
-      }
-    },
-    {
-      "domain": "3ucio7yx.dskdirect.site",
-      "detected_at": "2026-02-08T11:17:49.186485+00:00Z",
-      "phishing_score": 100,
-      "detection_details": {
-        "brand_keywords": [
-          "dskdirect"
-        ],
-        "transaction_keywords": [],
-        "geo_indicators": [],
-        "suspicious_tld": ".site",
-        "free_hosting": null,
-        "multiple_hyphens": false,
-        "numeric_suffix": false,
-        "subdomain_stacking": false,
-        "high_entropy": false,
-        "homoglyphs_detected": false,
-        "homoglyphs_used": [],
-        "typosquatting_detected": true,
-        "typosquatting_details": [
-          {
-            "brand": "dsk-direct",
-            "typo": "dskdirect",
-            "distance": 1,
-            "type": "missing_char"
-          }
-        ],
-        "direct_impersonation": true
-      },
-      "llm_analysis": {
-        "threat_level": "HIGH",
-        "confidence": 95,
-        "phishing_score": 100,
-        "mimicked_domain": "dskdirect",
-        "decision": "BLOCK",
-        "reasoning": "Domain mimics legitimate brand with suspicious random characters and high phishing score.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: dskdirect\nDECISION: BLOCK\nREASONING: Domain mimics legitimate brand with suspicious random characters and high phishing score.",
-        "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:50:26.058402Z"
-      }
-    },
-    {
-      "domain": "center-dskdirect.web.app",
-      "detected_at": "2026-02-08T11:17:52.118324+00:00Z",
-      "phishing_score": 100,
-      "detection_details": {
-        "brand_keywords": [
-          "dskdirect"
-        ],
-        "transaction_keywords": [],
-        "geo_indicators": [],
-        "suspicious_tld": null,
-        "free_hosting": ".web.app",
-        "multiple_hyphens": false,
-        "numeric_suffix": false,
-        "subdomain_stacking": false,
-        "high_entropy": false,
-        "homoglyphs_detected": false,
-        "homoglyphs_used": [],
-        "typosquatting_detected": true,
-        "typosquatting_details": [
-          {
-            "brand": "dsk-direct",
-            "typo": "dskdirect",
-            "distance": 1,
-            "type": "missing_char"
-          }
-        ],
-        "direct_impersonation": true
-      },
-      "llm_analysis": {
-        "threat_level": "HIGH",
-        "confidence": 95,
-        "phishing_score": 100,
-        "mimicked_domain": "dskdirect",
-        "decision": "BLOCK",
-        "reasoning": "Domain mimics legitimate Bulgarian courier service with high phishing score.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: dskdirect\nDECISION: BLOCK\nREASONING: Domain mimics legitimate Bulgarian courier service with high phishing score.",
-        "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:50:32.466703Z"
-      }
-    },
-    {
-      "domain": "econt-bg.bg-an462831.cfd",
-      "detected_at": "2026-02-14T20:16:32.686165+00:00Z",
-      "phishing_score": 100,
-      "detection_details": {
-        "brand_keywords": [
-          "econt"
-        ],
-        "transaction_keywords": [],
-        "geo_indicators": [
-          ".bg"
-        ],
-        "suspicious_tld": ".cfd",
-        "free_hosting": null,
-        "multiple_hyphens": true,
-        "numeric_suffix": true,
-        "subdomain_stacking": false,
-        "high_entropy": false,
-        "homoglyphs_detected": false,
-        "homoglyphs_used": [],
-        "typosquatting_detected": false,
-        "typosquatting_details": [],
-        "direct_impersonation": true
-      },
-      "llm_analysis": {
-        "threat_level": "HIGH",
-        "confidence": 95,
-        "phishing_score": 100,
-        "mimicked_domain": "econt.bg",
-        "decision": "BLOCK",
-        "reasoning": "Suspicious subdomain mimicking econt.bg with .cfd TLD extension.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: econt.bg\nDECISION: BLOCK\nREASONING: Suspicious subdomain mimicking econt.bg with .cfd TLD extension.",
-        "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:50:38.653733Z"
-      }
-    },
-    {
-      "domain": "dsk-direct-bg4.site",
-      "detected_at": "2026-02-16T18:31:30.023015+00:00Z",
-      "phishing_score": 100,
-      "detection_details": {
-        "brand_keywords": [
-          "dsk",
-          "dsk-direct"
-        ],
-        "transaction_keywords": [],
-        "geo_indicators": [
-          "-bg"
-        ],
-        "suspicious_tld": ".site",
-        "free_hosting": null,
-        "multiple_hyphens": true,
-        "numeric_suffix": false,
-        "subdomain_stacking": false,
-        "high_entropy": false,
-        "homoglyphs_detected": false,
-        "homoglyphs_used": [],
-        "typosquatting_detected": false,
-        "typosquatting_details": [],
-        "direct_impersonation": true
-      },
-      "llm_analysis": {
-        "threat_level": "HIGH",
-        "confidence": 95,
-        "phishing_score": 100,
-        "mimicked_domain": "dsk-direct",
-        "decision": "BLOCK",
-        "reasoning": "Domain mimics DSK Direct brand with suspicious .site TLD and high phishing score.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: dsk-direct\nDECISION: BLOCK\nREASONING: Domain mimics DSK Direct brand with suspicious .site TLD and high phishing score.",
-        "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:50:44.458034Z"
-      }
-    },
-    {
-      "domain": "dsk-direct-bg2.site",
-      "detected_at": "2026-02-16T18:31:39.000939+00:00Z",
-      "phishing_score": 100,
-      "detection_details": {
-        "brand_keywords": [
-          "dsk",
-          "dsk-direct"
-        ],
-        "transaction_keywords": [],
-        "geo_indicators": [
-          "-bg"
-        ],
-        "suspicious_tld": ".site",
-        "free_hosting": null,
-        "multiple_hyphens": true,
-        "numeric_suffix": false,
-        "subdomain_stacking": false,
-        "high_entropy": false,
-        "homoglyphs_detected": false,
-        "homoglyphs_used": [],
-        "typosquatting_detected": false,
-        "typosquatting_details": [],
-        "direct_impersonation": true
-      },
-      "llm_analysis": {
-        "threat_level": "MEDIUM",
-        "confidence": 85,
-        "phishing_score": 100,
-        "mimicked_domain": "NONE",
-        "decision": "INVESTIGATE",
-        "reasoning": "Suspicious domain structure mimicking Bulgarian service naming patterns.",
-        "raw_analysis": "THREAT_LEVEL: MEDIUM\nCONFIDENCE: 85\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: NONE\nDECISION: INVESTIGATE\nREASONING: Suspicious domain structure mimicking Bulgarian service naming patterns.",
-        "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:50:50.170338Z"
-      }
-    },
-    {
-      "domain": "dsk-direct-bg1.site",
-      "detected_at": "2026-02-16T18:31:47.856602+00:00Z",
-      "phishing_score": 100,
-      "detection_details": {
-        "brand_keywords": [
-          "dsk",
-          "dsk-direct"
-        ],
-        "transaction_keywords": [],
-        "geo_indicators": [
-          "-bg"
-        ],
-        "suspicious_tld": ".site",
-        "free_hosting": null,
-        "multiple_hyphens": true,
-        "numeric_suffix": false,
-        "subdomain_stacking": false,
-        "high_entropy": false,
-        "homoglyphs_detected": false,
-        "homoglyphs_used": [],
-        "typosquatting_detected": false,
-        "typosquatting_details": [],
-        "direct_impersonation": true
-      },
-      "llm_analysis": {
-        "threat_level": "MEDIUM",
-        "confidence": 85,
-        "phishing_score": 100,
-        "mimicked_domain": "NONE",
-        "decision": "INVESTIGATE",
-        "reasoning": "Suspicious domain structure mimicking Bulgarian service naming patterns.",
-        "raw_analysis": "THREAT_LEVEL: MEDIUM\nCONFIDENCE: 85\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: NONE\nDECISION: INVESTIGATE\nREASONING: Suspicious domain structure mimicking Bulgarian service naming patterns.",
-        "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:50:55.347936Z"
-      }
-    },
-    {
-      "domain": "dsk-direct-bg3.site",
-      "detected_at": "2026-02-16T18:31:51.536235+00:00Z",
-      "phishing_score": 100,
-      "detection_details": {
-        "brand_keywords": [
-          "dsk",
-          "dsk-direct"
-        ],
-        "transaction_keywords": [],
-        "geo_indicators": [
-          "-bg"
-        ],
-        "suspicious_tld": ".site",
-        "free_hosting": null,
-        "multiple_hyphens": true,
-        "numeric_suffix": false,
-        "subdomain_stacking": false,
-        "high_entropy": false,
-        "homoglyphs_detected": false,
-        "homoglyphs_used": [],
-        "typosquatting_detected": false,
-        "typosquatting_details": [],
-        "direct_impersonation": true
-      },
-      "llm_analysis": {
-        "threat_level": "HIGH",
-        "confidence": 95,
-        "phishing_score": 100,
-        "mimicked_domain": "NONE",
-        "decision": "BLOCK",
-        "reasoning": "Suspicious domain mimicking DSK brand with high-risk TLD and phishing score.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: NONE\nDECISION: BLOCK\nREASONING: Suspicious domain mimicking DSK brand with high-risk TLD and phishing score.",
-        "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:51:00.704353Z"
-      }
-    },
-    {
-      "domain": "dsk-direct-bg0.site",
-      "detected_at": "2026-02-16T18:32:00.055656+00:00Z",
-      "phishing_score": 100,
-      "detection_details": {
-        "brand_keywords": [
-          "dsk",
-          "dsk-direct"
-        ],
-        "transaction_keywords": [],
-        "geo_indicators": [
-          "-bg"
-        ],
-        "suspicious_tld": ".site",
-        "free_hosting": null,
-        "multiple_hyphens": true,
-        "numeric_suffix": false,
-        "subdomain_stacking": false,
-        "high_entropy": false,
-        "homoglyphs_detected": false,
-        "homoglyphs_used": [],
-        "typosquatting_detected": false,
-        "typosquatting_details": [],
-        "direct_impersonation": true
-      },
-      "llm_analysis": {
-        "threat_level": "HIGH",
-        "confidence": 95,
-        "phishing_score": 100,
-        "mimicked_domain": "dsk-direct.bg",
-        "decision": "BLOCK",
-        "reasoning": "Domain mimics DSK Direct brand with suspicious .site TLD and numeric suffix.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: dsk-direct.bg\nDECISION: BLOCK\nREASONING: Domain mimics DSK Direct brand with suspicious .site TLD and numeric suffix.",
-        "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:51:06.881335Z"
-      }
-    },
-    {
-      "domain": "dskdirect-client0.top",
-      "detected_at": "2026-02-17T14:02:39.098886+00:00Z",
-      "phishing_score": 100,
-      "detection_details": {
-        "brand_keywords": [
-          "dskdirect"
-        ],
-        "transaction_keywords": [],
-        "geo_indicators": [],
-        "suspicious_tld": ".top",
-        "free_hosting": null,
-        "multiple_hyphens": false,
-        "numeric_suffix": false,
-        "subdomain_stacking": false,
-        "high_entropy": false,
-        "homoglyphs_detected": false,
-        "homoglyphs_used": [],
-        "typosquatting_detected": true,
-        "typosquatting_details": [
-          {
-            "brand": "dsk-direct",
-            "typo": "dskdirect",
-            "distance": 1,
-            "type": "missing_char"
-          }
-        ],
-        "direct_impersonation": true
-      },
-      "llm_analysis": {
-        "threat_level": "HIGH",
-        "confidence": 95,
-        "phishing_score": 100,
-        "mimicked_domain": "dskdirect",
-        "decision": "BLOCK",
-        "reasoning": "Domain mimics legitimate Bulgarian courier brand with suspicious .top TLD.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: dskdirect\nDECISION: BLOCK\nREASONING: Domain mimics legitimate Bulgarian courier brand with suspicious .top TLD.",
-        "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:51:13.183839Z"
-      }
-    },
-    {
-      "domain": "dskdirect.store",
-      "detected_at": "2026-02-18T09:39:30.080214+00:00Z",
-      "phishing_score": 100,
-      "detection_details": {
-        "brand_keywords": [
-          "dskdirect"
-        ],
-        "transaction_keywords": [],
-        "geo_indicators": [],
-        "suspicious_tld": ".store",
-        "free_hosting": null,
-        "multiple_hyphens": false,
-        "numeric_suffix": false,
-        "subdomain_stacking": false,
-        "high_entropy": false,
-        "homoglyphs_detected": false,
-        "homoglyphs_used": [],
-        "typosquatting_detected": true,
-        "typosquatting_details": [
-          {
-            "brand": "dsk-direct",
-            "typo": "dskdirect",
-            "distance": 1,
-            "type": "missing_char"
-          }
-        ],
-        "direct_impersonation": true
-      },
-      "llm_analysis": {
-        "threat_level": "MEDIUM",
-        "confidence": 85,
-        "phishing_score": 100,
-        "mimicked_domain": "NONE",
-        "decision": "INVESTIGATE",
-        "reasoning": "Suspicious .store TLD mimicking Bulgarian courier brand without clear target.",
-        "raw_analysis": "THREAT_LEVEL: MEDIUM\nCONFIDENCE: 85\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: NONE\nDECISION: INVESTIGATE\nREASONING: Suspicious .store TLD mimicking Bulgarian courier brand without clear target.",
-        "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:51:18.754775Z"
-      }
-    },
-    {
-      "domain": "dskdirect.cc",
-      "detected_at": "2026-02-19T05:53:49.613907+00:00Z",
-      "phishing_score": 100,
-      "detection_details": {
-        "brand_keywords": [
-          "dskdirect"
-        ],
-        "transaction_keywords": [],
-        "geo_indicators": [],
-        "suspicious_tld": ".cc",
-        "free_hosting": null,
-        "multiple_hyphens": false,
-        "numeric_suffix": false,
-        "subdomain_stacking": false,
-        "high_entropy": false,
-        "homoglyphs_detected": false,
-        "homoglyphs_used": [],
-        "typosquatting_detected": true,
-        "typosquatting_details": [
-          {
-            "brand": "dsk-direct",
-            "typo": "dskdirect",
-            "distance": 1,
-            "type": "missing_char"
-          }
-        ],
-        "direct_impersonation": true
-      },
-      "llm_analysis": {
-        "threat_level": "HIGH",
-        "confidence": 95,
-        "phishing_score": 100,
-        "mimicked_domain": "NONE",
-        "decision": "INVESTIGATE",
-        "reasoning": "Domain mimics \"dskdirect\" brand but not in whitelisted Bulgarian courier services.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: NONE\nDECISION: INVESTIGATE\nREASONING: Domain mimics \"dskdirect\" brand but not in whitelisted Bulgarian courier services.",
-        "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:51:33.832530Z"
-      }
-    },
-    {
-      "domain": "dskdirect.pw",
-      "detected_at": "2026-02-19T15:40:28.199898+00:00Z",
-      "phishing_score": 100,
-      "detection_details": {
-        "brand_keywords": [
-          "dskdirect"
-        ],
-        "transaction_keywords": [],
-        "geo_indicators": [],
-        "suspicious_tld": ".pw",
-        "free_hosting": null,
-        "multiple_hyphens": false,
-        "numeric_suffix": false,
-        "subdomain_stacking": false,
-        "high_entropy": false,
-        "homoglyphs_detected": false,
-        "homoglyphs_used": [],
-        "typosquatting_detected": true,
-        "typosquatting_details": [
-          {
-            "brand": "dsk-direct",
-            "typo": "dskdirect",
-            "distance": 1,
-            "type": "missing_char"
-          }
-        ],
-        "direct_impersonation": true
-      },
-      "llm_analysis": {
-        "threat_level": "HIGH",
-        "confidence": 100,
-        "phishing_score": 100,
-        "mimicked_domain": "dskdirect",
-        "decision": "BLOCK",
-        "reasoning": "Exact brand match with suspicious .pw TLD targeting Bulgarian courier service.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 100\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: dskdirect\nDECISION: BLOCK\nREASONING: Exact brand match with suspicious .pw TLD targeting Bulgarian courier service.",
-        "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:51:46.376079Z"
-      }
-    },
-    {
-      "domain": "dskdirect.bg.directbg4.online",
-      "detected_at": "2026-02-23T15:39:34.817301+00:00Z",
-      "phishing_score": 100,
-      "detection_details": {
-        "brand_keywords": [
-          "dskdirect"
-        ],
-        "transaction_keywords": [],
-        "geo_indicators": [
-          ".bg"
         ],
         "suspicious_tld": ".online",
         "free_hosting": null,
-        "multiple_hyphens": false,
-        "numeric_suffix": false,
-        "subdomain_stacking": true,
-        "high_entropy": false,
-        "homoglyphs_detected": false,
-        "homoglyphs_used": [],
-        "typosquatting_detected": true,
-        "typosquatting_details": [
-          {
-            "brand": "dsk-direct",
-            "typo": "dskdirect",
-            "distance": 1,
-            "type": "missing_char"
-          }
-        ],
-        "direct_impersonation": true
-      },
-      "llm_analysis": {
-        "threat_level": "HIGH",
-        "confidence": 95,
-        "phishing_score": 100,
-        "mimicked_domain": "dskdirect.bg",
-        "decision": "BLOCK",
-        "reasoning": "Domain mimics legitimate Bulgarian courier service with suspicious subdomain structure.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: dskdirect.bg\nDECISION: BLOCK\nREASONING: Domain mimics legitimate Bulgarian courier service with suspicious subdomain structure.",
-        "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:51:53.576510Z"
-      }
-    },
-    {
-      "domain": "dskdirect.bg.directbg2.online",
-      "detected_at": "2026-02-23T15:39:53.885306+00:00Z",
-      "phishing_score": 100,
-      "detection_details": {
-        "brand_keywords": [
-          "dskdirect"
-        ],
-        "transaction_keywords": [],
-        "geo_indicators": [
-          ".bg"
-        ],
-        "suspicious_tld": ".online",
-        "free_hosting": null,
-        "multiple_hyphens": false,
-        "numeric_suffix": false,
-        "subdomain_stacking": true,
-        "high_entropy": false,
-        "homoglyphs_detected": false,
-        "homoglyphs_used": [],
-        "typosquatting_detected": true,
-        "typosquatting_details": [
-          {
-            "brand": "dsk-direct",
-            "typo": "dskdirect",
-            "distance": 1,
-            "type": "missing_char"
-          }
-        ],
-        "direct_impersonation": true
-      },
-      "llm_analysis": {
-        "threat_level": "HIGH",
-        "confidence": 95,
-        "phishing_score": 100,
-        "mimicked_domain": "dskdirect.bg",
-        "decision": "BLOCK",
-        "reasoning": "Domain mimics legitimate Bulgarian courier service with suspicious subdomain structure.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: dskdirect.bg\nDECISION: BLOCK\nREASONING: Domain mimics legitimate Bulgarian courier service with suspicious subdomain structure.",
-        "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:52:00.588000Z"
-      }
-    },
-    {
-      "domain": "dskdirect.bg.directbg5.online",
-      "detected_at": "2026-02-24T12:40:04.076629+00:00Z",
-      "phishing_score": 100,
-      "detection_details": {
-        "brand_keywords": [
-          "dskdirect"
-        ],
-        "transaction_keywords": [],
-        "geo_indicators": [
-          ".bg"
-        ],
-        "suspicious_tld": ".online",
-        "free_hosting": null,
-        "multiple_hyphens": false,
-        "numeric_suffix": false,
-        "subdomain_stacking": true,
-        "high_entropy": false,
-        "homoglyphs_detected": false,
-        "homoglyphs_used": [],
-        "typosquatting_detected": true,
-        "typosquatting_details": [
-          {
-            "brand": "dsk-direct",
-            "typo": "dskdirect",
-            "distance": 1,
-            "type": "missing_char"
-          }
-        ],
-        "direct_impersonation": true
-      },
-      "llm_analysis": {
-        "threat_level": "HIGH",
-        "confidence": 95,
-        "phishing_score": 100,
-        "mimicked_domain": "dskdirect.bg",
-        "decision": "BLOCK",
-        "reasoning": "Domain mimics legitimate Bulgarian courier brand with suspicious subdomain structure.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: dskdirect.bg\nDECISION: BLOCK\nREASONING: Domain mimics legitimate Bulgarian courier brand with suspicious subdomain structure.",
-        "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:52:13.824443Z"
-      }
-    },
-    {
-      "domain": "dskdirect.site",
-      "detected_at": "2026-02-25T14:04:43.174296+00:00Z",
-      "phishing_score": 100,
-      "detection_details": {
-        "brand_keywords": [
-          "dskdirect"
-        ],
-        "transaction_keywords": [],
-        "geo_indicators": [],
-        "suspicious_tld": ".site",
-        "free_hosting": null,
-        "multiple_hyphens": false,
-        "numeric_suffix": false,
-        "subdomain_stacking": false,
-        "high_entropy": false,
-        "homoglyphs_detected": false,
-        "homoglyphs_used": [],
-        "typosquatting_detected": true,
-        "typosquatting_details": [
-          {
-            "brand": "dsk-direct",
-            "typo": "dskdirect",
-            "distance": 1,
-            "type": "missing_char"
-          }
-        ],
-        "direct_impersonation": true
-      },
-      "llm_analysis": {
-        "threat_level": "HIGH",
-        "confidence": 95,
-        "phishing_score": 100,
-        "mimicked_domain": "NONE",
-        "decision": "INVESTIGATE",
-        "reasoning": "Domain mimics \"dskdirect\" brand but not in whitelisted Bulgarian courier services.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: NONE\nDECISION: INVESTIGATE\nREASONING: Domain mimics \"dskdirect\" brand but not in whitelisted Bulgarian courier services.",
-        "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:52:21.544483Z"
-      }
-    },
-    {
-      "domain": "econt-bg.bg-an257348.click",
-      "detected_at": "2026-03-04T13:51:25.719253+00:00Z",
-      "phishing_score": 100,
-      "detection_details": {
-        "brand_keywords": [
-          "econt"
-        ],
-        "transaction_keywords": [],
-        "geo_indicators": [
-          ".bg"
-        ],
-        "suspicious_tld": ".click",
-        "free_hosting": null,
         "multiple_hyphens": true,
-        "numeric_suffix": true,
+        "numeric_suffix": false,
         "subdomain_stacking": false,
         "high_entropy": false,
         "homoglyphs_detected": false,
         "homoglyphs_used": [],
-        "typosquatting_detected": false,
-        "typosquatting_details": [],
+        "typosquatting_detected": true,
+        "typosquatting_details": [
+          {
+            "brand": "epostbank",
+            "typo": "postbank",
+            "distance": 1,
+            "type": "missing_char"
+          },
+          {
+            "brand": "e-postbank",
+            "typo": "postbank",
+            "distance": 2,
+            "type": "missing_char"
+          }
+        ],
         "direct_impersonation": true
       },
       "llm_analysis": {
         "threat_level": "HIGH",
         "confidence": 95,
         "phishing_score": 100,
-        "mimicked_domain": "econt.bg",
+        "mimicked_domain": "postbank.bg",
         "decision": "BLOCK",
-        "reasoning": "Suspicious .click TLD with brand name in subdomain targeting econt.bg",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: econt.bg\nDECISION: BLOCK\nREASONING: Suspicious .click TLD with brand name in subdomain targeting econt.bg",
+        "reasoning": "Domain mimics Postbank brand with suspicious .online TLD.",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: postbank.bg\nDECISION: BLOCK\nREASONING: Domain mimics Postbank brand with suspicious .online TLD.",
         "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:52:26.738793Z"
+        "analyzed_at": "2026-04-21T03:41:02.300473Z"
       }
     },
     {
-      "domain": "econt-bg-ak37a.firebaseapp.com",
-      "detected_at": "2026-03-15T04:25:24.345294+00:00Z",
+      "domain": "econt-bg-8975d-50akel.web.app",
+      "detected_at": "2026-03-28T17:22:29.104276+00:00Z",
       "phishing_score": 100,
       "detection_details": {
         "brand_keywords": [
@@ -1896,7 +1490,7 @@
           "bg-"
         ],
         "suspicious_tld": null,
-        "free_hosting": ".firebaseapp.com",
+        "free_hosting": ".web.app",
         "multiple_hyphens": true,
         "numeric_suffix": false,
         "subdomain_stacking": false,
@@ -1913,56 +1507,15 @@
         "phishing_score": 100,
         "mimicked_domain": "econt.bg",
         "decision": "BLOCK",
-        "reasoning": "Domain mimics econt.bg with suspicious subdomain pattern.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: econt.bg\nDECISION: BLOCK\nREASONING: Domain mimics econt.bg with suspicious subdomain pattern.",
+        "reasoning": "Domain mimics econt.bg with suspicious subdomain pattern and high phishing score.",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: econt.bg\nDECISION: BLOCK\nREASONING: Domain mimics econt.bg with suspicious subdomain pattern and high phishing score.",
         "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:52:32.412565Z"
+        "analyzed_at": "2026-04-21T03:41:06.347222Z"
       }
     },
     {
-      "domain": "mail.dskdirect-sofia4.sbs",
-      "detected_at": "2026-03-15T04:25:24.681938+00:00Z",
-      "phishing_score": 100,
-      "detection_details": {
-        "brand_keywords": [
-          "dskdirect"
-        ],
-        "transaction_keywords": [],
-        "geo_indicators": [],
-        "suspicious_tld": ".sbs",
-        "free_hosting": null,
-        "multiple_hyphens": false,
-        "numeric_suffix": false,
-        "subdomain_stacking": false,
-        "high_entropy": false,
-        "homoglyphs_detected": false,
-        "homoglyphs_used": [],
-        "typosquatting_detected": true,
-        "typosquatting_details": [
-          {
-            "brand": "dsk-direct",
-            "typo": "dskdirect",
-            "distance": 1,
-            "type": "missing_char"
-          }
-        ],
-        "direct_impersonation": true
-      },
-      "llm_analysis": {
-        "threat_level": "HIGH",
-        "confidence": 95,
-        "phishing_score": 100,
-        "mimicked_domain": "dskdirect",
-        "decision": "BLOCK",
-        "reasoning": "Suspicious subdomain mimicking legitimate brand with high phishing score.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: dskdirect\nDECISION: BLOCK\nREASONING: Suspicious subdomain mimicking legitimate brand with high phishing score.",
-        "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:52:37.017187Z"
-      }
-    },
-    {
-      "domain": "dsk-directlogin03.site",
-      "detected_at": "2026-02-08T11:17:48.608449+00:00Z",
+      "domain": "dsk-directlogin5.site",
+      "detected_at": "2026-02-08T11:17:20.046829+00:00Z",
       "phishing_score": 95,
       "detection_details": {
         "brand_keywords": [
@@ -1993,7 +1546,439 @@
         "reasoning": "Suspicious domain structure with brand name and login keyword suggests potential phishing attempt.",
         "raw_analysis": "THREAT_LEVEL: MEDIUM\nCONFIDENCE: 85\nPHISHING_SCORE: 95\nMIMICKED_DOMAIN: NONE\nDECISION: INVESTIGATE\nREASONING: Suspicious domain structure with brand name and login keyword suggests potential phishing attempt.",
         "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-20T03:52:42.833771Z"
+        "analyzed_at": "2026-04-21T03:41:10.398663Z"
+      }
+    },
+    {
+      "domain": "ww25.m.dsk-directlogin03.site",
+      "detected_at": "2026-02-08T11:17:20.172590+00:00Z",
+      "phishing_score": 95,
+      "detection_details": {
+        "brand_keywords": [
+          "dsk"
+        ],
+        "transaction_keywords": [
+          "login"
+        ],
+        "geo_indicators": [],
+        "suspicious_tld": ".site",
+        "free_hosting": null,
+        "multiple_hyphens": false,
+        "numeric_suffix": false,
+        "subdomain_stacking": true,
+        "high_entropy": false,
+        "homoglyphs_detected": false,
+        "homoglyphs_used": [],
+        "typosquatting_detected": false,
+        "typosquatting_details": [],
+        "direct_impersonation": true
+      },
+      "llm_analysis": {
+        "threat_level": "HIGH",
+        "confidence": 95,
+        "phishing_score": 95,
+        "mimicked_domain": "dsk",
+        "decision": "BLOCK",
+        "reasoning": "Domain mimics DSK login with suspicious subdomain structure.",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 95\nMIMICKED_DOMAIN: dsk\nDECISION: BLOCK\nREASONING: Domain mimics DSK login with suspicious subdomain structure.",
+        "model": "arcee-ai/trinity-large-preview:free",
+        "analyzed_at": "2026-04-21T03:41:14.504692Z"
+      }
+    },
+    {
+      "domain": "dsk-directlogin1.site",
+      "detected_at": "2026-02-08T11:17:31.896180+00:00Z",
+      "phishing_score": 95,
+      "detection_details": {
+        "brand_keywords": [
+          "dsk"
+        ],
+        "transaction_keywords": [
+          "login"
+        ],
+        "geo_indicators": [],
+        "suspicious_tld": ".site",
+        "free_hosting": null,
+        "multiple_hyphens": false,
+        "numeric_suffix": false,
+        "subdomain_stacking": false,
+        "high_entropy": true,
+        "homoglyphs_detected": false,
+        "homoglyphs_used": [],
+        "typosquatting_detected": false,
+        "typosquatting_details": [],
+        "direct_impersonation": true
+      },
+      "llm_analysis": {
+        "threat_level": "MEDIUM",
+        "confidence": 85,
+        "phishing_score": 95,
+        "mimicked_domain": "NONE",
+        "decision": "INVESTIGATE",
+        "reasoning": "Suspicious domain structure with login keyword targeting Bulgarian services.",
+        "raw_analysis": "THREAT_LEVEL: MEDIUM\nCONFIDENCE: 85\nPHISHING_SCORE: 95\nMIMICKED_DOMAIN: NONE\nDECISION: INVESTIGATE\nREASONING: Suspicious domain structure with login keyword targeting Bulgarian services.",
+        "model": "arcee-ai/trinity-large-preview:free",
+        "analyzed_at": "2026-04-21T03:41:18.481365Z"
+      }
+    },
+    {
+      "domain": "dsk-directlogin06.site",
+      "detected_at": "2026-02-08T11:17:32.669589+00:00Z",
+      "phishing_score": 95,
+      "detection_details": {
+        "brand_keywords": [
+          "dsk"
+        ],
+        "transaction_keywords": [
+          "login"
+        ],
+        "geo_indicators": [],
+        "suspicious_tld": ".site",
+        "free_hosting": null,
+        "multiple_hyphens": false,
+        "numeric_suffix": false,
+        "subdomain_stacking": false,
+        "high_entropy": true,
+        "homoglyphs_detected": false,
+        "homoglyphs_used": [],
+        "typosquatting_detected": false,
+        "typosquatting_details": [],
+        "direct_impersonation": true
+      },
+      "llm_analysis": {
+        "threat_level": "MEDIUM",
+        "confidence": 85,
+        "phishing_score": 95,
+        "mimicked_domain": "NONE",
+        "decision": "INVESTIGATE",
+        "reasoning": "Suspicious domain structure with login keyword targeting Bulgarian services.",
+        "raw_analysis": "THREAT_LEVEL: MEDIUM\nCONFIDENCE: 85\nPHISHING_SCORE: 95\nMIMICKED_DOMAIN: NONE\nDECISION: INVESTIGATE\nREASONING: Suspicious domain structure with login keyword targeting Bulgarian services.",
+        "model": "arcee-ai/trinity-large-preview:free",
+        "analyzed_at": "2026-04-21T03:41:22.557151Z"
+      }
+    },
+    {
+      "domain": "dsk-directlogin07.site",
+      "detected_at": "2026-02-08T11:17:32.913858+00:00Z",
+      "phishing_score": 95,
+      "detection_details": {
+        "brand_keywords": [
+          "dsk"
+        ],
+        "transaction_keywords": [
+          "login"
+        ],
+        "geo_indicators": [],
+        "suspicious_tld": ".site",
+        "free_hosting": null,
+        "multiple_hyphens": false,
+        "numeric_suffix": false,
+        "subdomain_stacking": false,
+        "high_entropy": true,
+        "homoglyphs_detected": false,
+        "homoglyphs_used": [],
+        "typosquatting_detected": false,
+        "typosquatting_details": [],
+        "direct_impersonation": true
+      },
+      "llm_analysis": {
+        "threat_level": "HIGH",
+        "confidence": 95,
+        "phishing_score": 95,
+        "mimicked_domain": "NONE",
+        "decision": "BLOCK",
+        "reasoning": "Domain mimics DSK login with suspicious subdomain and high phishing score.",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 95\nMIMICKED_DOMAIN: NONE\nDECISION: BLOCK\nREASONING: Domain mimics DSK login with suspicious subdomain and high phishing score.",
+        "model": "arcee-ai/trinity-large-preview:free",
+        "analyzed_at": "2026-04-21T03:41:27.387729Z"
+      }
+    },
+    {
+      "domain": "dsk-directlogin7.site",
+      "detected_at": "2026-02-08T11:17:33.652194+00:00Z",
+      "phishing_score": 95,
+      "detection_details": {
+        "brand_keywords": [
+          "dsk"
+        ],
+        "transaction_keywords": [
+          "login"
+        ],
+        "geo_indicators": [],
+        "suspicious_tld": ".site",
+        "free_hosting": null,
+        "multiple_hyphens": false,
+        "numeric_suffix": false,
+        "subdomain_stacking": false,
+        "high_entropy": true,
+        "homoglyphs_detected": false,
+        "homoglyphs_used": [],
+        "typosquatting_detected": false,
+        "typosquatting_details": [],
+        "direct_impersonation": true
+      },
+      "llm_analysis": {
+        "threat_level": "HIGH",
+        "confidence": 95,
+        "phishing_score": 95,
+        "mimicked_domain": "dsk-directlogin7.site",
+        "decision": "BLOCK",
+        "reasoning": "Domain mimics DSK login with suspicious .site TLD and high phishing score.",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 95\nMIMICKED_DOMAIN: dsk-directlogin7.site\nDECISION: BLOCK\nREASONING: Domain mimics DSK login with suspicious .site TLD and high phishing score.",
+        "model": "arcee-ai/trinity-large-preview:free",
+        "analyzed_at": "2026-04-21T03:41:31.641363Z"
+      }
+    },
+    {
+      "domain": "ww25.cpcalendars.dsk-directlogin03.site",
+      "detected_at": "2026-02-08T11:17:34.479708+00:00Z",
+      "phishing_score": 95,
+      "detection_details": {
+        "brand_keywords": [
+          "dsk"
+        ],
+        "transaction_keywords": [
+          "login"
+        ],
+        "geo_indicators": [],
+        "suspicious_tld": ".site",
+        "free_hosting": null,
+        "multiple_hyphens": false,
+        "numeric_suffix": false,
+        "subdomain_stacking": true,
+        "high_entropy": false,
+        "homoglyphs_detected": false,
+        "homoglyphs_used": [],
+        "typosquatting_detected": false,
+        "typosquatting_details": [],
+        "direct_impersonation": true
+      },
+      "llm_analysis": {
+        "threat_level": "HIGH",
+        "confidence": 95,
+        "phishing_score": 95,
+        "mimicked_domain": "dsk",
+        "decision": "BLOCK",
+        "reasoning": "Domain mimics DSK login with suspicious subdomain structure and high phishing score.",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 95\nMIMICKED_DOMAIN: dsk\nDECISION: BLOCK\nREASONING: Domain mimics DSK login with suspicious subdomain structure and high phishing score.",
+        "model": "arcee-ai/trinity-large-preview:free",
+        "analyzed_at": "2026-04-21T03:41:35.833047Z"
+      }
+    },
+    {
+      "domain": "dsk-directlogin3.site",
+      "detected_at": "2026-02-08T11:17:34.682968+00:00Z",
+      "phishing_score": 95,
+      "detection_details": {
+        "brand_keywords": [
+          "dsk"
+        ],
+        "transaction_keywords": [
+          "login"
+        ],
+        "geo_indicators": [],
+        "suspicious_tld": ".site",
+        "free_hosting": null,
+        "multiple_hyphens": false,
+        "numeric_suffix": false,
+        "subdomain_stacking": false,
+        "high_entropy": true,
+        "homoglyphs_detected": false,
+        "homoglyphs_used": [],
+        "typosquatting_detected": false,
+        "typosquatting_details": [],
+        "direct_impersonation": true
+      },
+      "llm_analysis": {
+        "threat_level": "HIGH",
+        "confidence": 95,
+        "phishing_score": 95,
+        "mimicked_domain": "dsk-directlogin3.site",
+        "decision": "BLOCK",
+        "reasoning": "Domain mimics DSK brand with suspicious login path and high-risk TLD.",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 95\nMIMICKED_DOMAIN: dsk-directlogin3.site\nDECISION: BLOCK\nREASONING: Domain mimics DSK brand with suspicious login path and high-risk TLD.",
+        "model": "arcee-ai/trinity-large-preview:free",
+        "analyzed_at": "2026-04-21T03:41:39.968113Z"
+      }
+    },
+    {
+      "domain": "dsk-directlogin0.site",
+      "detected_at": "2026-02-08T11:17:37.504566+00:00Z",
+      "phishing_score": 95,
+      "detection_details": {
+        "brand_keywords": [
+          "dsk"
+        ],
+        "transaction_keywords": [
+          "login"
+        ],
+        "geo_indicators": [],
+        "suspicious_tld": ".site",
+        "free_hosting": null,
+        "multiple_hyphens": false,
+        "numeric_suffix": false,
+        "subdomain_stacking": false,
+        "high_entropy": true,
+        "homoglyphs_detected": false,
+        "homoglyphs_used": [],
+        "typosquatting_detected": false,
+        "typosquatting_details": [],
+        "direct_impersonation": true
+      },
+      "llm_analysis": {
+        "threat_level": "MEDIUM",
+        "confidence": 85,
+        "phishing_score": 95,
+        "mimicked_domain": "NONE",
+        "decision": "INVESTIGATE",
+        "reasoning": "Suspicious domain structure with login keyword targeting Bulgarian services.",
+        "raw_analysis": "THREAT_LEVEL: MEDIUM\nCONFIDENCE: 85\nPHISHING_SCORE: 95\nMIMICKED_DOMAIN: NONE\nDECISION: INVESTIGATE\nREASONING: Suspicious domain structure with login keyword targeting Bulgarian services.",
+        "model": "arcee-ai/trinity-large-preview:free",
+        "analyzed_at": "2026-04-21T03:41:43.899768Z"
+      }
+    },
+    {
+      "domain": "dsk-directlogin6.site",
+      "detected_at": "2026-02-08T11:17:38.245578+00:00Z",
+      "phishing_score": 95,
+      "detection_details": {
+        "brand_keywords": [
+          "dsk"
+        ],
+        "transaction_keywords": [
+          "login"
+        ],
+        "geo_indicators": [],
+        "suspicious_tld": ".site",
+        "free_hosting": null,
+        "multiple_hyphens": false,
+        "numeric_suffix": false,
+        "subdomain_stacking": false,
+        "high_entropy": true,
+        "homoglyphs_detected": false,
+        "homoglyphs_used": [],
+        "typosquatting_detected": false,
+        "typosquatting_details": [],
+        "direct_impersonation": true
+      },
+      "llm_analysis": {
+        "threat_level": "HIGH",
+        "confidence": 95,
+        "phishing_score": 95,
+        "mimicked_domain": "NONE",
+        "decision": "BLOCK",
+        "reasoning": "Domain mimics DSK login with suspicious .site TLD and high phishing score.",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 95\nMIMICKED_DOMAIN: NONE\nDECISION: BLOCK\nREASONING: Domain mimics DSK login with suspicious .site TLD and high phishing score.",
+        "model": "arcee-ai/trinity-large-preview:free",
+        "analyzed_at": "2026-04-21T03:41:48.000785Z"
+      }
+    },
+    {
+      "domain": "dsk-directlogin05.site",
+      "detected_at": "2026-02-08T11:17:39.046967+00:00Z",
+      "phishing_score": 95,
+      "detection_details": {
+        "brand_keywords": [
+          "dsk"
+        ],
+        "transaction_keywords": [
+          "login"
+        ],
+        "geo_indicators": [],
+        "suspicious_tld": ".site",
+        "free_hosting": null,
+        "multiple_hyphens": false,
+        "numeric_suffix": false,
+        "subdomain_stacking": false,
+        "high_entropy": true,
+        "homoglyphs_detected": false,
+        "homoglyphs_used": [],
+        "typosquatting_detected": false,
+        "typosquatting_details": [],
+        "direct_impersonation": true
+      },
+      "llm_analysis": {
+        "threat_level": "MEDIUM",
+        "confidence": 85,
+        "phishing_score": 95,
+        "mimicked_domain": "NONE",
+        "decision": "INVESTIGATE",
+        "reasoning": "Suspicious domain structure with brand name and login keyword suggests potential phishing attempt.",
+        "raw_analysis": "THREAT_LEVEL: MEDIUM\nCONFIDENCE: 85\nPHISHING_SCORE: 95\nMIMICKED_DOMAIN: NONE\nDECISION: INVESTIGATE\nREASONING: Suspicious domain structure with brand name and login keyword suggests potential phishing attempt.",
+        "model": "arcee-ai/trinity-large-preview:free",
+        "analyzed_at": "2026-04-21T03:41:51.959128Z"
+      }
+    },
+    {
+      "domain": "dsk-directlogin00.site",
+      "detected_at": "2026-02-08T11:17:40.659571+00:00Z",
+      "phishing_score": 95,
+      "detection_details": {
+        "brand_keywords": [
+          "dsk"
+        ],
+        "transaction_keywords": [
+          "login"
+        ],
+        "geo_indicators": [],
+        "suspicious_tld": ".site",
+        "free_hosting": null,
+        "multiple_hyphens": false,
+        "numeric_suffix": false,
+        "subdomain_stacking": false,
+        "high_entropy": true,
+        "homoglyphs_detected": false,
+        "homoglyphs_used": [],
+        "typosquatting_detected": false,
+        "typosquatting_details": [],
+        "direct_impersonation": true
+      },
+      "llm_analysis": {
+        "threat_level": "HIGH",
+        "confidence": 95,
+        "phishing_score": 95,
+        "mimicked_domain": "NONE",
+        "decision": "BLOCK",
+        "reasoning": "Domain mimics DSK login with suspicious subdomain and high phishing score.",
+        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 95\nMIMICKED_DOMAIN: NONE\nDECISION: BLOCK\nREASONING: Domain mimics DSK login with suspicious subdomain and high phishing score.",
+        "model": "arcee-ai/trinity-large-preview:free",
+        "analyzed_at": "2026-04-21T03:41:56.008686Z"
+      }
+    },
+    {
+      "domain": "dsk-directlogin2.site",
+      "detected_at": "2026-02-08T11:17:45.412293+00:00Z",
+      "phishing_score": 95,
+      "detection_details": {
+        "brand_keywords": [
+          "dsk"
+        ],
+        "transaction_keywords": [
+          "login"
+        ],
+        "geo_indicators": [],
+        "suspicious_tld": ".site",
+        "free_hosting": null,
+        "multiple_hyphens": false,
+        "numeric_suffix": false,
+        "subdomain_stacking": false,
+        "high_entropy": true,
+        "homoglyphs_detected": false,
+        "homoglyphs_used": [],
+        "typosquatting_detected": false,
+        "typosquatting_details": [],
+        "direct_impersonation": true
+      },
+      "llm_analysis": {
+        "threat_level": "MEDIUM",
+        "confidence": 85,
+        "phishing_score": 95,
+        "mimicked_domain": "NONE",
+        "decision": "INVESTIGATE",
+        "reasoning": "Suspicious domain structure with login keyword targeting Bulgarian services.",
+        "raw_analysis": "THREAT_LEVEL: MEDIUM\nCONFIDENCE: 85\nPHISHING_SCORE: 95\nMIMICKED_DOMAIN: NONE\nDECISION: INVESTIGATE\nREASONING: Suspicious domain structure with login keyword targeting Bulgarian services.",
+        "model": "arcee-ai/trinity-large-preview:free",
+        "analyzed_at": "2026-04-21T03:41:59.895962Z"
       }
     }
   ]
