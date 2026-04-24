@@ -6604,5 +6604,36 @@
     },
     "detected_at": "2026-04-20T13:05:32.368336+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "bgpost-new.icu",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "bgpost"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".icu",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bg-post",
+          "typo": "bgpost",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-04-24T04:48:18.869267+00:00Z",
+    "source": "scanner"
   }
 ]
