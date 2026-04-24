@@ -1,15 +1,15 @@
 {
-  "last_run": "2026-04-24T14:31:05.484108+00:00Z",
+  "last_run": "2026-04-24T16:00:13.034327+00:00Z",
   "last_run_stats": {
-    "domains_processed": 1658,
-    "phishing_detected": 175,
-    "new_unique_phishing": 0,
-    "elapsed_time": 186.35
+    "domains_processed": 1644,
+    "phishing_detected": 177,
+    "new_unique_phishing": 1,
+    "elapsed_time": 185.88
   },
   "cumulative_stats": {
-    "total_unique_domains_scanned": 2411466,
-    "total_unique_phishing_found": 235,
-    "total_runs": 1565,
+    "total_unique_domains_scanned": 2413110,
+    "total_unique_phishing_found": 236,
+    "total_runs": 1566,
     "phishing_detection_rate": 0.01
   },
   "all_phishing_domains": [
@@ -121,6 +121,7 @@
     "e-postbankbg.cfd",
     "econt-bg-8975d-50akel.web.app",
     "econt-bg-ak37a.firebaseapp.com",
+    "econt-bg.an537294.sbs",
     "econt-bg.bg-an257348.click",
     "econt-bg.bg-an462831.cfd",
     "econt-bg.bg-ink6382.live",
