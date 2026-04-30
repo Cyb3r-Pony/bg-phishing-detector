@@ -6687,5 +6687,37 @@
     },
     "detected_at": "2026-04-25T16:31:56.635093+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "passport-abu-bg-app-profiles-login-evry-miukrwsdijkmweaszx.pages.dev",
+    "score": 95,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [
+        "bg-"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".pages.dev",
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "epay",
+          "typo": "evry",
+          "distance": 2,
+          "type": "substitution"
+        }
+      ]
+    },
+    "detected_at": "2026-04-30T21:47:59.126290+00:00Z",
+    "source": "scanner"
   }
 ]
