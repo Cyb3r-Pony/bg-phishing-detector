@@ -6719,5 +6719,36 @@
     },
     "detected_at": "2026-04-30T21:47:59.126290+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "olx-way-otrymka821412.pages.dev",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "olx"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": null,
+      "free_hosting": ".pages.dev",
+      "multiple_hyphens": true,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "epay",
+          "typo": "way",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ],
+      "non_bg_context_penalty": true
+    },
+    "detected_at": "2026-04-30T22:42:30.254474+00:00Z",
+    "source": "scanner"
   }
 ]
