@@ -6773,5 +6773,36 @@
     },
     "detected_at": "2026-05-01T12:02:59.918450+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "banking-dashboard-march-2026.pages.dev",
+    "score": 70,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [
+        "banking"
+      ],
+      "geo_indicators": [],
+      "suspicious_tld": null,
+      "free_hosting": ".pages.dev",
+      "multiple_hyphens": true,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "ibanking",
+          "typo": "banking",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "non_bg_context_penalty": true
+    },
+    "detected_at": "2026-05-01T21:44:33.249698+00:00Z",
+    "source": "scanner"
   }
 ]
