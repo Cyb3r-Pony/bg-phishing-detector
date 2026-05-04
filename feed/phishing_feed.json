@@ -6804,5 +6804,31 @@
     },
     "detected_at": "2026-05-01T21:44:33.249698+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "econt-bg.xyz",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "econt"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": ".xyz",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-05-04T01:49:20.361482+00:00Z",
+    "source": "scanner"
   }
 ]
