@@ -1,15 +1,15 @@
 {
-  "last_run": "2026-05-07T12:30:11.777601+00:00Z",
+  "last_run": "2026-05-07T15:27:14.493694+00:00Z",
   "last_run_stats": {
-    "domains_processed": 1660,
-    "phishing_detected": 173,
-    "new_unique_phishing": 0,
-    "elapsed_time": 179.34
+    "domains_processed": 1644,
+    "phishing_detected": 177,
+    "new_unique_phishing": 11,
+    "elapsed_time": 194.42
   },
   "cumulative_stats": {
-    "total_unique_domains_scanned": 2727051,
-    "total_unique_phishing_found": 242,
-    "total_runs": 1754,
+    "total_unique_domains_scanned": 2728695,
+    "total_unique_phishing_found": 253,
+    "total_runs": 1755,
     "phishing_detection_rate": 0.01
   },
   "all_phishing_domains": [
@@ -95,8 +95,18 @@
     "dsk-directlogin7.site",
     "dsk-mobile.xyz",
     "dskdirect-5ba26.web.app",
+    "dskdirect-burg.online",
+    "dskdirect-burg0.online",
+    "dskdirect-burg2.online",
+    "dskdirect-client.top",
     "dskdirect-client0.top",
+    "dskdirect-client1.top",
+    "dskdirect-client2.top",
+    "dskdirect-sofia5.sbs",
+    "dskdirect-sofia6.sbs",
+    "dskdirect-sofia7.sbs",
     "dskdirect-verna.world",
+    "dskdirect-verna2.world",
     "dskdirect.bg.directbg2.online",
     "dskdirect.bg.directbg4.online",
     "dskdirect.bg.directbg5.online",
@@ -179,6 +189,7 @@
     "olx.pay-shop-skrill.cfd",
     "olx.plsd2bgflstagf39027.icu",
     "olx.plsd2bgflstaxw56cgk.icu",
+    "online-dskdirect.firebaseapp.com",
     "online-dskdirect.web.app",
     "pakettracking-auswertungszentrum-dhl.pages.dev",
     "passport-abu-bg-app-profiles-login-evry-miukrwsdijkmweaszx.pages.dev",
