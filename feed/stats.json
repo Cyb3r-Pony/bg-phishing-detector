@@ -1,15 +1,15 @@
 {
-  "last_run": "2026-05-10T21:39:53.442065+00:00Z",
+  "last_run": "2026-05-10T22:37:35.993613+00:00Z",
   "last_run_stats": {
-    "domains_processed": 1579,
-    "phishing_detected": 173,
-    "new_unique_phishing": 0,
-    "elapsed_time": 163.27
+    "domains_processed": 1556,
+    "phishing_detected": 174,
+    "new_unique_phishing": 1,
+    "elapsed_time": 168.57
   },
   "cumulative_stats": {
-    "total_unique_domains_scanned": 2811357,
-    "total_unique_phishing_found": 253,
-    "total_runs": 1806,
+    "total_unique_domains_scanned": 2812913,
+    "total_unique_phishing_found": 254,
+    "total_runs": 1807,
     "phishing_detection_rate": 0.01
   },
   "all_phishing_domains": [
@@ -247,6 +247,7 @@
     "ww38.dsk-directlogin2.site",
     "ww38.dsk-directlogin3.site",
     "ww38.gateway.dsk-direct-bg0.site",
+    "www.bg-speedy.xyz",
     "www.dsk-directlogin2.site",
     "www.dsk-directlogin3.site",
     "www.econt-bg.3ds-service24.cf",
