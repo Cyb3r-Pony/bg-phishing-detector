@@ -7278,5 +7278,1292 @@
     },
     "detected_at": "2026-05-11T22:47:22.261411+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "www.mvrbg.sbs",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "mvrbg"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".sbs",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-05-13T08:34:39.721116+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "ww38.olx-bg.moneyget.shop",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "olx"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": ".shop",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-05-13T08:34:41.188272+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "mvrbg.icu",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "mvrbg"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".icu",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-05-13T08:34:45.084209+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "olx-bg.shoppweb.shop",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "olx"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": ".shop",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-05-13T08:34:45.493730+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dskdirect.shop",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "dskdirect"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".shop",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "dsk-direct",
+          "typo": "dskdirect",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-05-13T08:34:46.787662+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "mvr-bg.top",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "mvr"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "mvrbg",
+          "typo": "mvr",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-05-13T08:34:47.291876+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "mvrgovbg.top",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "mvrgovbg"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "mvrgov",
+          "typo": "mvrgovbg",
+          "distance": 2,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-05-13T08:34:47.697228+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "mvrbg.ink",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "mvrbg"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".ink",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "ibank",
+          "typo": "ink",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-05-13T08:34:48.704504+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "mvr-bg.icu",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "mvr"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": ".icu",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "mvrbg",
+          "typo": "mvr",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-05-13T08:34:49.112856+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "speedy-bg.inkl63179.life",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "speedy"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": ".life",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-05-13T08:34:49.615568+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.mvr.govbg.work",
+    "score": 85,
+    "details": {
+      "brand_keywords": [
+        "mvr"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".work",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "mvrbg",
+          "typo": "mvr",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ]
+    },
+    "detected_at": "2026-05-13T08:34:51.169694+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "econt-bg.inkl63179.life",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "econt"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": ".life",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-05-13T08:34:52.082885+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "bgpost-bga.life",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "bgpost"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": ".life",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bg-post",
+          "typo": "bgpost",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-05-13T08:34:54.043379+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "mvrbg.shop",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "mvrbg"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".shop",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-05-13T08:34:55.037252+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.mvr-bg.cfd",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "mvr"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": ".cfd",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "mvrbg",
+          "typo": "mvr",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-05-13T08:34:56.941665+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "mvrgovbg.lol",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "mvrgovbg"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".lol",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "mvrgov",
+          "typo": "mvrgovbg",
+          "distance": 2,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-05-13T08:34:56.993013+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "mvr-bggov.top",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "mvr"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "mvrbg",
+          "typo": "mvr",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-05-13T08:34:57.314953+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "mvrbg.life",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "mvrbg"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".life",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-05-13T08:34:59.144958+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.mvr-bg.shop",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "mvr"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": ".shop",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "mvrbg",
+          "typo": "mvr",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-05-13T08:35:00.046377+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "olx.olxbg.shop",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "olx"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".shop",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-05-13T08:35:00.636815+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.mvr.bggov.cam",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "mvr"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".cam",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "mvrbg",
+          "typo": "mvr",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ]
+    },
+    "detected_at": "2026-05-13T08:35:01.535906+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.mvr.govbg.one",
+    "score": 85,
+    "details": {
+      "brand_keywords": [
+        "mvr"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".one",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "mvrbg",
+          "typo": "mvr",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ]
+    },
+    "detected_at": "2026-05-13T08:35:02.744690+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.olx-bg.moneyget.shop",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "olx"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": ".shop",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-05-13T08:35:03.076741+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "e-uslugi-mvr.sbs",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "mvr",
+        "e-uslugi"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".sbs",
+      "free_hosting": null,
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "mvrbg",
+          "typo": "mvr",
+          "distance": 2,
+          "type": "missing_char"
+        },
+        {
+          "brand": "euslugi",
+          "typo": "uslugi",
+          "distance": 1,
+          "type": "missing_char"
+        },
+        {
+          "brand": "e-uslugi",
+          "typo": "uslugi",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-05-13T08:35:03.884841+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "uac-procredit-com.l.ink",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "procredit"
+      ],
+      "transaction_keywords": [
+        "credit"
+      ],
+      "geo_indicators": [],
+      "suspicious_tld": ".ink",
+      "free_hosting": null,
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "ibank",
+          "typo": "ink",
+          "distance": 2,
+          "type": "missing_char"
+        },
+        {
+          "brand": "bacb",
+          "typo": "uac",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-05-13T08:35:04.032532+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "econt-bg.in95826.life",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "econt"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": ".life",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-05-13T08:35:04.846594+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "nalinya-epostbankbg.nalhi.life",
+    "score": 70,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".life",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "epostbank",
+          "typo": "epostbankbg",
+          "distance": 2,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-05-13T08:35:06.955766+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "bgpost-bg.lol",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "bgpost"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": ".lol",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bg-post",
+          "typo": "bgpost",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-05-13T08:35:08.132812+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "bgpost-bg.work",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "bgpost"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": ".work",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bg-post",
+          "typo": "bgpost",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-05-13T08:35:09.120107+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "olx-bg.moneyget.shop",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "olx"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": ".shop",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-05-13T08:35:09.589068+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.mvr-bg.sbs",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "mvr"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": ".sbs",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "mvrbg",
+          "typo": "mvr",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-05-13T08:35:10.092323+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "bgpost-bg.life",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "bgpost"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": ".life",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bg-post",
+          "typo": "bgpost",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-05-13T08:35:12.263691+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.gav.mvrbg.cam",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "mvrbg"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".cam",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-05-13T08:35:14.474378+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "bgpost.shop",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "bgpost"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".shop",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bg-post",
+          "typo": "bgpost",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-05-13T08:35:16.031538+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "773ed0bb.dskdirect.cyou",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "dskdirect"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".cyou",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "dsk-direct",
+          "typo": "dskdirect",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-05-13T08:35:16.228340+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.mvr-bg.lat",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "mvr"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": ".lat",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "mvrbg",
+          "typo": "mvr",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-05-13T08:35:17.037304+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "e-uslugi.mvrbge.top",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "e-uslugi"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "mvrbg",
+          "typo": "mvrbge",
+          "distance": 1,
+          "type": "extra_char"
+        },
+        {
+          "brand": "euslugi",
+          "typo": "uslugi",
+          "distance": 1,
+          "type": "missing_char"
+        },
+        {
+          "brand": "e-uslugi",
+          "typo": "uslugi",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-05-13T08:35:18.073339+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "ww25.olx-bg.moneyget.shop",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "olx"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": ".shop",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-05-13T08:35:20.822510+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "bgpost-bg.ink",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "bgpost"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": ".ink",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bg-post",
+          "typo": "bgpost",
+          "distance": 1,
+          "type": "missing_char"
+        },
+        {
+          "brand": "ibank",
+          "typo": "ink",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-05-13T08:35:21.419854+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.mvr-bg.autos",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "mvr"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": ".autos",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "mvrbg",
+          "typo": "mvr",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-05-13T08:35:21.647966+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.mvrbg.cyou",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "mvrbg"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".cyou",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-05-13T08:35:22.519615+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "e-uslugi.mvrbgc.top",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "e-uslugi"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "mvrbg",
+          "typo": "mvrbgc",
+          "distance": 1,
+          "type": "extra_char"
+        },
+        {
+          "brand": "euslugi",
+          "typo": "uslugi",
+          "distance": 1,
+          "type": "missing_char"
+        },
+        {
+          "brand": "e-uslugi",
+          "typo": "uslugi",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-05-13T08:35:22.660702+00:00Z",
+    "source": "scanner"
   }
 ]
