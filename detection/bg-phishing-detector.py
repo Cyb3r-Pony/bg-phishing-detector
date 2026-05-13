@@ -9,9 +9,11 @@ Features:
 - Typosquatting detection (catches spedy, econnt)
 - Direct impersonation bonus (econt-bg, econtbg patterns)
 - Smart Bulgarian context detection
-- 7 new whitelisted Bulgarian services (sameday.bg, easypay.bg, etc.)
-- URLScan.io integration with 40 optimized queries
+- Whitelisted Bulgarian services (sameday.bg, easypay.bg, etc.)
+- Whitelisted Bulgarian government services (mvr.bg, e-uslugi.mvr.bg)
+- URLScan.io integration with optimized queries
 - Focus on Bulgarian-targeted phishing
+- MVR (Ministry of Interior) brand protection & phishing detection
 
 CT Log Support: REMOVED (yielded 0 results, URLScan provides better coverage)
 """
@@ -42,8 +44,31 @@ if not URLSCAN_API_KEY:
 # ==================== MANUAL DOMAIN LIST ====================
 # Add suspicious domains here for direct checking
 MANUAL_CHECK_DOMAINS = [
-    # Add domains here as you discover them
-    # 'speedy.bg-pv.cfd',
+    # MVR (Министерство на вътрешните работи / Bulgarian Ministry of Interior)
+    # phishing / typosquatting domains — identified manually
+    'mvrgovbg.lol',
+    'mvr-bggov.top',
+    'mvrbg.cyou',          # www.mvrbg.cyou (www. stripped automatically)
+    'e-uslugimvrbga.top',
+    'e-uslugimvrbgb.top',
+    'e-uslugimvrbgc.top',
+    'mvr-bg.top',
+    'mvr.govbg.work',
+    'mvr-bg.cfd',
+    'gav.mvrbg.cam',
+    'mvrbg.sbs',
+    'mvrbg.ink',
+    'mvrbg.life',
+    'mvr.govbg.one',
+    'mvr-bg.sbs',
+    'mvr-bg.shop',
+    'mvr-bg.autos',
+    'mvr.bggov.cam',
+    'mvrx.lat',
+    'e-uslugivrl.top',
+    'mvr.qdoz.cam',
+    'e-uslugi.mvrbgc.top',
+    'mvr.niaj.cam',
 ]
 
 # ==================== WHITELISTED DOMAINS ====================
@@ -104,7 +129,10 @@ WHITELISTED_DOMAINS = [
     'web.teximbank.bg',    # Texim Bank online banking
     'rbank.tokudabank.bg', # Tokuda Bank online banking
     'online.bank.allianz.bg',  # Allianz Bank online banking
-    'online.bdbank.bg'     # Bulgarian Development Bank (bbr.bg) online banking
+    'online.bdbank.bg',    # Bulgarian Development Bank (bbr.bg) online banking
+    # Bulgarian government services
+    'mvr.bg',
+    'e-uslugi.mvr.bg',
 ]
 
 # ==================== BRAND KEYWORDS ====================
@@ -165,6 +193,14 @@ BRAND_KEYWORDS = [
     'allianzbank',
     'bbr',
     'bulgariandevelopmentbank',
+    # Bulgarian government (MVR — Ministry of Interior)
+    'mvr',
+    'mvrbg',
+    'mvrgovbg',
+    'mvrgov',
+    'euslugi',
+    'e-uslugi',
+    'euslugivrl',
     # Online banking web app brands
     'dskdirect',
     'dskmobile',
@@ -229,7 +265,10 @@ SUSPICIOUS_TLDS = (
     '.cfd', '.tk', '.ml', '.ga', '.cf', '.gq', '.top', '.xyz',
     '.club', '.online', '.site', '.space', '.click', '.link',
     '.live', '.icu', '.buzz', '.cam', '.rest', '.store', '.tech',
-    '.website', '.world', '.pw', '.cc', '.sbs'  # Added .sbs
+    '.website', '.world', '.pw', '.cc', '.sbs',
+    # Added for MVR phishing domain coverage
+    '.lol', '.cyou', '.work', '.one', '.autos', '.ink', '.life',
+    '.shop', '.lat',
 )
 
 # ==================== FREE HOSTING PLATFORMS ====================
@@ -663,6 +702,13 @@ def calculate_score(domain: str) -> Tuple[int, Dict]:
         r'e-?postbank',
         r'bulbankonline',
         r'uac-?procredit',
+        # MVR (Ministry of Interior) impersonation patterns
+        r'mvr-?bg',
+        r'mvrbg',
+        r'mvrgovbg',
+        r'mvr-?gov',
+        r'e-?uslugi-?mvr',
+        r'bg-?mvr',
     ]
     
     for pattern in direct_impersonation_patterns:
@@ -913,6 +959,13 @@ def fetch_urlscan_targeted() -> Set[str]:
         'page.domain:*bg* AND page.domain:*.tk*',
         'page.domain:*bg* AND page.domain:*.icu*',
         'page.domain:*bg* AND page.domain:*.click*',
+
+        # PRIORITY 6: MVR (Ministry of Interior) impersonation patterns
+        'page.domain:*mvrbg*',
+        'page.domain:*mvr-bg*',
+        'page.domain:*mvrgovbg*',
+        'page.domain:*mvr* AND page.domain:*bg*',
+        'page.domain:*e-uslugi* AND page.domain:*mvr*',
     ]
     
     for query in search_queries[:55]:  # Increased to cover online banking brand impersonation patterns
