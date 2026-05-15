@@ -8565,5 +8565,51 @@
     },
     "detected_at": "2026-05-13T08:35:22.660702+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "wildcardprobe-1777179948470546854.idgbedcbjxgpx876587654326d6c555d-de00-4b28-a07a-df1ea5f84e5a.10iot.xyz",
+    "score": 70,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [
+        "card"
+      ],
+      "geo_indicators": [],
+      "suspicious_tld": ".xyz",
+      "free_hosting": null,
+      "multiple_hyphens": true,
+      "numeric_suffix": true,
+      "subdomain_stacking": true,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": []
+    },
+    "detected_at": "2026-05-15T11:14:19.061007+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "wildcardprobe-1777179996617626195.gfehgbadcbjxgpx876587654326d6c555d-de00-4b28-a07a-df1ea5f84e5a.10iot.xyz",
+    "score": 70,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [
+        "card"
+      ],
+      "geo_indicators": [],
+      "suspicious_tld": ".xyz",
+      "free_hosting": null,
+      "multiple_hyphens": true,
+      "numeric_suffix": true,
+      "subdomain_stacking": true,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": []
+    },
+    "detected_at": "2026-05-15T11:14:31.709917+00:00Z",
+    "source": "scanner"
   }
 ]
