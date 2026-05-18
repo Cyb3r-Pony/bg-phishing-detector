@@ -8637,5 +8637,36 @@
     },
     "detected_at": "2026-05-17T15:52:03.976151+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "mvr-govm.xyz",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "mvr"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".xyz",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "mvrbg",
+          "typo": "mvr",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-05-18T02:09:03.977894+00:00Z",
+    "source": "scanner"
   }
 ]
