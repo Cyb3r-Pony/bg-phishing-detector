@@ -8668,5 +8668,29 @@
     },
     "detected_at": "2026-05-18T02:09:03.977894+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "mvrbg.lat",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "mvrbg"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".lat",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-05-20T10:19:16.605707+00:00Z",
+    "source": "scanner"
   }
 ]
