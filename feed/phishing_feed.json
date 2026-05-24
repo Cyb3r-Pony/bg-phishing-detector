@@ -8723,5 +8723,28 @@
     },
     "detected_at": "2026-05-24T06:29:00.831503+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "tebfbwildcardprobe-1777179997604313937.hgjidcfadcbjxgpx876587654326d6c555d-de00-4b28-a07a-dflea5f84e5a.10iot.xyz",
+    "score": 70,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [
+        "card"
+      ],
+      "geo_indicators": [],
+      "suspicious_tld": ".xyz",
+      "free_hosting": null,
+      "multiple_hyphens": true,
+      "numeric_suffix": true,
+      "subdomain_stacking": true,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": []
+    },
+    "detected_at": "2026-05-24T12:58:56.506899+00:00Z",
+    "source": "scanner"
   }
 ]
