@@ -8692,5 +8692,36 @@
     },
     "detected_at": "2026-05-20T10:19:16.605707+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "olx-safepay.pages.dev",
+    "score": 70,
+    "details": {
+      "brand_keywords": [
+        "olx"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": null,
+      "free_hosting": ".pages.dev",
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "sameday",
+          "typo": "safepay",
+          "distance": 2,
+          "type": "substitution"
+        }
+      ],
+      "non_bg_context_penalty": true
+    },
+    "detected_at": "2026-05-24T06:29:00.831503+00:00Z",
+    "source": "scanner"
   }
 ]
