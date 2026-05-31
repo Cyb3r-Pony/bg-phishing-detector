@@ -8807,5 +8807,35 @@
     },
     "detected_at": "2026-05-29T19:28:17.000520+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "mbg-my-bini-gue.pages.dev",
+    "score": 75,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "bg-"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".pages.dev",
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "mvrbg",
+          "typo": "mbg",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ]
+    },
+    "detected_at": "2026-05-31T15:12:44.324808+00:00Z",
+    "source": "scanner"
   }
 ]
