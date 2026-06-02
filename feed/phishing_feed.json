@@ -8906,5 +8906,41 @@
     },
     "detected_at": "2026-06-02T10:03:49.861304+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "mbg-mas-bahlil-ganteng-buah-apa-yang-ganteng.pages.dev",
+    "score": 75,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "bg-"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".pages.dev",
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "epay",
+          "typo": "apa",
+          "distance": 2,
+          "type": "missing_char"
+        },
+        {
+          "brand": "mvrbg",
+          "typo": "mbg",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ]
+    },
+    "detected_at": "2026-06-02T14:05:33.478239+00:00Z",
+    "source": "scanner"
   }
 ]
