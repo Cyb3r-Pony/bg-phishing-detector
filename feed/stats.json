@@ -1,15 +1,15 @@
 {
-  "last_run": "2026-06-02T21:42:46.246317+00:00Z",
+  "last_run": "2026-06-02T23:28:38.754819+00:00Z",
   "last_run_stats": {
-    "domains_processed": 1677,
-    "phishing_detected": 218,
-    "new_unique_phishing": 0,
-    "elapsed_time": 198.62
+    "domains_processed": 1701,
+    "phishing_detected": 219,
+    "new_unique_phishing": 1,
+    "elapsed_time": 190.3
   },
   "cumulative_stats": {
-    "total_unique_domains_scanned": 3208288,
-    "total_unique_phishing_found": 312,
-    "total_runs": 2046,
+    "total_unique_domains_scanned": 3209989,
+    "total_unique_phishing_found": 313,
+    "total_runs": 2047,
     "phishing_detection_rate": 0.01
   },
   "all_phishing_domains": [
@@ -324,6 +324,7 @@
     "www.speedy-bg-public.cfd",
     "xn--econtbg-6gg.secure-safe.xyz",
     "xww0uss0qonjcgiswildcardprobe-1777178619412424204.fehcfadcbjxgpx876587654326d6c555d-de00-4b28-a07a-dflea5f84e5a.10iot.xyz",
-    "yandex.blablacar.sbermegamarket.avito.kwid9.bg-speedyz.top"
+    "yandex.blablacar.sbermegamarket.avito.kwid9.bg-speedyz.top",
+    "z0xvutsrqponjcgiswildcardprobe-1777178619412424204.fehcfadcbjxgpx876587654326d6c555d-de00-4b28-a07a-dflea5f84e5a.10iot.xyz"
   ]
 }
