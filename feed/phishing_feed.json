@@ -9042,5 +9042,35 @@
     },
     "detected_at": "2026-06-05T22:58:51.752417+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "dukung-program-mbg-prabowo-gibran.pages.dev",
+    "score": 75,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "bg-"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".pages.dev",
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "mvrbg",
+          "typo": "mbg",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ]
+    },
+    "detected_at": "2026-06-06T22:56:32.614214+00:00Z",
+    "source": "scanner"
   }
 ]
