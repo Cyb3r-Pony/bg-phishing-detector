@@ -9095,5 +9095,38 @@
     },
     "detected_at": "2026-06-07T11:45:35.768290+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "mvr-bgi.cyou",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "mvr"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": ".cyou",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "mvrbg",
+          "typo": "mvr",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-06-09T16:27:14.157501+00:00Z",
+    "source": "scanner"
   }
 ]
