@@ -9128,5 +9128,67 @@
     },
     "detected_at": "2026-06-09T16:27:14.157501+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "www.dskdirect-client.top",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "dskdirect"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "dsk-direct",
+          "typo": "dskdirect",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-06-14T21:00:40.530586+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.dskdirect-client0.top",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "dskdirect"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "dsk-direct",
+          "typo": "dskdirect",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-06-14T21:00:43.808420+00:00Z",
+    "source": "scanner"
   }
 ]
