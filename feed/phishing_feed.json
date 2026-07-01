@@ -9277,5 +9277,36 @@
     },
     "detected_at": "2026-06-28T13:13:27.251874+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "temp-fedex-sameday-portal.pages.dev",
+    "score": 80,
+    "details": {
+      "brand_keywords": [
+        "sameday"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": null,
+      "free_hosting": ".pages.dev",
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "samedaybg",
+          "typo": "sameday",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ],
+      "non_bg_context_penalty": true
+    },
+    "detected_at": "2026-07-01T17:07:16.215659+00:00Z",
+    "source": "scanner"
   }
 ]
