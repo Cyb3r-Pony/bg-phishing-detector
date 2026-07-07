@@ -9393,5 +9393,57 @@
     },
     "detected_at": "2026-07-04T20:07:31.684940+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "www.dskdirectlogin-bg1.top",
+    "score": 70,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [
+        "-bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-07T13:13:37.946534+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "cpanel.dsk-directlogin2.site",
+    "score": 85,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-07T13:13:54.794442+00:00Z",
+    "source": "scanner"
   }
 ]

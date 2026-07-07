@@ -1,15 +1,15 @@
 {
-  "last_run": "2026-07-07T10:20:07.896431+00:00Z",
+  "last_run": "2026-07-07T13:13:57.824533+00:00Z",
   "last_run_stats": {
-    "domains_processed": 1779,
-    "phishing_detected": 214,
-    "new_unique_phishing": 0,
-    "elapsed_time": 205.11
+    "domains_processed": 1721,
+    "phishing_detected": 210,
+    "new_unique_phishing": 2,
+    "elapsed_time": 247.67
   },
   "cumulative_stats": {
-    "total_unique_domains_scanned": 3764229,
-    "total_unique_phishing_found": 328,
-    "total_runs": 2363,
+    "total_unique_domains_scanned": 3765950,
+    "total_unique_phishing_found": 330,
+    "total_runs": 2364,
     "phishing_detection_rate": 0.01
   },
   "all_phishing_domains": [
@@ -49,6 +49,7 @@
     "center-dskdirect.web.app",
     "cost-of-bg-trans-flush-service.pages.dev",
     "cpanel.dsk-directlogin1.site",
+    "cpanel.dsk-directlogin2.site",
     "cpanel.dsk-directlogin3.site",
     "cpcalendars.dsk-directlogin1.site",
     "cpcalendars.dsk-directlogin2.site",
@@ -310,6 +311,7 @@
     "www.dsk-directlogin3.site",
     "www.dskdirect-client.top",
     "www.dskdirect-client0.top",
+    "www.dskdirectlogin-bg1.top",
     "www.econt-bg.3ds-service24.cf",
     "www.econt-bg.confirm-5345631.tk",
     "www.econt-bg.online-verification.cf",
