@@ -1,15 +1,15 @@
 {
-  "last_run": "2026-07-11T20:00:49.523828+00:00Z",
+  "last_run": "2026-07-11T20:44:12.076289+00:00Z",
   "last_run_stats": {
-    "domains_processed": 1816,
-    "phishing_detected": 217,
-    "new_unique_phishing": 0,
-    "elapsed_time": 210.9
+    "domains_processed": 1815,
+    "phishing_detected": 218,
+    "new_unique_phishing": 1,
+    "elapsed_time": 192.42
   },
   "cumulative_stats": {
-    "total_unique_domains_scanned": 3855137,
-    "total_unique_phishing_found": 333,
-    "total_runs": 2413,
+    "total_unique_domains_scanned": 3856952,
+    "total_unique_phishing_found": 334,
+    "total_runs": 2414,
     "phishing_detection_rate": 0.01
   },
   "all_phishing_domains": [
@@ -238,6 +238,7 @@
     "online-dskdirect.firebaseapp.com",
     "online-dskdirect.web.app",
     "pakettracking-auswertungszentrum-dhl.pages.dev",
+    "parts-olx-mvp-web-20260505.pages.dev",
     "passport-abu-bg-app-profiles-login-evry-miukrwsdijkmweaszx.pages.dev",
     "passport-abu-bg-usua-app-profiles-login-987ythi876tyghw456.pages.dev",
     "passport-abu-bg-usua-app-profiles-login-o9087tghiu87676trf.pages.dev",
