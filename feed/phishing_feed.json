@@ -9471,5 +9471,51 @@
     },
     "detected_at": "2026-07-07T20:46:57.910630+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "0-12-account-analyticsbrand.0.bigobigo1978.xyz",
+    "score": 70,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [
+        "account"
+      ],
+      "geo_indicators": [],
+      "suspicious_tld": ".xyz",
+      "free_hosting": null,
+      "multiple_hyphens": true,
+      "numeric_suffix": true,
+      "subdomain_stacking": true,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": []
+    },
+    "detected_at": "2026-07-11T07:07:30.011585+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "0-12-accountturghcpi.0.bigobigo1978.xyz",
+    "score": 70,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [
+        "account"
+      ],
+      "geo_indicators": [],
+      "suspicious_tld": ".xyz",
+      "free_hosting": null,
+      "multiple_hyphens": true,
+      "numeric_suffix": true,
+      "subdomain_stacking": true,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": []
+    },
+    "detected_at": "2026-07-11T07:07:34.162746+00:00Z",
+    "source": "scanner"
   }
 ]
