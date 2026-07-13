@@ -1,15 +1,15 @@
 {
-  "last_run": "2026-07-13T16:37:11.605883+00:00Z",
+  "last_run": "2026-07-13T18:28:28.040610+00:00Z",
   "last_run_stats": {
-    "domains_processed": 1818,
-    "phishing_detected": 217,
-    "new_unique_phishing": 0,
-    "elapsed_time": 212.96
+    "domains_processed": 1814,
+    "phishing_detected": 218,
+    "new_unique_phishing": 1,
+    "elapsed_time": 207.29
   },
   "cumulative_stats": {
-    "total_unique_domains_scanned": 3902015,
-    "total_unique_phishing_found": 334,
-    "total_runs": 2439,
+    "total_unique_domains_scanned": 3903829,
+    "total_unique_phishing_found": 335,
+    "total_runs": 2440,
     "phishing_detection_rate": 0.01
   },
   "all_phishing_domains": [
@@ -283,6 +283,7 @@
     "speedy.bg-z.cfd",
     "tebfbwildcardprobe-1777179997604313937.hgjidcfadcbjxgpx876587654326d6c555d-de00-4b28-a07a-dflea5f84e5a.10iot.xyz",
     "temp-fedex-sameday-portal.pages.dev",
+    "tim-sepak-bola-dunia.olx-amp.xyz",
     "toto-bg-play.click",
     "uac-procredit-com.l.ink",
     "update.lyjbgozon.pochtabank.sbermegamarket.pay.blablacar.blablacar.ltdavid12345.0233233.xyz",

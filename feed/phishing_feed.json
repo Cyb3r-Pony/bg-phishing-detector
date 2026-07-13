@@ -9541,5 +9541,36 @@
     },
     "detected_at": "2026-07-11T20:44:05.633772+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "tim-sepak-bola-dunia.olx-amp.xyz",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "olx"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".xyz",
+      "free_hosting": null,
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "epay",
+          "typo": "sepak",
+          "distance": 2,
+          "type": "extra_char"
+        }
+      ],
+      "non_bg_context_penalty": true
+    },
+    "detected_at": "2026-07-13T18:28:12.050421+00:00Z",
+    "source": "scanner"
   }
 ]
