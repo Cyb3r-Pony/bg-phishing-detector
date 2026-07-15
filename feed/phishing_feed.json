@@ -9572,5 +9572,42 @@
     },
     "detected_at": "2026-07-13T18:28:12.050421+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "olx-makin-di-depan-blay.pages.dev",
+    "score": 80,
+    "details": {
+      "brand_keywords": [
+        "olx"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": null,
+      "free_hosting": ".pages.dev",
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "epay",
+          "typo": "depan",
+          "distance": 2,
+          "type": "extra_char"
+        },
+        {
+          "brand": "epay",
+          "typo": "blay",
+          "distance": 2,
+          "type": "substitution"
+        }
+      ],
+      "non_bg_context_penalty": true
+    },
+    "detected_at": "2026-07-15T09:50:33.391933+00:00Z",
+    "source": "scanner"
   }
 ]

@@ -1,15 +1,15 @@
 {
-  "last_run": "2026-07-15T07:08:06.324436+00:00Z",
+  "last_run": "2026-07-15T09:51:12.538383+00:00Z",
   "last_run_stats": {
-    "domains_processed": 1784,
-    "phishing_detected": 212,
-    "new_unique_phishing": 0,
-    "elapsed_time": 208.51
+    "domains_processed": 1800,
+    "phishing_detected": 218,
+    "new_unique_phishing": 1,
+    "elapsed_time": 216.56
   },
   "cumulative_stats": {
-    "total_unique_domains_scanned": 3939734,
-    "total_unique_phishing_found": 335,
-    "total_runs": 2460,
+    "total_unique_domains_scanned": 3941534,
+    "total_unique_phishing_found": 336,
+    "total_runs": 2461,
     "phishing_detection_rate": 0.01
   },
   "all_phishing_domains": [
@@ -222,6 +222,7 @@
     "olx-bg.shoppweb.shop",
     "olx-bg.transfers-pay.site",
     "olx-bginfo.cfd",
+    "olx-makin-di-depan-blay.pages.dev",
     "olx-pay-uah.pages.dev",
     "olx-paymentco-replenishment-id954775.pages.dev",
     "olx-payments-id199657.pages.dev",
