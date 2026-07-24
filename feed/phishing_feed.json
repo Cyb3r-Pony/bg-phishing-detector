@@ -9635,5 +9635,35 @@
     },
     "detected_at": "2026-07-22T12:22:45.549467+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "www.mvr.govbg.cyou",
+    "score": 85,
+    "details": {
+      "brand_keywords": [
+        "mvr"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": ".cyou",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "mvrbg",
+          "typo": "mvr",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ]
+    },
+    "detected_at": "2026-07-24T14:44:58.253344+00:00Z",
+    "source": "scanner"
   }
 ]
