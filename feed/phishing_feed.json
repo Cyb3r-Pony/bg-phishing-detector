@@ -9727,5 +9727,1411 @@
     },
     "detected_at": "2026-07-24T18:12:13.967849+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "pay.sberbank.sbermegamarket.yandex.sberbank.blablacar.kwid9.bg-speedyz.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyz",
+          "distance": 1,
+          "type": "extra_char"
+        },
+        {
+          "brand": "epay",
+          "typo": "pay",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:05.052623+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "yandex.avito.avito.avito.nalozhka.sber.kwid9.bg-speedyz.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyz",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:07.333769+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "yandex.sbermegamarket.yandex.blablacar.blablacar.sber.kwid9.bg-speedyx.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyx",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:08.283707+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "sbermarket.yandex.avito.sbermegamarket.sberbank.kwid9.bg-speedyz.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyz",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:09.024857+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "sbermegamarket.sbermegamarket.youla.youla.yandex.pochta.kwid9.bg-speedyz.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyz",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:09.701994+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "pochta.sbermegamarket.yandex.avito.avito.sbermegamarket.kwid9.bg-speedyz.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyz",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:12.660561+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "yandex.sberbank.yandex.avito.cdek.ozon.sberbank.kwid9.bg-speedyz.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyz",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:13.594456+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "yandex.sbermegamarket.cdek.pochtabank.sber.kwid9.bg-speedyx.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyx",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:14.466072+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "yandex.avito.avito.avito.avito.avito.sbermarket.kwid9.bg-speedyz.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyz",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:15.295967+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "yandex.sberbank.sbermegamarket.pay.avito.pochta.kwid9.bg-speedyz.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyz",
+          "distance": 1,
+          "type": "extra_char"
+        },
+        {
+          "brand": "epay",
+          "typo": "pay",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:16.227261+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "pochta.yandex.avito.avito.sber.avito.kwid9.bg-speedyx.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyx",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:16.437654+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "yandex.yandex.sberbank.cdek.kwid9.bg-speedyz.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyz",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:17.284383+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "ozon.yandex.nalozhka.avito.cdek.avito.sbermarket.kwid9.bg-speedyz.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyz",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:17.593820+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "sber.cdek.yandex.cdek.sberbank.avito.kwid9.bg-speedyx.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyx",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:17.724851+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "yandex.sbermegamarket.avito.blablacar.sbermarket.kwid9.bg-speedyx.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyx",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:18.193778+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "yandex.avito.sbermegamarket.sberbank.kwid9.bg-speedyz.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyz",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:19.263234+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "yandex.cdek.pochta.nalozhka.avito.kwid9.bg-speedyx.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyx",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:19.394914+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "youla.yandex.avito.ozon.cdek.kwid9.bg-speedyz.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyz",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:21.260979+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "cdek.yandex.avito.avito.avito.blablacar.sbermegamarket.kwid9.bg-speedyz.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyz",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:22.393683+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "blablacar.yandex.avito.avito.avito.sbermegamarket.kwid9.bg-speedyx.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyx",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:23.557065+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "ozon.yandex.avito.blablacar.nalozhka.kwid9.bg-speedyx.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyx",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:25.490532+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "yandex.yandex.avito.nalozhka.ozon.sberbank.kwid9.bg-speedyx.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyx",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:26.006338+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "ozon.blablacar.yandex.pochtabank.kwid9.bg-speedyz.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyz",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:27.489736+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "pay.sbermegamarket.youla.yandex.avito.pochta.pochtabank.kwid9.bg-speedyx.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyx",
+          "distance": 1,
+          "type": "extra_char"
+        },
+        {
+          "brand": "epay",
+          "typo": "pay",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:28.040063+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "yandex.sbermegamarket.sbermegamarket.sberbank.kwid9.bg-speedyx.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyx",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:29.173086+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "sbermegamarket.sber.yandex.avito.ozon.sberbank.kwid9.bg-speedyx.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyx",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:29.376922+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "youla.yandex.avito.avito.sber.avito.kwid9.bg-speedyx.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyx",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:30.277721+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "yandex.sbermegamarket.avito.blablacar.pochta.kwid9.bg-speedyz.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyz",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:31.714758+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "avito.avito.yandex.sberbank.sbermegamarket.kwid9.bg-speedyz.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyz",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:32.015033+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "blablacar.sbermegamarket.yandex.avito.cdek.kwid9.bg-speedyx.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyx",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:33.844466+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "cdek.avito.yandex.avito.pochta.pochtabank.kwid9.bg-speedyx.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyx",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:35.288598+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "pochtabank.yandex.avito.ozon.cdek.kwid9.bg-speedyz.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyz",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:36.508589+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "yandex.sbermarket.blablacar.pochta.sbermarket.kwid9.bg-speedyz.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyz",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:37.553692+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "sbermegamarket.yandex.avito.blablacar.yandex.kwid9.bg-speedyx.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyx",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:38.906260+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "pochta.yandex.avito.avito.avito.avito.cdek.kwid9.bg-speedyz.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyz",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:39.860249+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "pay.yandex.avito.sberbank.kwid9.bg-speedyx.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyx",
+          "distance": 1,
+          "type": "extra_char"
+        },
+        {
+          "brand": "epay",
+          "typo": "pay",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:40.600990+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "sbermegamarket.yandex.avito.pay.pay.blablacar.kwid9.bg-speedyz.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyz",
+          "distance": 1,
+          "type": "extra_char"
+        },
+        {
+          "brand": "epay",
+          "typo": "pay",
+          "distance": 1,
+          "type": "missing_char"
+        },
+        {
+          "brand": "epay",
+          "typo": "pay",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:41.303915+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "youla.cdek.yandex.avito.sberbank.kwid9.bg-speedyx.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyx",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:41.472497+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "nalozhka.pay.yandex.avito.blablacar.yandex.kwid9.bg-speedyx.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyx",
+          "distance": 1,
+          "type": "extra_char"
+        },
+        {
+          "brand": "epay",
+          "typo": "pay",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:41.717761+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "yandex.cdek.youla.blablacar.pochta.kwid9.bg-speedyx.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyx",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:43.937106+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "blablacar.yandex.avito.nalozhka.sberbank.blablacar.kwid9.bg-speedyx.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyx",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:47.082147+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "sberbank.sbermegamarket.www.yandex.avito.cdek.avito.kwid9.bg-speedyz.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyz",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:47.915475+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "ozon.yandex.avito.avito.avito.nalozhka.kwid9.bg-speedyz.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyz",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:48.564977+00:00Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "nalozhka.yandex.cdek.youla.sbermarket.kwid9.bg-speedyz.top",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        ".bg"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "speedy",
+          "typo": "speedyz",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-07-31T11:19:48.659377+00:00Z",
+    "source": "scanner"
   }
 ]
