@@ -1,15 +1,15 @@
 {
-  "last_run": "2026-08-08T04:06:27.591830+00:00Z",
+  "last_run": "2026-08-08T05:37:21.057385+00:00Z",
   "last_run_stats": {
-    "domains_processed": 1827,
+    "domains_processed": 1814,
     "phishing_detected": 256,
     "new_unique_phishing": 0,
-    "elapsed_time": 260.54
+    "elapsed_time": 222.9
   },
   "cumulative_stats": {
-    "total_unique_domains_scanned": 4500773,
+    "total_unique_domains_scanned": 4502587,
     "total_unique_phishing_found": 384,
-    "total_runs": 2769,
+    "total_runs": 2770,
     "phishing_detection_rate": 0.01
   },
   "all_phishing_domains": [
