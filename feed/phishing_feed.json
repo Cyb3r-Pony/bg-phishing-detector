@@ -11189,5 +11189,35 @@
     },
     "detected_at": "2026-08-08T13:39:16.962981+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "8guild-izin-trbg-gaes.pages.dev",
+    "score": 75,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "bg-"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".pages.dev",
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "mvrbg",
+          "typo": "trbg",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ]
+    },
+    "detected_at": "2026-08-10T07:09:09.130024+00:00Z",
+    "source": "scanner"
   }
 ]
