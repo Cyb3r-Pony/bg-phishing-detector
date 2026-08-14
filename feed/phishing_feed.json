@@ -11219,5 +11219,67 @@
     },
     "detected_at": "2026-08-10T07:09:09.130024+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "ww17.nbg-bank-login.fluxio.cfd",
+    "score": 90,
+    "details": {
+      "brand_keywords": [],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [
+        "bg-"
+      ],
+      "suspicious_tld": ".cfd",
+      "free_hosting": null,
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "fibank",
+          "typo": "bank",
+          "distance": 2,
+          "type": "missing_char"
+        },
+        {
+          "brand": "ccbank",
+          "typo": "bank",
+          "distance": 2,
+          "type": "missing_char"
+        },
+        {
+          "brand": "ibank",
+          "typo": "bank",
+          "distance": 1,
+          "type": "missing_char"
+        },
+        {
+          "brand": "iabank",
+          "typo": "bank",
+          "distance": 2,
+          "type": "missing_char"
+        },
+        {
+          "brand": "bacb",
+          "typo": "bank",
+          "distance": 2,
+          "type": "substitution"
+        },
+        {
+          "brand": "bdbank",
+          "typo": "bank",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ]
+    },
+    "detected_at": "2026-08-14T12:39:51.350036+00:00Z",
+    "source": "scanner"
   }
 ]
