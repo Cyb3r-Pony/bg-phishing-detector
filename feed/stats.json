@@ -1,15 +1,15 @@
 {
-  "last_run": "2026-08-17T17:18:58.217829+00:00Z",
+  "last_run": "2026-08-17T18:23:32.009394+00:00Z",
   "last_run_stats": {
-    "domains_processed": 1760,
-    "phishing_detected": 257,
-    "new_unique_phishing": 0,
-    "elapsed_time": 212.14
+    "domains_processed": 1757,
+    "phishing_detected": 258,
+    "new_unique_phishing": 1,
+    "elapsed_time": 209.65
   },
   "cumulative_stats": {
-    "total_unique_domains_scanned": 4820112,
-    "total_unique_phishing_found": 390,
-    "total_runs": 2951,
+    "total_unique_domains_scanned": 4821869,
+    "total_unique_phishing_found": 391,
+    "total_runs": 2952,
     "phishing_detection_rate": 0.01
   },
   "all_phishing_domains": [
@@ -270,6 +270,7 @@
     "pochta.yandex.avito.avito.avito.avito.cdek.kwid9.bg-speedyz.top",
     "pochta.yandex.avito.avito.sber.avito.kwid9.bg-speedyx.top",
     "pochtabank.yandex.avito.ozon.cdek.kwid9.bg-speedyz.top",
+    "postbank-ausbildungsnavi-de-59864.pages.dev",
     "qporbiroiwildcardprobe-1777098048849088436.jedcfadcbjxgpx876587654326d6c555d-de00-4b28-a07a-dflea5f84e5a.10iot.xyz",
     "revolut.dostavka-olx-bg-parite.online",
     "sber.cdek.yandex.cdek.sberbank.avito.kwid9.bg-speedyx.top",

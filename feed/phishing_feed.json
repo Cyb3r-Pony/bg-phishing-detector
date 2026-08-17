@@ -11350,5 +11350,42 @@
     },
     "detected_at": "2026-08-16T08:18:16.138782+00:00Z",
     "source": "scanner"
+  },
+  {
+    "domain": "postbank-ausbildungsnavi-de-59864.pages.dev",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "postbank"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "suspicious_tld": null,
+      "free_hosting": ".pages.dev",
+      "multiple_hyphens": true,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "epostbank",
+          "typo": "postbank",
+          "distance": 1,
+          "type": "missing_char"
+        },
+        {
+          "brand": "e-postbank",
+          "typo": "postbank",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ],
+      "non_bg_context_penalty": true
+    },
+    "detected_at": "2026-08-17T18:23:22.158298+00:00Z",
+    "source": "scanner"
   }
 ]
