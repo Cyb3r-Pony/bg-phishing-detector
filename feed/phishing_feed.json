@@ -16564,5 +16564,605 @@
     },
     "detected_at": "2026-08-20T14:29:49.080771Z",
     "source": "scanner"
+  },
+  {
+    "domain": "booking.dostavka-olxbg.space",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "olx"
+      ],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [
+        "olx"
+      ],
+      "transaction_keywords": [
+        "dostavka"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "lure:dostavka",
+        "brand+bg:olx",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".space",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T15:26:07.654949Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "olxbg.cfd",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "olx"
+      ],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [
+        "olx"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand+bg:olx",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".cfd",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T15:26:50.893936Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "olxbg.formma.cf",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "olx"
+      ],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [
+        "olx"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand+bg:olx",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".cf",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T15:26:50.982818Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "olxbg.pay-receive.xyz",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "olx"
+      ],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [
+        "olx"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand+bg:olx",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".xyz",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T15:26:51.072331Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "olxbg.safe-security.online",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "olx"
+      ],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [
+        "olx"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand+bg:olx",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".online",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T15:26:51.160253Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "olxbg.website",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "olx"
+      ],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [
+        "olx"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand+bg:olx",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".website",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T15:26:51.248998Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "ww25.cpcalendars.dsk-directlogin03.site",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "bg_exclusive_brands": [
+        "dsk"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:dsk",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T15:27:19.542392Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "ww25.dsk-directbg2x.site",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "bg_exclusive_brands": [
+        "dsk"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:dsk",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T15:27:19.630537Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "ww25.dsk-directlogin03.site",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "bg_exclusive_brands": [
+        "dsk"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:dsk",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T15:27:19.718557Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "ww25.m.dsk-directlogin03.site",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "bg_exclusive_brands": [
+        "dsk"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:dsk",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T15:27:19.894475Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "ww38.cpanel.dsk-directlogin03.site",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "bg_exclusive_brands": [
+        "dsk"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:dsk",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T15:27:20.071395Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "ww38.dsk-directlogin0.site",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "bg_exclusive_brands": [
+        "dsk"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:dsk",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T15:27:20.159460Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "ww38.dsk-directlogin03.site",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "bg_exclusive_brands": [
+        "dsk"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:dsk",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T15:27:20.248317Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "ww38.dsk-directlogin1.site",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "bg_exclusive_brands": [
+        "dsk"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:dsk",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T15:27:20.336599Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "ww38.dsk-directlogin2.site",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "bg_exclusive_brands": [
+        "dsk"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:dsk",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T15:27:20.426149Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "ww38.dsk-directlogin3.site",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "dsk"
+      ],
+      "bg_exclusive_brands": [
+        "dsk"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:dsk",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T15:27:20.515369Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "ww38.gateway.dsk-direct-bg0.site",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "dsk",
+        "dsk-direct"
+      ],
+      "bg_exclusive_brands": [
+        "dsk",
+        "dsk-direct"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:dsk",
+        "brand:dsk-direct",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T15:27:20.696286Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.olxbg.formma.cf",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "olx"
+      ],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [
+        "olx"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand+bg:olx",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".cf",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T15:27:27.712055Z",
+    "source": "scanner"
   }
 ]
