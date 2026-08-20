@@ -9444,5 +9444,7125 @@
     },
     "detected_at": "2026-08-20T13:33:04.176982Z",
     "source": "manual"
+  },
+  {
+    "domain": "abv-bg0.site",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "abv"
+      ],
+      "bg_exclusive_brands": [
+        "abv"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:10.708725Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abv-bg1.site",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "abv"
+      ],
+      "bg_exclusive_brands": [
+        "abv"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:10.797017Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abv-bg111.top",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "abv"
+      ],
+      "bg_exclusive_brands": [
+        "abv"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:10.885416Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abv-bg2.site",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "abv"
+      ],
+      "bg_exclusive_brands": [
+        "abv"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:10.973145Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abv-bg2.top",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "abv"
+      ],
+      "bg_exclusive_brands": [
+        "abv"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:11.060866Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abv-bg3.site",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "abv"
+      ],
+      "bg_exclusive_brands": [
+        "abv"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:11.149152Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abv-bgc40.top",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "abv"
+      ],
+      "bg_exclusive_brands": [
+        "abv"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:11.237654Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abv-bgc48.top",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "abv"
+      ],
+      "bg_exclusive_brands": [
+        "abv"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:11.325808Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abv-bgc53.top",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "abv"
+      ],
+      "bg_exclusive_brands": [
+        "abv"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:11.413595Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abv-bgc55.top",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "abv"
+      ],
+      "bg_exclusive_brands": [
+        "abv"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:11.501476Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abv-bgc56.top",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "abv"
+      ],
+      "bg_exclusive_brands": [
+        "abv"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:11.588872Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abv-bgc59.top",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "abv"
+      ],
+      "bg_exclusive_brands": [
+        "abv"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:11.677120Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abv-bgd41.top",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "abv"
+      ],
+      "bg_exclusive_brands": [
+        "abv"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:11.768506Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abv-bgd43.top",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "abv"
+      ],
+      "bg_exclusive_brands": [
+        "abv"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:11.856632Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abv-bgd44.top",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "abv"
+      ],
+      "bg_exclusive_brands": [
+        "abv"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:11.944564Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abv-bgd46.top",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "abv"
+      ],
+      "bg_exclusive_brands": [
+        "abv"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:12.033107Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abv-bgd47.top",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "abv"
+      ],
+      "bg_exclusive_brands": [
+        "abv"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:12.121154Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abv-bgd49.top",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "abv"
+      ],
+      "bg_exclusive_brands": [
+        "abv"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:12.209325Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abv-bgd53.top",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "abv"
+      ],
+      "bg_exclusive_brands": [
+        "abv"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:12.297850Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abv-bgd54.top",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "abv"
+      ],
+      "bg_exclusive_brands": [
+        "abv"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:12.386395Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abv-bgd57.top",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "abv"
+      ],
+      "bg_exclusive_brands": [
+        "abv"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:12.474423Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abv-bglogin.square.site",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "abv"
+      ],
+      "bg_exclusive_brands": [
+        "abv"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:12.563747Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abv-bgmailing.top",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "abv"
+      ],
+      "bg_exclusive_brands": [
+        "abv"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:12.652649Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abv-bgz51.top",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "abv"
+      ],
+      "bg_exclusive_brands": [
+        "abv"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:12.741716Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abv-bgz52.top",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "abv"
+      ],
+      "bg_exclusive_brands": [
+        "abv"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:12.829985Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abv-bgz53.top",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "abv"
+      ],
+      "bg_exclusive_brands": [
+        "abv"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:12.917855Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abvbg-100279-106335.weeblysite.com",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "abv",
+        "abvbg"
+      ],
+      "bg_exclusive_brands": [
+        "abv",
+        "abvbg"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "brand:abvbg",
+        "brand+bg:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".weeblysite.com",
+      "multiple_hyphens": true,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:13.009490Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abvbg-100565.square.site",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "abv",
+        "abvbg"
+      ],
+      "bg_exclusive_brands": [
+        "abv",
+        "abvbg"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "brand:abvbg",
+        "brand+bg:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:13.100591Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abvbg-101002.weeblysite.com",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "abv",
+        "abvbg"
+      ],
+      "bg_exclusive_brands": [
+        "abv",
+        "abvbg"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "brand:abvbg",
+        "brand+bg:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".weeblysite.com",
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:13.191034Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abvbg-101820.weeblysite.com",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "abv",
+        "abvbg"
+      ],
+      "bg_exclusive_brands": [
+        "abv",
+        "abvbg"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "brand:abvbg",
+        "brand+bg:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".weeblysite.com",
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:13.281669Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abvbg-101918.weeblysite.com",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "abv",
+        "abvbg"
+      ],
+      "bg_exclusive_brands": [
+        "abv",
+        "abvbg"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "brand:abvbg",
+        "brand+bg:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".weeblysite.com",
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:13.372735Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abvbg-102807.weeblysite.com",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "abv",
+        "abvbg"
+      ],
+      "bg_exclusive_brands": [
+        "abv",
+        "abvbg"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "brand:abvbg",
+        "brand+bg:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".weeblysite.com",
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:13.463547Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abvbg-103064.square.site",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "abv",
+        "abvbg"
+      ],
+      "bg_exclusive_brands": [
+        "abv",
+        "abvbg"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "brand:abvbg",
+        "brand+bg:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:13.552975Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abvbg-103613.square.site",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "abv",
+        "abvbg"
+      ],
+      "bg_exclusive_brands": [
+        "abv",
+        "abvbg"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "brand:abvbg",
+        "brand+bg:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:13.643199Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abvbg-103768.square.site",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "abv",
+        "abvbg"
+      ],
+      "bg_exclusive_brands": [
+        "abv",
+        "abvbg"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "brand:abvbg",
+        "brand+bg:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:13.733221Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abvbg-104436.weeblysite.com",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "abv",
+        "abvbg"
+      ],
+      "bg_exclusive_brands": [
+        "abv",
+        "abvbg"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "brand:abvbg",
+        "brand+bg:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".weeblysite.com",
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:13.824392Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abvbg-104589.weeblysite.com",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "abv",
+        "abvbg"
+      ],
+      "bg_exclusive_brands": [
+        "abv",
+        "abvbg"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "brand:abvbg",
+        "brand+bg:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".weeblysite.com",
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:13.915196Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abvbg-104604.weeblysite.com",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "abv",
+        "abvbg"
+      ],
+      "bg_exclusive_brands": [
+        "abv",
+        "abvbg"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "brand:abvbg",
+        "brand+bg:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".weeblysite.com",
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:14.006120Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abvbg-104926.weeblysite.com",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "abv",
+        "abvbg"
+      ],
+      "bg_exclusive_brands": [
+        "abv",
+        "abvbg"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "brand:abvbg",
+        "brand+bg:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".weeblysite.com",
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:14.097101Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abvbg-105306.weeblysite.com",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "abv",
+        "abvbg"
+      ],
+      "bg_exclusive_brands": [
+        "abv",
+        "abvbg"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "brand:abvbg",
+        "brand+bg:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".weeblysite.com",
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:14.190490Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abvbg-105356.weeblysite.com",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "abv",
+        "abvbg"
+      ],
+      "bg_exclusive_brands": [
+        "abv",
+        "abvbg"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "brand:abvbg",
+        "brand+bg:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".weeblysite.com",
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:14.280441Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abvbg-105372.square.site",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "abv",
+        "abvbg"
+      ],
+      "bg_exclusive_brands": [
+        "abv",
+        "abvbg"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "brand:abvbg",
+        "brand+bg:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:14.370204Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abvbg-105494.weeblysite.com",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "abv",
+        "abvbg"
+      ],
+      "bg_exclusive_brands": [
+        "abv",
+        "abvbg"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "brand:abvbg",
+        "brand+bg:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".weeblysite.com",
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:14.460175Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abvbg-105814.weeblysite.com",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "abv",
+        "abvbg"
+      ],
+      "bg_exclusive_brands": [
+        "abv",
+        "abvbg"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "brand:abvbg",
+        "brand+bg:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".weeblysite.com",
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:14.550413Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abvbg-105816.weeblysite.com",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "abv",
+        "abvbg"
+      ],
+      "bg_exclusive_brands": [
+        "abv",
+        "abvbg"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "brand:abvbg",
+        "brand+bg:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".weeblysite.com",
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:14.640631Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abvbg-105914.weeblysite.com",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "abv",
+        "abvbg"
+      ],
+      "bg_exclusive_brands": [
+        "abv",
+        "abvbg"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "brand:abvbg",
+        "brand+bg:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".weeblysite.com",
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:14.730772Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abvbg-105978.weeblysite.com",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "abv",
+        "abvbg"
+      ],
+      "bg_exclusive_brands": [
+        "abv",
+        "abvbg"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "brand:abvbg",
+        "brand+bg:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".weeblysite.com",
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:14.820767Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abvbg-106344.weeblysite.com",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "abv",
+        "abvbg"
+      ],
+      "bg_exclusive_brands": [
+        "abv",
+        "abvbg"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "brand:abvbg",
+        "brand+bg:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".weeblysite.com",
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:14.911466Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abvbg-106605.square.site",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "abv",
+        "abvbg"
+      ],
+      "bg_exclusive_brands": [
+        "abv",
+        "abvbg"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "brand:abvbg",
+        "brand+bg:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:15.001281Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abvbg-106691.weeblysite.com",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "abv",
+        "abvbg"
+      ],
+      "bg_exclusive_brands": [
+        "abv",
+        "abvbg"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "brand:abvbg",
+        "brand+bg:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".weeblysite.com",
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:15.091644Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abvbg-107015.weeblysite.com",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "abv",
+        "abvbg"
+      ],
+      "bg_exclusive_brands": [
+        "abv",
+        "abvbg"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "brand:abvbg",
+        "brand+bg:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".weeblysite.com",
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:15.182274Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abvbg-107109-100940.weeblysite.com",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "abv",
+        "abvbg"
+      ],
+      "bg_exclusive_brands": [
+        "abv",
+        "abvbg"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "brand:abvbg",
+        "brand+bg:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".weeblysite.com",
+      "multiple_hyphens": true,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:15.273709Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abvbg-107278.weeblysite.com",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "abv",
+        "abvbg"
+      ],
+      "bg_exclusive_brands": [
+        "abv",
+        "abvbg"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "brand:abvbg",
+        "brand+bg:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".weeblysite.com",
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:15.364708Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abvbg-107425.square.site",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "abv",
+        "abvbg"
+      ],
+      "bg_exclusive_brands": [
+        "abv",
+        "abvbg"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "brand:abvbg",
+        "brand+bg:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:15.454826Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abvbg-107729.square.site",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "abv",
+        "abvbg"
+      ],
+      "bg_exclusive_brands": [
+        "abv",
+        "abvbg"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "brand:abvbg",
+        "brand+bg:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:15.544846Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abvbg-107934.weeblysite.com",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "abv",
+        "abvbg"
+      ],
+      "bg_exclusive_brands": [
+        "abv",
+        "abvbg"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "brand:abvbg",
+        "brand+bg:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".weeblysite.com",
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:15.636074Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abvbg-108108.square.site",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "abv",
+        "abvbg"
+      ],
+      "bg_exclusive_brands": [
+        "abv",
+        "abvbg"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "brand:abvbg",
+        "brand+bg:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:15.725827Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abvbg-108149.weeblysite.com",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "abv",
+        "abvbg"
+      ],
+      "bg_exclusive_brands": [
+        "abv",
+        "abvbg"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "brand:abvbg",
+        "brand+bg:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".weeblysite.com",
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:15.816232Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abvbg-109509.weeblysite.com",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "abv",
+        "abvbg"
+      ],
+      "bg_exclusive_brands": [
+        "abv",
+        "abvbg"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "brand:abvbg",
+        "brand+bg:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".weeblysite.com",
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:15.906558Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "abvbg-109684.weeblysite.com",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "abv",
+        "abvbg"
+      ],
+      "bg_exclusive_brands": [
+        "abv",
+        "abvbg"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "brand:abvbg",
+        "brand+bg:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".weeblysite.com",
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:15.997655Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "bdbank.tech",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "bdbank"
+      ],
+      "bg_exclusive_brands": [
+        "bdbank"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:bdbank"
+      ],
+      "suspicious_tld": ".tech",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bulbank",
+          "typo": "bdbank",
+          "distance": 2,
+          "type": "missing_char"
+        },
+        {
+          "brand": "tbibank",
+          "typo": "bdbank",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:28:20.143791Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "bdbank.xyz",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "bdbank"
+      ],
+      "bg_exclusive_brands": [
+        "bdbank"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:bdbank"
+      ],
+      "suspicious_tld": ".xyz",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bulbank",
+          "typo": "bdbank",
+          "distance": 2,
+          "type": "missing_char"
+        },
+        {
+          "brand": "tbibank",
+          "typo": "bdbank",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:28:20.235379Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "bg-abv-bg.top",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "abv"
+      ],
+      "bg_exclusive_brands": [
+        "abv"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "bg"
+      ],
+      "bg_context_signals": [
+        "geo:bg",
+        "brand:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:20.414137Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "bgfibank-connect.pages.dev",
+    "score": 80,
+    "details": {
+      "brand_keywords": [
+        "fibank"
+      ],
+      "bg_exclusive_brands": [
+        "fibank"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:fibank",
+        "brand+bg:fibank"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".pages.dev",
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:28:21.489248Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "bgfibank.showdesign.online",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "fibank"
+      ],
+      "bg_exclusive_brands": [
+        "fibank"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:fibank",
+        "brand+bg:fibank"
+      ],
+      "suspicious_tld": ".online",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:28:21.580276Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "bgpost.help",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "bgpost"
+      ],
+      "bg_exclusive_brands": [
+        "bgpost"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:bgpost",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".help",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bg-post",
+          "typo": "bgpost",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:23.436696Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "bgposta.live",
+    "score": 75,
+    "details": {
+      "brand_keywords": [],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".live",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bgpost",
+          "typo": "bgposta",
+          "distance": 1,
+          "type": "extra_char"
+        },
+        {
+          "brand": "bg-post",
+          "typo": "bgposta",
+          "distance": 2,
+          "type": "substitution"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:23.787097Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "bgpostb.live",
+    "score": 75,
+    "details": {
+      "brand_keywords": [],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".live",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bgpost",
+          "typo": "bgpostb",
+          "distance": 1,
+          "type": "extra_char"
+        },
+        {
+          "brand": "bg-post",
+          "typo": "bgpostb",
+          "distance": 2,
+          "type": "substitution"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:23.875158Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "bgpostf.live",
+    "score": 75,
+    "details": {
+      "brand_keywords": [],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".live",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bgpost",
+          "typo": "bgpostf",
+          "distance": 1,
+          "type": "extra_char"
+        },
+        {
+          "brand": "bg-post",
+          "typo": "bgpostf",
+          "distance": 2,
+          "type": "substitution"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:24.052665Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "bgposth.live",
+    "score": 75,
+    "details": {
+      "brand_keywords": [],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".live",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bgpost",
+          "typo": "bgposth",
+          "distance": 1,
+          "type": "extra_char"
+        },
+        {
+          "brand": "bg-post",
+          "typo": "bgposth",
+          "distance": 2,
+          "type": "substitution"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:24.140385Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "bgposti.help",
+    "score": 75,
+    "details": {
+      "brand_keywords": [],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".help",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bgpost",
+          "typo": "bgposti",
+          "distance": 1,
+          "type": "extra_char"
+        },
+        {
+          "brand": "bg-post",
+          "typo": "bgposti",
+          "distance": 2,
+          "type": "substitution"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:24.228634Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "bgpostl.cfd",
+    "score": 75,
+    "details": {
+      "brand_keywords": [],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".cfd",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bgpost",
+          "typo": "bgpostl",
+          "distance": 1,
+          "type": "extra_char"
+        },
+        {
+          "brand": "bg-post",
+          "typo": "bgpostl",
+          "distance": 2,
+          "type": "substitution"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:24.669652Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "bgpostl.help",
+    "score": 75,
+    "details": {
+      "brand_keywords": [],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".help",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bgpost",
+          "typo": "bgpostl",
+          "distance": 1,
+          "type": "extra_char"
+        },
+        {
+          "brand": "bg-post",
+          "typo": "bgpostl",
+          "distance": 2,
+          "type": "substitution"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:24.757578Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "bgpostm.live",
+    "score": 75,
+    "details": {
+      "brand_keywords": [],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".live",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bgpost",
+          "typo": "bgpostm",
+          "distance": 1,
+          "type": "extra_char"
+        },
+        {
+          "brand": "bg-post",
+          "typo": "bgpostm",
+          "distance": 2,
+          "type": "substitution"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:25.021373Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "bgpostp.live",
+    "score": 75,
+    "details": {
+      "brand_keywords": [],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".live",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bgpost",
+          "typo": "bgpostp",
+          "distance": 1,
+          "type": "extra_char"
+        },
+        {
+          "brand": "bg-post",
+          "typo": "bgpostp",
+          "distance": 2,
+          "type": "substitution"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:25.109175Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "bgpostq.live",
+    "score": 75,
+    "details": {
+      "brand_keywords": [],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".live",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bgpost",
+          "typo": "bgpostq",
+          "distance": 1,
+          "type": "extra_char"
+        },
+        {
+          "brand": "bg-post",
+          "typo": "bgpostq",
+          "distance": 2,
+          "type": "substitution"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:25.197471Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "bgpostr.live",
+    "score": 75,
+    "details": {
+      "brand_keywords": [],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".live",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bgpost",
+          "typo": "bgpostr",
+          "distance": 1,
+          "type": "extra_char"
+        },
+        {
+          "brand": "bg-post",
+          "typo": "bgpostr",
+          "distance": 2,
+          "type": "substitution"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:25.285351Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "bgposts.cfd",
+    "score": 75,
+    "details": {
+      "brand_keywords": [],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".cfd",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bgpost",
+          "typo": "bgposts",
+          "distance": 1,
+          "type": "extra_char"
+        },
+        {
+          "brand": "bg-post",
+          "typo": "bgposts",
+          "distance": 2,
+          "type": "substitution"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:25.374178Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "bgpostt.live",
+    "score": 75,
+    "details": {
+      "brand_keywords": [],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".live",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bgpost",
+          "typo": "bgpostt",
+          "distance": 1,
+          "type": "extra_char"
+        },
+        {
+          "brand": "bg-post",
+          "typo": "bgpostt",
+          "distance": 2,
+          "type": "substitution"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:25.551400Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "bgpostu.live",
+    "score": 75,
+    "details": {
+      "brand_keywords": [],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".live",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bgpost",
+          "typo": "bgpostu",
+          "distance": 1,
+          "type": "extra_char"
+        },
+        {
+          "brand": "bg-post",
+          "typo": "bgpostu",
+          "distance": 2,
+          "type": "substitution"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:25.639174Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "bgpostv.live",
+    "score": 75,
+    "details": {
+      "brand_keywords": [],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".live",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bgpost",
+          "typo": "bgpostv",
+          "distance": 1,
+          "type": "extra_char"
+        },
+        {
+          "brand": "bg-post",
+          "typo": "bgpostv",
+          "distance": 2,
+          "type": "substitution"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:25.726855Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "bgpostx.live",
+    "score": 75,
+    "details": {
+      "brand_keywords": [],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".live",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bgpost",
+          "typo": "bgpostx",
+          "distance": 1,
+          "type": "extra_char"
+        },
+        {
+          "brand": "bg-post",
+          "typo": "bgpostx",
+          "distance": 2,
+          "type": "substitution"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:25.903259Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "bgpostz.live",
+    "score": 75,
+    "details": {
+      "brand_keywords": [],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".live",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bgpost",
+          "typo": "bgpostz",
+          "distance": 1,
+          "type": "extra_char"
+        },
+        {
+          "brand": "bg-post",
+          "typo": "bgpostz",
+          "distance": 2,
+          "type": "substitution"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:25.992047Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "bgtollpasigv.cyou",
+    "score": 70,
+    "details": {
+      "brand_keywords": [],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "tol"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".cyou",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:26.802876Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "cdn-speedy-5.cfd",
+    "score": 85,
+    "details": {
+      "brand_keywords": [
+        "speedy"
+      ],
+      "bg_exclusive_brands": [
+        "speedy"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:speedy"
+      ],
+      "suspicious_tld": ".cfd",
+      "free_hosting": null,
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:28:28.248274Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "digitollie.online",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "tol"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".online",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "digitoll",
+          "typo": "digitollie",
+          "distance": 2,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:30.775886Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "dskdirectik.web.app",
+    "score": 80,
+    "details": {
+      "brand_keywords": [],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "direct-impersonation"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".web.app",
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "dskdirect",
+          "typo": "dskdirectik",
+          "distance": 2,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:32.820086Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "econt-paydelivery.cfd",
+    "score": 85,
+    "details": {
+      "brand_keywords": [
+        "econt"
+      ],
+      "bg_exclusive_brands": [
+        "econt"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "delivery"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:econt"
+      ],
+      "suspicious_tld": ".cfd",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:28:36.655648Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "econt.1g9bxa.icu",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "econt"
+      ],
+      "bg_exclusive_brands": [
+        "econt"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:econt"
+      ],
+      "suspicious_tld": ".icu",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:28:36.744951Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "econt.4pqm4p.icu",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "econt"
+      ],
+      "bg_exclusive_brands": [
+        "econt"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:econt"
+      ],
+      "suspicious_tld": ".icu",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:28:36.834430Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "econt.8a5z2f.icu",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "econt"
+      ],
+      "bg_exclusive_brands": [
+        "econt"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:econt"
+      ],
+      "suspicious_tld": ".icu",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:28:36.925201Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "econt.c1z9gk.icu",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "econt"
+      ],
+      "bg_exclusive_brands": [
+        "econt"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:econt"
+      ],
+      "suspicious_tld": ".icu",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:28:37.377866Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "econt.fastshop.icu",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "econt"
+      ],
+      "bg_exclusive_brands": [
+        "econt"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:econt"
+      ],
+      "suspicious_tld": ".icu",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:28:37.468879Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "econt.fpfqdi.icu",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "econt"
+      ],
+      "bg_exclusive_brands": [
+        "econt"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:econt"
+      ],
+      "suspicious_tld": ".icu",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:28:37.558854Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "econt.fz47ys.icu",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "econt"
+      ],
+      "bg_exclusive_brands": [
+        "econt"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:econt"
+      ],
+      "suspicious_tld": ".icu",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:28:37.648449Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "econt.id-94281.icu",
+    "score": 85,
+    "details": {
+      "brand_keywords": [
+        "econt"
+      ],
+      "bg_exclusive_brands": [
+        "econt"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:econt"
+      ],
+      "suspicious_tld": ".icu",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:28:37.737306Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "econt.id6616.cfd",
+    "score": 85,
+    "details": {
+      "brand_keywords": [
+        "econt"
+      ],
+      "bg_exclusive_brands": [
+        "econt"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:econt"
+      ],
+      "suspicious_tld": ".cfd",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:28:37.826664Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "econt.id6643788.cfd",
+    "score": 85,
+    "details": {
+      "brand_keywords": [
+        "econt"
+      ],
+      "bg_exclusive_brands": [
+        "econt"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:econt"
+      ],
+      "suspicious_tld": ".cfd",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:28:37.916556Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "econt.lgi8e5.icu",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "econt"
+      ],
+      "bg_exclusive_brands": [
+        "econt"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:econt"
+      ],
+      "suspicious_tld": ".icu",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:28:38.006795Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "econt.novapays.icu",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "econt"
+      ],
+      "bg_exclusive_brands": [
+        "econt"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:econt"
+      ],
+      "suspicious_tld": ".icu",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:28:38.098567Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "econt.order-47237832.cfd",
+    "score": 85,
+    "details": {
+      "brand_keywords": [
+        "econt"
+      ],
+      "bg_exclusive_brands": [
+        "econt"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:econt"
+      ],
+      "suspicious_tld": ".cfd",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:28:38.189051Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "econt.payseting.icu",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "econt"
+      ],
+      "bg_exclusive_brands": [
+        "econt"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:econt"
+      ],
+      "suspicious_tld": ".icu",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:28:38.281455Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "econt.pl903y.icu",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "econt"
+      ],
+      "bg_exclusive_brands": [
+        "econt"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:econt"
+      ],
+      "suspicious_tld": ".icu",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:28:38.370574Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "econt.png4kx.icu",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "econt"
+      ],
+      "bg_exclusive_brands": [
+        "econt"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:econt"
+      ],
+      "suspicious_tld": ".icu",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:28:38.459174Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "econt.polychevane.icu",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "econt"
+      ],
+      "bg_exclusive_brands": [
+        "econt"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:econt"
+      ],
+      "suspicious_tld": ".icu",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:28:38.548654Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "econt.take-pay.cfd",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "econt"
+      ],
+      "bg_exclusive_brands": [
+        "econt"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:econt"
+      ],
+      "suspicious_tld": ".cfd",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:28:38.637386Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "econt.totall.cfd",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "econt"
+      ],
+      "bg_exclusive_brands": [
+        "econt"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:econt"
+      ],
+      "suspicious_tld": ".cfd",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:28:38.726187Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "econt.w0bqjw.icu",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "econt"
+      ],
+      "bg_exclusive_brands": [
+        "econt"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:econt"
+      ],
+      "suspicious_tld": ".icu",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:28:38.815951Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "econt.x2pnbz.icu",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "econt"
+      ],
+      "bg_exclusive_brands": [
+        "econt"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:econt"
+      ],
+      "suspicious_tld": ".icu",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:28:38.905523Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "econtbg.pay-receive.xyz",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "econt"
+      ],
+      "bg_exclusive_brands": [
+        "econt"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:econt",
+        "brand+bg:econt",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".xyz",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:38.994703Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "econtbg.site",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "econt"
+      ],
+      "bg_exclusive_brands": [
+        "econt"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:econt",
+        "brand+bg:econt",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:39.170359Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "econtbg.website",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "econt"
+      ],
+      "bg_exclusive_brands": [
+        "econt"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:econt",
+        "brand+bg:econt",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".website",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:39.259395Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "euslugi-payment.cc",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "euslugi"
+      ],
+      "bg_exclusive_brands": [
+        "euslugi"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "payment"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:euslugi"
+      ],
+      "suspicious_tld": ".cc",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "e-uslugi",
+          "typo": "euslugi",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:28:40.066337Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "euslugi-paynow.cc",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "euslugi"
+      ],
+      "bg_exclusive_brands": [
+        "euslugi"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "uslugi"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:euslugi"
+      ],
+      "suspicious_tld": ".cc",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "e-uslugi",
+          "typo": "euslugi",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:28:40.156536Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "euslugi-remit.cc",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "euslugi"
+      ],
+      "bg_exclusive_brands": [
+        "euslugi"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "uslugi"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:euslugi"
+      ],
+      "suspicious_tld": ".cc",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "e-uslugi",
+          "typo": "euslugi",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:28:40.245583Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "euslugi-system.cc",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "euslugi"
+      ],
+      "bg_exclusive_brands": [
+        "euslugi"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "uslugi"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:euslugi"
+      ],
+      "suspicious_tld": ".cc",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "e-uslugi",
+          "typo": "euslugi",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:28:40.335140Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "euslugimvr-billing.cc",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "uslugi"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".cc",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "euslugivrl",
+          "typo": "euslugimvr",
+          "distance": 2,
+          "type": "substitution"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:40.514407Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "euslugimvr-charge.cc",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "uslugi"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".cc",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "euslugivrl",
+          "typo": "euslugimvr",
+          "distance": 2,
+          "type": "substitution"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:40.603773Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "euslugimvr-charge.sbs",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "uslugi"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".sbs",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "euslugivrl",
+          "typo": "euslugimvr",
+          "distance": 2,
+          "type": "substitution"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:40.693482Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "euslugimvr-payment.cc",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "payment"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".cc",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "euslugivrl",
+          "typo": "euslugimvr",
+          "distance": 2,
+          "type": "substitution"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:40.782241Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "euslugimvr-payment.sbs",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "payment"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".sbs",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "euslugivrl",
+          "typo": "euslugimvr",
+          "distance": 2,
+          "type": "substitution"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:40.871060Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "euslugimvr-paynow.cc",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "uslugi"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".cc",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "euslugivrl",
+          "typo": "euslugimvr",
+          "distance": 2,
+          "type": "substitution"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:40.960590Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "euslugimvr-paynow.sbs",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "uslugi"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".sbs",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "euslugivrl",
+          "typo": "euslugimvr",
+          "distance": 2,
+          "type": "substitution"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:41.050540Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "euslugimvr-platen.cc",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "uslugi"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".cc",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "euslugivrl",
+          "typo": "euslugimvr",
+          "distance": 2,
+          "type": "substitution"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:41.140457Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "euslugimvr-taksa.cc",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "uslugi"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".cc",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "euslugivrl",
+          "typo": "euslugimvr",
+          "distance": 2,
+          "type": "substitution"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:41.230068Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "fibank.bg.successlogin3.site",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "fibank"
+      ],
+      "bg_exclusive_brands": [
+        "fibank"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [
+        "bg",
+        ".bg-label"
+      ],
+      "bg_context_signals": [
+        "geo:bg",
+        "geo:.bg-label",
+        "brand:fibank"
+      ],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "tbibank",
+          "typo": "fibank",
+          "distance": 2,
+          "type": "missing_char"
+        },
+        {
+          "brand": "ibank",
+          "typo": "fibank",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:28:42.867741Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "fibank.bg.successlogin4.site",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "fibank"
+      ],
+      "bg_exclusive_brands": [
+        "fibank"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [
+        "bg",
+        ".bg-label"
+      ],
+      "bg_context_signals": [
+        "geo:bg",
+        "geo:.bg-label",
+        "brand:fibank"
+      ],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "tbibank",
+          "typo": "fibank",
+          "distance": 2,
+          "type": "missing_char"
+        },
+        {
+          "brand": "ibank",
+          "typo": "fibank",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:28:42.958274Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "fibank.bg.successlogin5.site",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "fibank"
+      ],
+      "bg_exclusive_brands": [
+        "fibank"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [
+        "bg",
+        ".bg-label"
+      ],
+      "bg_context_signals": [
+        "geo:bg",
+        "geo:.bg-label",
+        "brand:fibank"
+      ],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "tbibank",
+          "typo": "fibank",
+          "distance": 2,
+          "type": "missing_char"
+        },
+        {
+          "brand": "ibank",
+          "typo": "fibank",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:28:43.049434Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "guce.econt-paydelivery.cfd",
+    "score": 85,
+    "details": {
+      "brand_keywords": [
+        "econt"
+      ],
+      "bg_exclusive_brands": [
+        "econt"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "delivery"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:econt"
+      ],
+      "suspicious_tld": ".cfd",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:28:45.914465Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "m.bgpost.asgmba.help",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "bgpost"
+      ],
+      "bg_exclusive_brands": [
+        "bgpost"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:bgpost",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".help",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bg-post",
+          "typo": "bgpost",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:56.116619Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "m.bgpost.auaprs.help",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "bgpost"
+      ],
+      "bg_exclusive_brands": [
+        "bgpost"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:bgpost",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".help",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bg-post",
+          "typo": "bgpost",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:28:56.205744Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "mvrbge.top",
+    "score": 75,
+    "details": {
+      "brand_keywords": [],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "mvrbg",
+          "typo": "mvrbge",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:00.948132Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "passport-abv-bg-app-profile-login.pages.dev",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "abv"
+      ],
+      "bg_exclusive_brands": [
+        "abv"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [
+        "bg"
+      ],
+      "bg_context_signals": [
+        "geo:bg",
+        "brand:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".pages.dev",
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:13.045309Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "passport-abv-bg-profile-login-uiwhjediujhwd.pages.dev",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "abv"
+      ],
+      "bg_exclusive_brands": [
+        "abv"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [
+        "bg"
+      ],
+      "bg_context_signals": [
+        "geo:bg",
+        "brand:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".pages.dev",
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:13.226499Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "passport-abv-bg-profile-login-uuidio2q9i.pages.dev",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "abv"
+      ],
+      "bg_exclusive_brands": [
+        "abv"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [
+        "bg"
+      ],
+      "bg_context_signals": [
+        "geo:bg",
+        "brand:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".pages.dev",
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:13.317616Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "ship24-speedy.cfd",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "speedy"
+      ],
+      "bg_exclusive_brands": [
+        "speedy"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:speedy"
+      ],
+      "suspicious_tld": ".cfd",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:29:20.548605Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "speedy-glass.cfd",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "speedy"
+      ],
+      "bg_exclusive_brands": [
+        "speedy"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:speedy"
+      ],
+      "suspicious_tld": ".cfd",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:29:21.614090Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "speedy.g638184.cfd",
+    "score": 85,
+    "details": {
+      "brand_keywords": [
+        "speedy"
+      ],
+      "bg_exclusive_brands": [
+        "speedy"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:speedy"
+      ],
+      "suspicious_tld": ".cfd",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:29:24.392588Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "speedy.gyufi.tk",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "speedy"
+      ],
+      "bg_exclusive_brands": [
+        "speedy"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:speedy"
+      ],
+      "suspicious_tld": ".tk",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:29:24.482067Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "speedy.hskdfh3.tk",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "speedy"
+      ],
+      "bg_exclusive_brands": [
+        "speedy"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:speedy"
+      ],
+      "suspicious_tld": ".tk",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:29:24.572727Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "speedy.order-47237832.cfd",
+    "score": 85,
+    "details": {
+      "brand_keywords": [
+        "speedy"
+      ],
+      "bg_exclusive_brands": [
+        "speedy"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:speedy"
+      ],
+      "suspicious_tld": ".cfd",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:29:24.662959Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "speedybg.cfd",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "speedy"
+      ],
+      "bg_exclusive_brands": [
+        "speedy"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:speedy",
+        "brand+bg:speedy",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".cfd",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:24.750633Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "tollpass.cjba.cam",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "tollpass"
+      ],
+      "bg_exclusive_brands": [
+        "tollpass"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "tol"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:tollpass",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".cam",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "toll-pass",
+          "typo": "tollpass",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:27.361329Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "tollpass.dvhl.cam",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "tollpass"
+      ],
+      "bg_exclusive_brands": [
+        "tollpass"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "tol"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:tollpass",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".cam",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "toll-pass",
+          "typo": "tollpass",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:27.450763Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "tollpass.eknt.cam",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "tollpass"
+      ],
+      "bg_exclusive_brands": [
+        "tollpass"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "tol"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:tollpass",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".cam",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "toll-pass",
+          "typo": "tollpass",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:27.540453Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "tollpass.fkvx.cam",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "tollpass"
+      ],
+      "bg_exclusive_brands": [
+        "tollpass"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "tol"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:tollpass",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".cam",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "toll-pass",
+          "typo": "tollpass",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:27.630202Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "tollpass.isxd.cam",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "tollpass"
+      ],
+      "bg_exclusive_brands": [
+        "tollpass"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "tol"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:tollpass",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".cam",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "toll-pass",
+          "typo": "tollpass",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:27.720378Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "tollpass.klgf.cam",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "tollpass"
+      ],
+      "bg_exclusive_brands": [
+        "tollpass"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "tol"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:tollpass",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".cam",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "toll-pass",
+          "typo": "tollpass",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:27.810261Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "tollpass.sbs",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "tollpass"
+      ],
+      "bg_exclusive_brands": [
+        "tollpass"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "tol"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:tollpass",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".sbs",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "toll-pass",
+          "typo": "tollpass",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:27.898834Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "tollpass.tqcl.cam",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "tollpass"
+      ],
+      "bg_exclusive_brands": [
+        "tollpass"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "tol"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:tollpass",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".cam",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "toll-pass",
+          "typo": "tollpass",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:27.989095Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "tollpass.txsu.cam",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "tollpass"
+      ],
+      "bg_exclusive_brands": [
+        "tollpass"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "tol"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:tollpass",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".cam",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "toll-pass",
+          "typo": "tollpass",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:28.078851Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "tollpass.usnk.cam",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "tollpass"
+      ],
+      "bg_exclusive_brands": [
+        "tollpass"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "tol"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:tollpass",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".cam",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "toll-pass",
+          "typo": "tollpass",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:28.168239Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "tollpass.vqio.cam",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "tollpass"
+      ],
+      "bg_exclusive_brands": [
+        "tollpass"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "tol"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:tollpass",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".cam",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "toll-pass",
+          "typo": "tollpass",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:28.258613Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "tollpass.xlyr.cam",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "tollpass"
+      ],
+      "bg_exclusive_brands": [
+        "tollpass"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "tol"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:tollpass",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".cam",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "toll-pass",
+          "typo": "tollpass",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:28.349134Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "tollpasss.sbs",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "tol"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".sbs",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "tollpass",
+          "typo": "tollpasss",
+          "distance": 1,
+          "type": "extra_char"
+        },
+        {
+          "brand": "toll-pass",
+          "typo": "tollpasss",
+          "distance": 2,
+          "type": "substitution"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:28.529700Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "tollpasss.xyz",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "tol"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".xyz",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "tollpass",
+          "typo": "tollpasss",
+          "distance": 1,
+          "type": "extra_char"
+        },
+        {
+          "brand": "toll-pass",
+          "typo": "tollpasss",
+          "distance": 2,
+          "type": "substitution"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:28.619524Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "tollpassss.cc",
+    "score": 85,
+    "details": {
+      "brand_keywords": [],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "tol"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".cc",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "tollpass",
+          "typo": "tollpassss",
+          "distance": 2,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:28.709880Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "trade.bdbank.xyz",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "bdbank"
+      ],
+      "bg_exclusive_brands": [
+        "bdbank"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:bdbank"
+      ],
+      "suspicious_tld": ".xyz",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bulbank",
+          "typo": "bdbank",
+          "distance": 2,
+          "type": "missing_char"
+        },
+        {
+          "brand": "tbibank",
+          "typo": "bdbank",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:29:29.251638Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "upgradewebemail-abv-bg.herokuapp.com",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "abv"
+      ],
+      "bg_exclusive_brands": [
+        "abv"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "bg"
+      ],
+      "bg_context_signals": [
+        "geo:bg",
+        "brand:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".herokuapp.com",
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:31.340134Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "ww25.olx-bg.moneyget.shop",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "olx"
+      ],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [
+        "olx"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "bg"
+      ],
+      "bg_context_signals": [
+        "geo:bg",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".shop",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:34.593441Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "ww38.olx-bg.moneyget.shop",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "olx"
+      ],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [
+        "olx"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "bg"
+      ],
+      "bg_context_signals": [
+        "geo:bg",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".shop",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:34.775846Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "ww38.speedy-current-affairs-2023-english-pdf.boldness.cfd",
+    "score": 95,
+    "details": {
+      "brand_keywords": [
+        "speedy"
+      ],
+      "bg_exclusive_brands": [
+        "speedy"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:speedy"
+      ],
+      "suspicious_tld": ".cfd",
+      "free_hosting": null,
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:29:34.871833Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "ww38.speedy-tower-battles.visioniq.cfd",
+    "score": 85,
+    "details": {
+      "brand_keywords": [
+        "speedy"
+      ],
+      "bg_exclusive_brands": [
+        "speedy"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:speedy"
+      ],
+      "suspicious_tld": ".cfd",
+      "free_hosting": null,
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:29:34.965638Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.abv-bg11.top",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "abv"
+      ],
+      "bg_exclusive_brands": [
+        "abv"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:35.239935Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.abv-bg111.top",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "abv"
+      ],
+      "bg_exclusive_brands": [
+        "abv"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:35.329500Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.abv-bg2.top",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "abv"
+      ],
+      "bg_exclusive_brands": [
+        "abv"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:35.418619Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.abv-bgmailing.top",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "abv"
+      ],
+      "bg_exclusive_brands": [
+        "abv"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:abv",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:35.508886Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.bdbank.tech",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "bdbank"
+      ],
+      "bg_exclusive_brands": [
+        "bdbank"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:bdbank"
+      ],
+      "suspicious_tld": ".tech",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bulbank",
+          "typo": "bdbank",
+          "distance": 2,
+          "type": "missing_char"
+        },
+        {
+          "brand": "tbibank",
+          "typo": "bdbank",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:29:36.139322Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.bgpost.auaprs.help",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "bgpost"
+      ],
+      "bg_exclusive_brands": [
+        "bgpost"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:bgpost",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".help",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bg-post",
+          "typo": "bgpost",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:36.318618Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.bgpost.help",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "bgpost"
+      ],
+      "bg_exclusive_brands": [
+        "bgpost"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:bgpost",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".help",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bg-post",
+          "typo": "bgpost",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:36.406264Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.dskdirect-client.top",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "dskdirect"
+      ],
+      "bg_exclusive_brands": [
+        "dskdirect"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:dskdirect",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "dsk-direct",
+          "typo": "dskdirect",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:38.833187Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.dskdirect-client0.top",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "dskdirect"
+      ],
+      "bg_exclusive_brands": [
+        "dskdirect"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:dskdirect",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "dsk-direct",
+          "typo": "dskdirect",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:38.924145Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.dskdirectlogin-bg1.top",
+    "score": 70,
+    "details": {
+      "brand_keywords": [],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "login"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".top",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:39.545397Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.econt-bg.3ds-service24.cf",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "econt"
+      ],
+      "bg_exclusive_brands": [
+        "econt"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "bg"
+      ],
+      "bg_context_signals": [
+        "geo:bg",
+        "brand:econt",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".cf",
+      "free_hosting": null,
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:39.635471Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.econt-bg.confirm-5345631.tk",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "econt"
+      ],
+      "bg_exclusive_brands": [
+        "econt"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "confirm"
+      ],
+      "geo_indicators": [
+        "bg"
+      ],
+      "bg_context_signals": [
+        "geo:bg",
+        "brand:econt",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".tk",
+      "free_hosting": null,
+      "multiple_hyphens": true,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:39.724537Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.econt-bg.online-verification.cf",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "econt"
+      ],
+      "bg_exclusive_brands": [
+        "econt"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "bg"
+      ],
+      "bg_context_signals": [
+        "geo:bg",
+        "brand:econt",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".cf",
+      "free_hosting": null,
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:39.813586Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.econt-bg.verify-9874.tk",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "econt"
+      ],
+      "bg_exclusive_brands": [
+        "econt"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "verify"
+      ],
+      "geo_indicators": [
+        "bg"
+      ],
+      "bg_context_signals": [
+        "geo:bg",
+        "brand:econt",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".tk",
+      "free_hosting": null,
+      "multiple_hyphens": true,
+      "numeric_suffix": true,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:39.901895Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.gav.mvrbg.cam",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "mvr",
+        "mvrbg"
+      ],
+      "bg_exclusive_brands": [
+        "mvr",
+        "mvrbg"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:mvr",
+        "brand:mvrbg",
+        "brand+bg:mvr",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".cam",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:40.444236Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.mvr-bg.autos",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "mvr"
+      ],
+      "bg_exclusive_brands": [
+        "mvr"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "bg"
+      ],
+      "bg_context_signals": [
+        "geo:bg",
+        "brand:mvr",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".autos",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:42.253043Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.mvr-bg.cfd",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "mvr"
+      ],
+      "bg_exclusive_brands": [
+        "mvr"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "bg"
+      ],
+      "bg_context_signals": [
+        "geo:bg",
+        "brand:mvr",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".cfd",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:42.341147Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.mvr-bg.lat",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "mvr"
+      ],
+      "bg_exclusive_brands": [
+        "mvr"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "bg"
+      ],
+      "bg_context_signals": [
+        "geo:bg",
+        "brand:mvr",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".lat",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:42.429946Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.mvr-bg.sbs",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "mvr"
+      ],
+      "bg_exclusive_brands": [
+        "mvr"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "bg"
+      ],
+      "bg_context_signals": [
+        "geo:bg",
+        "brand:mvr",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".sbs",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:42.518613Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.mvr-bg.shop",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "mvr"
+      ],
+      "bg_exclusive_brands": [
+        "mvr"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "bg"
+      ],
+      "bg_context_signals": [
+        "geo:bg",
+        "brand:mvr",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".shop",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:42.606894Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.mvr.govbg.cyou",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "mvr"
+      ],
+      "bg_exclusive_brands": [
+        "mvr"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:mvr"
+      ],
+      "suspicious_tld": ".cyou",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:29:42.696832Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.mvr.govbg.work",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "mvr"
+      ],
+      "bg_exclusive_brands": [
+        "mvr"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:mvr"
+      ],
+      "suspicious_tld": ".work",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:29:42.786116Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.mvrbg.cyou",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "mvr",
+        "mvrbg"
+      ],
+      "bg_exclusive_brands": [
+        "mvr",
+        "mvrbg"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:mvr",
+        "brand:mvrbg",
+        "brand+bg:mvr",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".cyou",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:42.874204Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.mvrbg.sbs",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "mvr",
+        "mvrbg"
+      ],
+      "bg_exclusive_brands": [
+        "mvr",
+        "mvrbg"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:mvr",
+        "brand:mvrbg",
+        "brand+bg:mvr",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".sbs",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:42.962825Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.olx-bg-pay.online",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "olx"
+      ],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [
+        "olx"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "bg"
+      ],
+      "bg_context_signals": [
+        "geo:bg",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".online",
+      "free_hosting": null,
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:43.230650Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.olx-bg.24pay-delivers.site",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "olx"
+      ],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [
+        "olx"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "bg"
+      ],
+      "bg_context_signals": [
+        "geo:bg",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:43.319472Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.olx-bg.delivery-nfc.site",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "olx"
+      ],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [
+        "olx"
+      ],
+      "transaction_keywords": [
+        "delivery"
+      ],
+      "geo_indicators": [
+        "bg"
+      ],
+      "bg_context_signals": [
+        "geo:bg",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:43.407582Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.olx-bg.delivery-pay.xyz",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "olx"
+      ],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [
+        "olx"
+      ],
+      "transaction_keywords": [
+        "delivery"
+      ],
+      "geo_indicators": [
+        "bg"
+      ],
+      "bg_context_signals": [
+        "geo:bg",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".xyz",
+      "free_hosting": null,
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:43.494660Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.olx-bg.get-money.link",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "olx"
+      ],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [
+        "olx"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "bg"
+      ],
+      "bg_context_signals": [
+        "geo:bg",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".link",
+      "free_hosting": null,
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:43.580857Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.olx-bg.moneyget.shop",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "olx"
+      ],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [
+        "olx"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "bg"
+      ],
+      "bg_context_signals": [
+        "geo:bg",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".shop",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:43.667809Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.olx-bg.paymenting.site",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "olx"
+      ],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [
+        "olx"
+      ],
+      "transaction_keywords": [
+        "payment"
+      ],
+      "geo_indicators": [
+        "bg"
+      ],
+      "bg_context_signals": [
+        "geo:bg",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:43.754635Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.olx-bg.payments-id.site",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "olx"
+      ],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [
+        "olx"
+      ],
+      "transaction_keywords": [
+        "payment"
+      ],
+      "geo_indicators": [
+        "bg"
+      ],
+      "bg_context_signals": [
+        "geo:bg",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:43.840980Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.olx-bg.safen-pay.site",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "olx"
+      ],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [
+        "olx"
+      ],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "bg"
+      ],
+      "bg_context_signals": [
+        "geo:bg",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".site",
+      "free_hosting": null,
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:43.927524Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.play.bdbank.xyz",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "bdbank"
+      ],
+      "bg_exclusive_brands": [
+        "bdbank"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:bdbank"
+      ],
+      "suspicious_tld": ".xyz",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bulbank",
+          "typo": "bdbank",
+          "distance": 2,
+          "type": "missing_char"
+        },
+        {
+          "brand": "tbibank",
+          "typo": "bdbank",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:29:44.636671Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.speedy-bg-public.cfd",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "speedy"
+      ],
+      "bg_exclusive_brands": [
+        "speedy"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "bg"
+      ],
+      "bg_context_signals": [
+        "geo:bg",
+        "brand:speedy",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".cfd",
+      "free_hosting": null,
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:46.568962Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "www.store.easypaybg.online",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "easypay"
+      ],
+      "bg_exclusive_brands": [
+        "easypay"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:easypay",
+        "brand+bg:easypay",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".online",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "easypay",
+          "typo": "easypaybg",
+          "distance": 2,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-08-20T14:29:46.745054Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "yettel-magyarorszag.online",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "yettel"
+      ],
+      "bg_exclusive_brands": [
+        "yettel"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:yettel"
+      ],
+      "suspicious_tld": ".online",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-20T14:29:49.080771Z",
+    "source": "scanner"
   }
 ]
