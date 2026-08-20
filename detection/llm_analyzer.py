@@ -1,10 +1,17 @@
 #!/usr/bin/env python3
 """
 LLM-based phishing domain analyzer
-Analyzes high-risk domains (score ≥80) using OpenRouter API
-Runs daily to enrich detection feed with AI analysis
+
+Second stage of the pipeline. Takes domains the rule engine already flagged
+and asks a free OpenRouter model to confirm the threat level, name the
+impersonated Bulgarian brand and recommend BLOCK vs INVESTIGATE.
+
+The score floor and lookback window are CLI arguments (the workflow passes
+--min-score 75 --lookback-hours 24); results are merged into
+feed/llm-analysis.json rather than replacing it.
 """
 
+import importlib.util
 import json
 import os
 import sys
@@ -12,6 +19,31 @@ import time
 import requests
 from datetime import datetime, timedelta, timezone
 from typing import Dict, List, Optional
+
+
+def _load_protected_domains() -> List[str]:
+    """
+    Read the whitelist from the scanner so the LLM is told about the same
+    legitimate domains the rule engine knows about. Previously this list was
+    a hardcoded copy that silently went stale every time a brand was added.
+    """
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                        'bg-phishing-detector.py')
+    try:
+        spec = importlib.util.spec_from_file_location('bg_phishing_detector', path)
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+        return list(module.WHITELISTED_DOMAINS)
+    except Exception as exc:  # pragma: no cover - defensive
+        print(f"⚠️  Could not load whitelist from scanner ({exc}), using fallback")
+        return [
+            'econt.bg', 'speedy.bg', 'bgpost.bg', 'olx.bg', 'easypay.bg',
+            'epay.bg', 'borica.bg', 'dskdirect.bg', 'ubb.bg', 'fibank.bg',
+            'postbank.bg', 'mvr.bg', 'bgtoll.bg', 'tollpass.bg', 'vinetki.bg',
+        ]
+
+
+PROTECTED_DOMAINS = _load_protected_domains()
 
 
 class OpenRouterAnalyzer:
@@ -66,7 +98,7 @@ class OpenRouterAnalyzer:
                     "messages": [
                         {
                             "role": "system",
-                            "content": "You are a cybersecurity expert specializing in phishing detection. Analyze domains targeting Bulgarian courier services. Be concise and decisive."
+                            "content": "You are a cybersecurity expert specializing in phishing detection. You analyse domains that impersonate Bulgarian institutions, banks, payment providers, toll/vignette services, couriers and marketplaces in order to defraud Bulgarian citizens. Be concise and decisive."
                         },
                         {
                             "role": "user",
@@ -118,12 +150,8 @@ class OpenRouterAnalyzer:
         tld = details.get('suspicious_tld', 'N/A')
         hosting = details.get('free_hosting', 'N/A')
         
-        # Identify mimicked domain
-        whitelisted = [
-            'econt.bg', 'econt.com', 'speedy.bg', 'bgpost.bg', 'bulgariapost.bg',
-            'olx.bg', 'dhl.bg', 'sameday.bg', 'evropat.bg', 'easypay.bg',
-            'epay.bg', 'borica.bg', 'fastpay.bg', 'intime.bg', 'boxnow.bg'
-        ]
+        # Candidate impersonation targets, straight from the scanner whitelist
+        whitelisted = PROTECTED_DOMAINS
         
         prompt = f"""Analyze this suspected phishing domain targeting Bulgarian services:
 
@@ -133,8 +161,8 @@ class OpenRouterAnalyzer:
 **Transaction Keywords:** {trans_kw if trans_kw else 'None'}
 **TLD:** {tld}
 
-**Whitelisted Legitimate Domains:**
-{', '.join(whitelisted[:10])}
+**Legitimate Bulgarian domains that may be impersonated:**
+{', '.join(whitelisted)}
 
 **Task:** Provide EXACTLY this format (no extra text):
 
@@ -223,16 +251,41 @@ def load_feed(feed_path: str) -> List[Dict]:
 
 
 def save_llm_analysis(output_path: str, analyzed_domains: List[Dict]):
-    """Save LLM analysis to separate JSON file"""
-    # Create analysis output with metadata
+    """
+    Merge newly analysed domains into the existing analysis file.
+
+    This used to overwrite the file with only the current run's results, so
+    every day's analysis destroyed the previous day's — while
+    ``load_existing_analysis`` kept skipping those same domains, meaning they
+    were never re-analysed either. Now old entries are preserved and an entry
+    re-analysed for the same domain replaces the older one.
+    """
+    existing: List[Dict] = []
+    if os.path.exists(output_path):
+        try:
+            with open(output_path, 'r') as f:
+                data = json.load(f)
+                existing = data.get('domains', data.get('analyzed_domains', []))
+        except (json.JSONDecodeError, OSError):
+            existing = []
+
+    merged = {entry.get('domain'): entry for entry in existing}
+    for entry in analyzed_domains:
+        merged[entry.get('domain')] = entry
+
+    domains = sorted(merged.values(),
+                     key=lambda e: (-e.get('phishing_score', 0), e.get('domain', '')))
+
     output = {
         'analyzed_at': datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z'),
-        'total_analyzed': len(analyzed_domains),
-        'domains': analyzed_domains
+        'total_analyzed': len(domains),
+        'newly_analyzed': len(analyzed_domains),
+        'domains': domains
     }
-    
+
     with open(output_path, 'w') as f:
         json.dump(output, f, indent=2)
+        f.write('\n')
 
 
 def load_existing_analysis(output_path: str) -> List[str]:
@@ -332,6 +385,7 @@ def main():
             'arcee-ai/trinity-large-preview:free',
             'nvidia/nemotron-nano-9b-v2:free',
             'nvidia/nemotron-3-nano-30b-a3b:free',
+            'meta-llama/llama-3.3-70b-instruct:free',
             'upstage/solar-pro-3:free',
             'qwen/qwen3-coder:free'
         ],
@@ -466,7 +520,7 @@ def main():
     if analyzed_domains:
         print(f"\n💾 Saving analysis to {args.output_file}...")
         save_llm_analysis(args.output_file, analyzed_domains)
-        print(f"   ✅ Saved {len(analyzed_domains)} analyzed domains")
+        print(f"   ✅ Merged {len(analyzed_domains)} new analyses into {args.output_file}")
     else:
         print(f"\n   No new domains analyzed")
     

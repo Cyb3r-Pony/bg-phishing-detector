@@ -96,31 +96,51 @@ jobs:
           echo "### 🤖 LLM Analysis Summary" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "**Analysis completed at:** $(date -u +"%Y-%m-%d %H:%M:%S UTC")" >> $GITHUB_STEP_SUMMARY
-          echo "**Model:** Llama 3.3 70B Instruct (free tier)" >> $GITHUB_STEP_SUMMARY
-          echo "**Threshold:** Domains with score ≥75" >> $GITHUB_STEP_SUMMARY
+          echo "**Model:** Arcee Trinity Large (OpenRouter free tier)" >> $GITHUB_STEP_SUMMARY
+          echo "**Threshold:** Domains with score >= 75" >> $GITHUB_STEP_SUMMARY
           echo "**Max domains:** 50 per run" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
 
-          # Count analyzed domains from llm-analysis.json
           if [[ -f feed/llm-analysis.json ]]; then
-            ANALYZED=$(cat feed/llm-analysis.json | python3 -c "import sys, json; data = json.load(sys.stdin); print(len(data.get('analyzed_domains', [])))" 2>/dev/null || echo "0")
+            python3 - >> $GITHUB_STEP_SUMMARY <<'EOF'
+          import json
 
-            HIGH_THREAT=$(cat feed/llm-analysis.json | python3 -c "import sys, json; data = json.load(sys.stdin); high = sum(1 for entry in data.get('analyzed_domains', []) if entry.get('threat_level') == 'HIGH'); print(high)" 2>/dev/null || echo "0")
+          with open('feed/llm-analysis.json') as f:
+              data = json.load(f)
 
-            BLOCK_REC=$(cat feed/llm-analysis.json | python3 -c "import sys, json; data = json.load(sys.stdin); block = sum(1 for entry in data.get('analyzed_domains', []) if entry.get('decision') == 'BLOCK'); print(block)" 2>/dev/null || echo "0")
+          domains = data.get('domains', [])
+          new_count = data.get('newly_analyzed', 0)
 
-            FALSE_POS=$(cat feed/llm-analysis.json | python3 -c "import sys, json; data = json.load(sys.stdin); fp = sum(1 for entry in data.get('analyzed_domains', []) if entry.get('decision') == 'FALSE_POSITIVE'); print(fp)" 2>/dev/null || echo "0")
 
-            echo "**📊 Results:**" >> $GITHUB_STEP_SUMMARY
-            echo "- Total domains analyzed: **$ANALYZED**" >> $GITHUB_STEP_SUMMARY
-            echo "- High threat confirmed: **$HIGH_THREAT** 🚨" >> $GITHUB_STEP_SUMMARY
-            echo "- Block recommended: **$BLOCK_REC** 🛑" >> $GITHUB_STEP_SUMMARY
-            echo "- False positives identified: **$FALSE_POS** ✅" >> $GITHUB_STEP_SUMMARY
-            echo "" >> $GITHUB_STEP_SUMMARY
+          def verdict(entry):
+              return entry.get('llm_analysis', {})
 
-            # Show recent high-threat domains
-            echo "**🚨 Recent High-Threat Domains:**" >> $GITHUB_STEP_SUMMARY
-            cat feed/llm-analysis.json | python3 -c "import sys, json; data = json.load(sys.stdin); high_threats = [e for e in data.get('analyzed_domains', []) if e.get('threat_level') == 'HIGH']; [print(f\"- \`{e.get('domain', 'N/A')}\` (score: {e.get('phishing_score', 0)}, confidence: {e.get('confidence', 0)}%, decision: {e.get('decision', 'UNKNOWN')})\") for e in high_threats[-5:]] if high_threats else print('- No high-threat domains in recent analysis')" >> $GITHUB_STEP_SUMMARY 2>/dev/null || echo "- No high-threat domains" >> $GITHUB_STEP_SUMMARY
+
+          high = [e for e in domains if verdict(e).get('threat_level') == 'HIGH']
+          medium = [e for e in domains if verdict(e).get('threat_level') == 'MEDIUM']
+          block = [e for e in domains if verdict(e).get('decision') == 'BLOCK']
+
+          print("**📊 Results:**")
+          print(f"- Analysed this run: **{new_count}**")
+          print(f"- Total analyses on file: **{len(domains)}**")
+          print(f"- High threat: **{len(high)}** 🚨")
+          print(f"- Medium threat: **{len(medium)}** ⚠️")
+          print(f"- Block recommended: **{len(block)}** 🛑")
+          print("")
+          print("**🚨 Highest-risk domains:**")
+          if high:
+              for e in high[:10]:
+                  v = verdict(e)
+                  print(
+                      f"- `{e.get('domain', 'N/A')}` "
+                      f"(score: {e.get('phishing_score', 0)}, "
+                      f"confidence: {v.get('confidence', 0)}%, "
+                      f"mimics: {v.get('mimicked_domain', 'NONE')}, "
+                      f"decision: {v.get('decision', 'UNKNOWN')})"
+                  )
+          else:
+              print("- No high-threat domains recorded")
+          EOF
           fi
 
           echo "" >> $GITHUB_STEP_SUMMARY

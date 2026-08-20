@@ -35,3 +35,6 @@ secrets.json
 .pytest_cache/
 .coverage
 htmlcov/
+
+# Claude Code local settings
+.claude/

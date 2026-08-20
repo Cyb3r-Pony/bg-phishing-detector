@@ -23,7 +23,7 @@ URLScan.io provides domain scanning and intelligence data.
 
 ### OpenRouter API Key
 
-OpenRouter provides access to Llama 3.3 70B for AI analysis.
+OpenRouter provides free access to the model used for stage-2 analysis (Arcee Trinity Large by default; Llama 3.3 70B, Nemotron, Solar Pro and Qwen are also selectable with `--model`).
 
 1. Go to [https://openrouter.ai/](https://openrouter.ai/)
 2. Click **Sign Up**
@@ -33,7 +33,7 @@ OpenRouter provides access to Llama 3.3 70B for AI analysis.
 6. Name it (e.g., "bg-phishing-detector")
 7. Copy the API key and save it securely
 
-**Note:** Free tier includes generous usage of Llama 3.3 70B Instruct.
+**Note:** The free tier is generous but rate-limited; the analyser sleeps 3s between requests and caps itself at 200 requests per run.
 
 ## Step 2: Set Up Repository
 
@@ -178,6 +178,7 @@ Ensure workflows can commit changes:
 - [ ] LLM analysis workflow runs successfully
 - [ ] `feed/phishing_feed.json` is created/updated
 - [ ] `feed/llm-analysis.json` is created/updated
+- [ ] `python detection/test_detector.py` passes locally
 
 ### Common Issues
 
@@ -188,6 +189,11 @@ Ensure workflows can commit changes:
 **Workflow fails at "Run LLM analysis":**
 - Check OPENROUTER_API_KEY is set correctly
 - Verify API key is active on OpenRouter
+
+**Workflow fails at "Run detection regression tests":**
+- A rule change broke a pinned expectation. The output names each failing
+  domain and what was expected — fix the rule or update the test, but do not
+  skip the step.
 
 **Push fails after scan:**
 - Ensure workflow permissions are set to "Read and write"
@@ -217,14 +223,35 @@ export URLSCAN_API_KEY="your_urlscan_api_key"
 export OPENROUTER_API_KEY="your_openrouter_api_key"
 ```
 
+### Run the regression tests first
+
+No API key needed. These pin the detection rules — Bulgarian phishing that
+must stay flagged, and false positives that must stay rejected.
+
+```bash
+python detection/test_detector.py
+```
+
 ### Run Scanner
 
 ```bash
-# Full scan (all sources)
-python detection/bg-phishing-detector.py --sources urlscan google cloudflare
+# Full scan (URLScan + manual watchlist)
+python detection/bg-phishing-detector.py --sources urlscan manual
 
-# Quick test (URLScan only)
-python detection/bg-phishing-detector.py --sources urlscan
+# Manual watchlist only — no API key required
+python detection/bg-phishing-detector.py --sources manual
+
+# Explain a single verdict, including which filter rejected it
+python detection/bg-phishing-detector.py --check-domain speedy.bg-pv.cfd
+```
+
+### Re-apply the rules to the stored feed
+
+After changing brands, whitelist entries or exclusions:
+
+```bash
+python detection/prune_feed.py --dry-run
+python detection/prune_feed.py --report prune-report.md
 ```
 
 ### Run LLM Analysis
@@ -241,11 +268,14 @@ python detection/llm_analyzer.py \
 ### View Results
 
 ```bash
-# Check phishing feed
-cat feed/phishing_feed.json | python -m json.tool | head -50
+# How many entries, and the top-scoring ones
+python -c "import json; d=json.load(open('feed/phishing_feed.json')); print(len(d)); [print(e['score'], e['domain']) for e in d[:10]]"
 
-# Check LLM analysis
-cat feed/llm-analysis.json | python -m json.tool
+# Why candidates were filtered out on the last run
+python -c "import json; print(json.load(open('feed/stats.json'))['last_run_stats']['excluded_by_reason'])"
+
+# LLM verdicts
+cat feed/llm-analysis.json | python -m json.tool | head -60
 ```
 
 ## Automated Schedule

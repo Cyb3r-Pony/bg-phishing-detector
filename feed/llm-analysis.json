@@ -1,9 +1,9 @@
 {
   "analyzed_at": "2026-04-22T03:39:17.671332Z",
-  "total_analyzed": 50,
+  "total_analyzed": 49,
   "domains": [
     {
-      "domain": "www.olx-bg.paymenting.site",
+      "domain": "olx-bg.paymenting.site",
       "detected_at": "2026-02-02T08:31:54.650599+00:00Z",
       "phishing_score": 100,
       "detection_details": {
@@ -127,7 +127,7 @@
       }
     },
     {
-      "domain": "www.econt-bg.confirm-5345631.tk",
+      "domain": "econt-bg.confirm-5345631.tk",
       "detected_at": "2026-02-02T08:31:54.954715+00:00Z",
       "phishing_score": 100,
       "detection_details": {
@@ -323,7 +323,7 @@
       }
     },
     {
-      "domain": "www.olx-bg.get-money.link",
+      "domain": "olx-bg.get-money.link",
       "detected_at": "2026-02-02T08:31:55.307169+00:00Z",
       "phishing_score": 100,
       "detection_details": {
@@ -517,7 +517,7 @@
       }
     },
     {
-      "domain": "www.olx-bg.24pay-delivers.site",
+      "domain": "olx-bg.24pay-delivers.site",
       "detected_at": "2026-02-02T08:31:55.770085+00:00Z",
       "phishing_score": 100,
       "detection_details": {
@@ -560,7 +560,7 @@
       }
     },
     {
-      "domain": "www.econt-bg.verify-9874.tk",
+      "domain": "econt-bg.verify-9874.tk",
       "detected_at": "2026-02-02T08:31:55.865536+00:00Z",
       "phishing_score": 100,
       "detection_details": {
@@ -1045,53 +1045,6 @@
       }
     },
     {
-      "domain": "meine-postbank-de-75077.web.app",
-      "detected_at": "2026-02-08T11:17:40.706846+00:00Z",
-      "phishing_score": 100,
-      "detection_details": {
-        "brand_keywords": [
-          "postbank"
-        ],
-        "transaction_keywords": [],
-        "geo_indicators": [],
-        "suspicious_tld": null,
-        "free_hosting": ".web.app",
-        "multiple_hyphens": true,
-        "numeric_suffix": true,
-        "subdomain_stacking": false,
-        "high_entropy": false,
-        "homoglyphs_detected": false,
-        "homoglyphs_used": [],
-        "typosquatting_detected": true,
-        "typosquatting_details": [
-          {
-            "brand": "epostbank",
-            "typo": "postbank",
-            "distance": 1,
-            "type": "missing_char"
-          },
-          {
-            "brand": "e-postbank",
-            "typo": "postbank",
-            "distance": 2,
-            "type": "missing_char"
-          }
-        ],
-        "direct_impersonation": true
-      },
-      "llm_analysis": {
-        "threat_level": "HIGH",
-        "confidence": 95,
-        "phishing_score": 100,
-        "mimicked_domain": "NONE",
-        "decision": "BLOCK",
-        "reasoning": "Domain mimics German Postbank branding with suspicious subdomain structure.",
-        "raw_analysis": "THREAT_LEVEL: HIGH\nCONFIDENCE: 95\nPHISHING_SCORE: 100\nMIMICKED_DOMAIN: NONE\nDECISION: BLOCK\nREASONING: Domain mimics German Postbank branding with suspicious subdomain structure.",
-        "model": "arcee-ai/trinity-large-preview:free",
-        "analyzed_at": "2026-04-22T03:37:38.324871Z"
-      }
-    },
-    {
       "domain": "center-dskdirect.firebaseapp.com",
       "detected_at": "2026-02-08T11:17:42.303452+00:00Z",
       "phishing_score": 100,
@@ -1174,7 +1127,7 @@
       }
     },
     {
-      "domain": "ww38.gateway.dsk-direct-bg0.site",
+      "domain": "gateway.dsk-direct-bg0.site",
       "detected_at": "2026-02-08T11:17:47.199840+00:00Z",
       "phishing_score": 100,
       "detection_details": {

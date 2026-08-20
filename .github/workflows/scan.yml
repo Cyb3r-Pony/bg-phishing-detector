@@ -37,31 +37,29 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      # Guards the detection rules: known Bulgarian phishing must still be
+      # flagged and known false positives must still be rejected. A rule
+      # change that breaks either one fails here instead of polluting the feed.
+      - name: Run detection regression tests
+        run: python detection/test_detector.py
+
       - name: Run phishing scanner
         env:
           URLSCAN_API_KEY: ${{ secrets.URLSCAN_API_KEY }}
         run: |
           echo "Starting phishing scan at $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
-          python detection/bg-phishing-detector.py --sources urlscan
+          python detection/bg-phishing-detector.py --sources urlscan manual
         continue-on-error: false
 
       - name: Check for new findings
         id: check_changes
         run: |
-          # Check if feed file exists and has content (handles gitignored files)
-          if [[ -f feed/phishing_feed.json ]] && [[ $(wc -l < feed/phishing_feed.json) -gt 2 ]]; then
-            # Force-add to see if there are actual changes
-            git add -f feed/phishing_feed.json feed/stats.json 2>/dev/null || true
-            if [[ -n $(git diff --cached --name-only) ]]; then
-              echo "has_changes=true" >> $GITHUB_OUTPUT
-              echo "✅ New phishing domains detected"
-            else
-              echo "has_changes=false" >> $GITHUB_OUTPUT
-              echo "ℹ️  No new findings this scan"
-            fi
+          if [[ -n $(git status --porcelain feed/) ]]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "✅ Feed updated"
           else
             echo "has_changes=false" >> $GITHUB_OUTPUT
-            echo "ℹ️  No feed file generated"
+            echo "ℹ️  No new findings this scan"
           fi
 
       - name: Commit and push findings
@@ -70,27 +68,23 @@ jobs:
           git config --global user.name 'Phishing Scanner Bot'
           git config --global user.email 'scanner@bg-phishing-detector'
 
-          # Pull latest changes to avoid conflicts
-          git pull --rebase origin main || true
-
           git add -f feed/phishing_feed.json feed/stats.json
           TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
           git commit -m "🚨 Phishing scan results - $TIMESTAMP [skip ci]"
 
-          # Push with retry logic (max 3 attempts)
+          # Push with retry. --autostash keeps the rebase from aborting on any
+          # stray working-tree changes, which is what used to wedge this step.
           for i in {1..3}; do
+            git pull --rebase --autostash origin main || true
             if git push; then
               echo "✅ Successfully pushed changes"
               break
+            elif [ $i -lt 3 ]; then
+              echo "⚠️  Push failed, retrying in 5 seconds... (attempt $i/3)"
+              sleep 5
             else
-              if [ $i -lt 3 ]; then
-                echo "⚠️  Push failed, retrying in 5 seconds... (attempt $i/3)"
-                sleep 5
-                git pull --rebase origin main || true
-              else
-                echo "❌ Failed to push after 3 attempts"
-                exit 1
-              fi
+              echo "❌ Failed to push after 3 attempts"
+              exit 1
             fi
           done
 
@@ -100,41 +94,65 @@ jobs:
           echo "### 🚨 Phishing Scan Summary" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "**Scan completed at:** $(date -u +"%Y-%m-%d %H:%M:%S UTC")" >> $GITHUB_STEP_SUMMARY
-          echo "**Sources:** URLScan.io" >> $GITHUB_STEP_SUMMARY
+          echo "**Source:** URLScan.io + manual watchlist" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
 
-          if [[ -f feed/stats.json ]]; then
-            DOMAINS=$(cat feed/stats.json | python3 -c "import sys, json; d=json.load(sys.stdin); print(d.get('last_run_stats', {}).get('domains_processed', 0))" 2>/dev/null || echo "0")
-            PHISHING=$(cat feed/stats.json | python3 -c "import sys, json; d=json.load(sys.stdin); print(d.get('last_run_stats', {}).get('phishing_detected', 0))" 2>/dev/null || echo "0")
-            NEW_PHISHING=$(cat feed/stats.json | python3 -c "import sys, json; d=json.load(sys.stdin); print(d.get('last_run_stats', {}).get('new_unique_phishing', 0))" 2>/dev/null || echo "0")
-            RUNTIME=$(cat feed/stats.json | python3 -c "import sys, json; d=json.load(sys.stdin); print(d.get('last_run_stats', {}).get('elapsed_time', 0))" 2>/dev/null || echo "0")
-            TOTAL_SCANNED=$(cat feed/stats.json | python3 -c "import sys, json; d=json.load(sys.stdin); print(d.get('cumulative_stats', {}).get('total_unique_domains_scanned', 0))" 2>/dev/null || echo "0")
-            TOTAL_PHISHING=$(cat feed/stats.json | python3 -c "import sys, json; d=json.load(sys.stdin); print(d.get('cumulative_stats', {}).get('total_unique_phishing_found', 0))" 2>/dev/null || echo "0")
-            TOTAL_RUNS=$(cat feed/stats.json | python3 -c "import sys, json; d=json.load(sys.stdin); print(d.get('cumulative_stats', {}).get('total_runs', 0))" 2>/dev/null || echo "0")
-            DETECTION_RATE=$(cat feed/stats.json | python3 -c "import sys, json; d=json.load(sys.stdin); print(d.get('cumulative_stats', {}).get('phishing_detection_rate', 0))" 2>/dev/null || echo "0")
+          python3 - >> $GITHUB_STEP_SUMMARY <<'EOF'
+          import json
+          import os
 
-            echo "**📊 This Run:**" >> $GITHUB_STEP_SUMMARY
-            echo "- Domains processed: **$DOMAINS**" >> $GITHUB_STEP_SUMMARY
-            echo "- Phishing detected: **$PHISHING** ($NEW_PHISHING new) 🚨" >> $GITHUB_STEP_SUMMARY
-            echo "- Runtime: **${RUNTIME}s**" >> $GITHUB_STEP_SUMMARY
-            echo "" >> $GITHUB_STEP_SUMMARY
-            echo "**📈 Cumulative Stats (unique domains, no duplicates):**" >> $GITHUB_STEP_SUMMARY
-            echo "- Total unique domains scanned: **$TOTAL_SCANNED**" >> $GITHUB_STEP_SUMMARY
-            echo "- Total unique phishing found: **$TOTAL_PHISHING**" >> $GITHUB_STEP_SUMMARY
-            echo "- Total runs: **$TOTAL_RUNS**" >> $GITHUB_STEP_SUMMARY
-            echo "- Detection rate: **${DETECTION_RATE}%**" >> $GITHUB_STEP_SUMMARY
-            echo "" >> $GITHUB_STEP_SUMMARY
-          fi
 
-          if [[ -f feed/phishing_feed.json ]]; then
-            TOTAL=$(cat feed/phishing_feed.json | python3 -c "import sys, json; print(len(json.load(sys.stdin)))" 2>/dev/null || echo "0")
-            echo "**📋 Total threats in feed:** $TOTAL" >> $GITHUB_STEP_SUMMARY
-            echo "" >> $GITHUB_STEP_SUMMARY
+          def load(path, default):
+              if not os.path.exists(path):
+                  return default
+              try:
+                  with open(path) as f:
+                      return json.load(f)
+              except (json.JSONDecodeError, OSError):
+                  return default
 
-            # Show last 5 detections
-            echo "**🔍 Recent Detections (last 5):**" >> $GITHUB_STEP_SUMMARY
-            cat feed/phishing_feed.json | python3 -c "import sys, json; data = json.load(sys.stdin); [print(f\"- \`{e.get('domain', 'N/A')}\` (score: {e.get('score', 0)}/100) - {e.get('source', 'unknown')}\") for e in data[-5:]] if data else print('- Unable to parse recent detections')" >> $GITHUB_STEP_SUMMARY 2>/dev/null || echo "- No recent detections" >> $GITHUB_STEP_SUMMARY
-          fi
+
+          stats = load('feed/stats.json', {})
+          feed = load('feed/phishing_feed.json', [])
+
+          if stats:
+              last = stats.get('last_run_stats', {})
+              cum = stats.get('cumulative_stats', {})
+              scanned = cum.get('total_domains_scanned',
+                                cum.get('total_unique_domains_scanned', 0))
+
+              print("**📊 This Run:**")
+              print(f"- Domains processed: **{last.get('domains_processed', 0)}**")
+              print(f"- Phishing detected: **{last.get('phishing_detected', 0)}** "
+                    f"({last.get('new_unique_phishing', 0)} new) 🚨")
+              print(f"- Runtime: **{last.get('elapsed_time', 0)}s**")
+              print("")
+
+              excluded = last.get('excluded_by_reason', {})
+              if excluded:
+                  print("**🧹 Filtered out this run:**")
+                  for reason, count in sorted(excluded.items(), key=lambda kv: -kv[1]):
+                      print(f"- `{reason}`: {count}")
+                  print("")
+
+              print("**📈 Cumulative:**")
+              print(f"- Domains scanned (all runs): **{scanned}**")
+              print(f"- Unique phishing domains found: "
+                    f"**{cum.get('total_unique_phishing_found', 0)}**")
+              print(f"- Total runs: **{cum.get('total_runs', 0)}**")
+              print(f"- Detection rate: **{cum.get('phishing_detection_rate', 0)}%**")
+              print("")
+
+          if feed:
+              print(f"**📋 Total threats in feed:** {len(feed)}")
+              print("")
+              print("**🔍 Most recent detections:**")
+              recent = sorted(feed, key=lambda e: e.get('detected_at', ''))[-5:]
+              for entry in reversed(recent):
+                  brands = ', '.join(entry.get('details', {}).get('brand_keywords', [])) or 'n/a'
+                  print(f"- `{entry.get('domain', 'N/A')}` "
+                        f"(score: {entry.get('score', 0)}/100, brand: {brands})")
+          EOF
 
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "**🎯 Target:** Bulgarian courier services (Econt, Speedy, BulgariaPost, etc.)" >> $GITHUB_STEP_SUMMARY
+          echo "**🎯 Target:** phishing aimed at Bulgarian citizens — banks and online banking, MVR and e-government, toll/vignette services, payment providers, couriers and marketplaces" >> $GITHUB_STEP_SUMMARY
