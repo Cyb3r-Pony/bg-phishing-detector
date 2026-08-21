@@ -178,8 +178,13 @@ WHITELISTED_DOMAINS = [
     'noi.bg',
     'customs.bg',          # Агенция "Митници"
     'registryagency.bg',
-    # --- Major Bulgarian consumer services frequently impersonated ---
-    'abv.bg',              # ABV mail
+    # --- Other ---
+    # ABV mail is NOT a protected brand: it is a free webmail provider, not a
+    # Bulgarian institution, bank or payment service, and bulk ABV campaigns
+    # (abv-bgNNN.top, abvbg-NNNNNN.weeblysite.com) were crowding out the
+    # institutional findings this feed exists for. The apex stays whitelisted
+    # so nothing else can ever flag it.
+    'abv.bg',
 ]
 
 # ==================== BRAND KEYWORDS ====================
@@ -274,9 +279,6 @@ BG_EXCLUSIVE_BRANDS = [
     # Telecoms
     'vivacom',
     'yettel',
-    # Consumer services
-    'abv',
-    'abvbg',
 ]
 
 AMBIGUOUS_BRANDS = [
@@ -1004,9 +1006,6 @@ DIRECT_IMPERSONATION_PATTERNS = [
     r'vinetki-?bg',
     r'vinetka-?bg',
     r'digi-?toll',
-    # ABV mail (abv.bg) — including the common abu/abw look-alikes
-    r'ab[vuwy]-?bg',
-    r'passport-?ab[vuwy]',
 ]
 
 
@@ -1442,9 +1441,7 @@ URLSCAN_QUERIES = [
     'page.domain:*mypos* AND page.domain:*bg*',
     'page.domain:*revolut* AND page.domain:*bg*',
 
-    # --- Consumer services & telecoms ---
-    'page.domain:*abv-bg*',
-    'page.domain:*abvbg*',
+    # --- Telecoms ---
     'page.domain:*vivacom*',
     'page.domain:*yettel*',
 
@@ -1587,7 +1584,12 @@ def scan_domains(duration: int = None, sources: List[str] = None) -> None:
                 logging.info(f"⏱️ Duration limit reached. Processed {len(processed_domains)} domains")
                 break
 
-        domain = domain.strip().lower()
+        # Normalise before anything else, so www.x, ww38.x and x are one
+        # domain rather than three separate feed entries. Scoring already
+        # normalised internally, but the raw hostname was what got stored —
+        # which is how mirror duplicates kept accumulating in the feed.
+        raw = domain.strip().lower()
+        domain = normalize_domain(raw)
         if not domain or domain in processed_domains:
             continue
 

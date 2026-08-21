@@ -62,9 +62,6 @@ MUST_FLAG = [
     'mvrgovbg.lol',
     'e-uslugi-mvr.sbs',
     'nap-bg-danaci.top',
-    # ABV mail
-    'passport-abv-bg-profile-login-gatsby-boilerplate.pages.dev',
-    'passport-abu-bg-app-profiles-login-evry-miukrwsdijkmweaszx.pages.dev',
     # Toll & vignette — the new coverage
     'bgtoll-bg.top',
     'bg-toll.cfd',
@@ -128,6 +125,18 @@ MUST_REJECT = [
     # Scanner artefacts / infrastructure
     ('wildcardprobe-1777179948470546854.idgbedcbjxgpx876587654326d6c555d.10iot.xyz', 'infrastructure'),
     ('0-12-account-analyticspage.0.bigobigo1978.xyz', 'infrastructure'),
+
+    # ABV webmail is deliberately not protected — free webmail is not an
+    # institution, bank or payment service, and one bulk campaign was 15% of
+    # the feed. See WHITELISTED_DOMAINS for the reasoning.
+    ('abv-bgz53.top', 'no-brand'),
+    ('abv-bgd46.top', 'no-brand'),
+    ('abvbg-105306.weeblysite.com', 'no-brand'),
+    ('bg-abv-bg.top', 'no-brand'),
+    ('upgradewebemail-abv-bg.herokuapp.com', 'no-brand'),
+    ('passport-abv-bg-profile-login-gatsby-boilerplate.pages.dev', 'no-brand'),
+    ('passport-abu-bg-app-profiles-login-evry-miukrwsdijkmweaszx.pages.dev', 'no-brand'),
+    ('abv-bglogin.square.site', 'no-brand'),
 
     # No protected brand at all
     ('banking-dashboard-march-2026.pages.dev', 'no-brand'),

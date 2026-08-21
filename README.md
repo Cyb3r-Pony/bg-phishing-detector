@@ -23,7 +23,7 @@ Protected sectors:
 - **Banks & online banking** — DSK Direct, UBB, Fibank, Postbank/e-Postbank, UniCredit Bulbank, ProCredit, CCB, Investbank, TBI, and more
 - **Payment services** — EasyPay, ePay, Borica, myPOS, Revolut, PayPal
 - **Couriers & logistics** — Econt, Speedy, Bulgarian Posts, Sameday, BoxNow, Express One, DHL BG
-- **Marketplaces & consumer services** — OLX.bg, Bazar.bg, eMAG, ABV mail, A1, Yettel, Vivacom
+- **Marketplaces & telecoms** — OLX.bg, Bazar.bg, eMAG, A1, Yettel, Vivacom
 
 ## 🔬 How it works
 
@@ -156,10 +156,23 @@ Online-banking subdomains of an already whitelisted apex are covered automatical
 | bgpost.bg, bulgariapost.bg | Bulgarian Posts | BG-exclusive |
 | evropat.bg, cityexpress.bg, expressone.bg, interlogistica.bg | Bulgarian couriers | BG-exclusive |
 | bazar.bg, emag.bg | Marketplaces | BG-exclusive |
-| abv.bg | ABV mail | BG-exclusive |
 | a1.bg, yettel.bg, vivacom.bg | Telecoms | BG-exclusive |
 | olx.bg | OLX Bulgaria | Ambiguous |
 | dhl.bg, dpd.bg, sameday.bg, boxnow.bg, intime.bg | International couriers | Ambiguous |
+
+### Deliberately not protected
+
+**ABV mail (abv.bg).** Free webmail is not an institution, bank or payment
+service, and ABV phishing is generated in bulk — a single campaign
+(`abv-bgNNN.top`, `abvbg-NNNNNN.weeblysite.com`, `passport-abv-bg-*.pages.dev`)
+accounted for 73 of 482 feed entries, crowding out the bank and government
+findings this feed exists for. The apex `abv.bg` stays whitelisted so nothing
+else can flag it, but no ABV brand keyword, impersonation pattern or URLScan
+query remains.
+
+To re-enable it, add `'abv'` and `'abvbg'` to `BG_EXCLUSIVE_BRANDS` and
+`r'ab[vuwy]-?bg'` to `DIRECT_IMPERSONATION_PATTERNS`, and drop the
+corresponding entries from `MUST_REJECT` in `detection/test_detector.py`.
 
 ## 🔧 Setup
 

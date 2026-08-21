@@ -74,7 +74,7 @@ Brands are split into two groups:
 **BG-exclusive** — the brand only means something in Bulgaria, so matching it
 *is* Bulgarian context: econt, speedy, bgpost, dsk, dskdirect, fibank, ubb,
 ccbank, procredit, bulbank, borica, easypay, mypos, mvr, e-uslugi, egov,
-**bgtoll, tollpass, vinetki, digitoll**, vivacom, yettel, abv, …
+**bgtoll, tollpass, vinetki, digitoll**, vivacom, yettel, …
 
 **Ambiguous / global** — the brand is shared with other markets, so it needs an
 independent Bulgarian signal: olx, dhl, dpd, fedex, ups, sameday, boxnow,
@@ -91,6 +91,16 @@ A Bulgarian signal is any of:
 5. a transliterated Bulgarian lure word — dostavka, pratka, parite, smetka,
    vinetka, plashtane, uslugi, danaci, globi, …;
 6. a direct-impersonation pattern match (see below).
+
+### What is deliberately not protected
+
+**ABV mail (abv.bg)** is whitelisted but is not a protected brand. Free webmail
+is not an institution, bank or payment service, and ABV phishing arrives in
+bulk: `abv-bgNNN.top`, `abvbg-NNNNNN.weeblysite.com` and
+`passport-abv-bg-*.pages.dev` together made up 73 of 482 feed entries. Those
+domains are real phishing, but at that volume they bury the bank and
+government findings the feed exists for, so `abv-bgz53.top` now rejects with
+`no-brand`. `detection/test_detector.py` pins that behaviour.
 
 ### Manual watchlist
 

@@ -160,14 +160,14 @@ def main():
 
     # --- stats.json -------------------------------------------------------
     stats = read_json(STATS_FILE, {})
-    stats_removed = 0
+    stats_delta = 0
     if stats:
         previous = stats.get('all_phishing_domains', [])
         # The stats list is a mirror of the feed, so rebuild it from the feed
         # rather than only subtracting — that also picks up entries the feed
         # gained (e.g. new manual-watchlist domains).
         surviving = sorted(kept_domains)
-        stats_removed = len(previous) - len(surviving)
+        stats_delta = len(surviving) - len(previous)
         stats['all_phishing_domains'] = surviving
         cumulative = stats.setdefault('cumulative_stats', {})
         cumulative['total_unique_phishing_found'] = len(surviving)
@@ -213,7 +213,7 @@ def main():
 
     print(f'\n✅ Removed {len(removed)} feed entries and {llm_removed} LLM '
           f'analyses; stats now mirror the feed '
-          f'({stats_removed:+d} domains)')
+          f'({stats_delta:+d} domains)')
     return 0
 
 
