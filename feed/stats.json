@@ -1,29 +1,29 @@
 {
-  "last_run": "2026-08-21T10:23:29.775289Z",
+  "last_run": "2026-08-21T11:20:11.061813Z",
   "last_run_stats": {
-    "domains_processed": 2392,
-    "phishing_detected": 402,
+    "domains_processed": 2277,
+    "phishing_detected": 332,
     "new_unique_phishing": 0,
-    "elapsed_time": 336.33,
+    "elapsed_time": 309.49,
     "excluded_by_reason": {
-      "no-brand": 712,
-      "not-suspicious-platform": 966,
-      "gibberish-chain": 61,
-      "foreign-market:gambling": 6,
-      "whitelisted": 97,
+      "no-brand": 710,
+      "not-suspicious-platform": 932,
+      "gibberish-chain": 64,
+      "foreign-market:gambling": 7,
+      "no-bg-context": 53,
+      "whitelisted": 91,
       "foreign-market:gr": 15,
-      "foreign-market:id": 2,
-      "foreign-market:de": 29,
-      "no-bg-context": 51,
+      "foreign-market:de": 28,
       "infrastructure": 6,
       "foreign-market:ru": 6,
+      "foreign-market:id": 3,
       "foreign-market:ua": 1
     }
   },
   "cumulative_stats": {
-    "total_domains_scanned": 4945788,
+    "total_domains_scanned": 4948065,
     "total_unique_phishing_found": 482,
-    "total_runs": 3018,
+    "total_runs": 3019,
     "phishing_detection_rate": 0.01
   },
   "all_phishing_domains": [
