@@ -13251,5 +13251,93 @@
     },
     "detected_at": "2026-08-24T00:40:19.730917Z",
     "source": "scanner"
+  },
+  {
+    "domain": "crypto.bdbank.xyz",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "bdbank"
+      ],
+      "bg_exclusive_brands": [
+        "bdbank"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:bdbank"
+      ],
+      "suspicious_tld": ".xyz",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bulbank",
+          "typo": "bdbank",
+          "distance": 2,
+          "type": "missing_char"
+        },
+        {
+          "brand": "tbibank",
+          "typo": "bdbank",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-24T02:20:54.635763Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "trade1.bdbank.xyz",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "bdbank"
+      ],
+      "bg_exclusive_brands": [
+        "bdbank"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:bdbank"
+      ],
+      "suspicious_tld": ".xyz",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bulbank",
+          "typo": "bdbank",
+          "distance": 2,
+          "type": "missing_char"
+        },
+        {
+          "brand": "tbibank",
+          "typo": "bdbank",
+          "distance": 2,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-24T02:20:54.983953Z",
+    "source": "scanner"
   }
 ]
