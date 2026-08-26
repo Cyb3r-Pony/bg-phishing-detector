@@ -13370,5 +13370,36 @@
     },
     "detected_at": "2026-08-26T06:30:33.543678Z",
     "source": "scanner"
+  },
+  {
+    "domain": "ui.speedy.773338.xyz",
+    "score": 95,
+    "details": {
+      "brand_keywords": [
+        "speedy"
+      ],
+      "bg_exclusive_brands": [
+        "speedy"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:speedy"
+      ],
+      "suspicious_tld": ".xyz",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": true,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-26T07:41:13.777692Z",
+    "source": "scanner"
   }
 ]
