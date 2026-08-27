@@ -13444,5 +13444,54 @@
     },
     "detected_at": "2026-08-26T11:22:24.370851Z",
     "source": "scanner"
+  },
+  {
+    "domain": "my.fibank-online.bg.myfi-bg.cfd",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "fibank"
+      ],
+      "bg_exclusive_brands": [
+        "fibank"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [
+        "bg",
+        ".bg-label"
+      ],
+      "bg_context_signals": [
+        "geo:bg",
+        "geo:.bg-label",
+        "brand:fibank"
+      ],
+      "suspicious_tld": ".cfd",
+      "free_hosting": null,
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": true,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "tbibank",
+          "typo": "fibank",
+          "distance": 2,
+          "type": "missing_char"
+        },
+        {
+          "brand": "ibank",
+          "typo": "fibank",
+          "distance": 1,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-08-27T02:26:15.764640Z",
+    "source": "scanner"
   }
 ]
