@@ -13493,5 +13493,36 @@
     },
     "detected_at": "2026-08-27T02:26:15.764640Z",
     "source": "scanner"
+  },
+  {
+    "domain": "vivacom.sbs",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "vivacom"
+      ],
+      "bg_exclusive_brands": [
+        "vivacom"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:vivacom"
+      ],
+      "suspicious_tld": ".sbs",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-09-13T19:09:18.091045Z",
+    "source": "scanner"
   }
 ]
