@@ -13524,5 +13524,36 @@
     },
     "detected_at": "2026-09-13T19:09:18.091045Z",
     "source": "scanner"
+  },
+  {
+    "domain": "yettel.shop",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "yettel"
+      ],
+      "bg_exclusive_brands": [
+        "yettel"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:yettel"
+      ],
+      "suspicious_tld": ".shop",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-09-14T20:05:12.070613Z",
+    "source": "scanner"
   }
 ]
