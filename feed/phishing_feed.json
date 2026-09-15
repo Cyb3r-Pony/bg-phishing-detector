@@ -13555,5 +13555,36 @@
     },
     "detected_at": "2026-09-14T20:05:12.070613Z",
     "source": "scanner"
+  },
+  {
+    "domain": "egov.haparet.cfd",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "egov"
+      ],
+      "bg_exclusive_brands": [
+        "egov"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:egov"
+      ],
+      "suspicious_tld": ".cfd",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-09-15T23:19:43.833416Z",
+    "source": "scanner"
   }
 ]
