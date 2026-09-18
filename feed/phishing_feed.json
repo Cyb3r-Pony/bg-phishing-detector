@@ -13586,5 +13586,36 @@
     },
     "detected_at": "2026-09-15T23:19:43.833416Z",
     "source": "scanner"
+  },
+  {
+    "domain": "augusto.vivacom.online",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "vivacom"
+      ],
+      "bg_exclusive_brands": [
+        "vivacom"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:vivacom"
+      ],
+      "suspicious_tld": ".online",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-09-18T12:05:27.763653Z",
+    "source": "scanner"
   }
 ]
