@@ -13648,5 +13648,38 @@
     },
     "detected_at": "2026-09-23T05:40:34.657403Z",
     "source": "scanner"
+  },
+  {
+    "domain": "bazar-verify.cfd",
+    "score": 85,
+    "details": {
+      "brand_keywords": [
+        "bazar"
+      ],
+      "bg_exclusive_brands": [
+        "bazar"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "verify"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:bazar"
+      ],
+      "suspicious_tld": ".cfd",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-10-06T00:31:57.534573Z",
+    "source": "scanner"
   }
 ]
