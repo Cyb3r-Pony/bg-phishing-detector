@@ -13681,5 +13681,36 @@
     },
     "detected_at": "2026-10-06T00:31:57.534573Z",
     "source": "scanner"
+  },
+  {
+    "domain": "gcash-egov.pages.dev",
+    "score": 80,
+    "details": {
+      "brand_keywords": [
+        "egov"
+      ],
+      "bg_exclusive_brands": [
+        "egov"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:egov"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".pages.dev",
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-10-07T03:08:50.142338Z",
+    "source": "scanner"
   }
 ]

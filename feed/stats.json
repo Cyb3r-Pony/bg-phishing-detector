@@ -1,26 +1,27 @@
 {
-  "last_run": "2026-10-06T23:28:47.481535Z",
+  "last_run": "2026-10-07T03:09:14.178428Z",
   "last_run_stats": {
-    "domains_processed": 1143,
-    "phishing_detected": 58,
-    "new_unique_phishing": 0,
-    "elapsed_time": 205.63,
+    "domains_processed": 1139,
+    "phishing_detected": 59,
+    "new_unique_phishing": 1,
+    "elapsed_time": 241.64,
     "excluded_by_reason": {
-      "no-brand": 454,
-      "not-suspicious-platform": 322,
-      "no-bg-context": 63,
-      "gibberish-chain": 144,
+      "not-suspicious-platform": 325,
+      "no-brand": 422,
+      "gibberish-chain": 161,
+      "foreign-market:ru": 8,
       "whitelisted": 73,
-      "foreign-market:ru": 12,
-      "foreign-market:id": 1,
-      "foreign-market:de": 11,
+      "no-bg-context": 69,
+      "foreign-market:id": 2,
+      "foreign-market:de": 12,
+      "foreign-market:ua": 3,
       "foreign-market:gr": 1
     }
   },
   "cumulative_stats": {
-    "total_domains_scanned": 5586067,
-    "total_unique_phishing_found": 380,
-    "total_runs": 3330,
+    "total_domains_scanned": 5587206,
+    "total_unique_phishing_found": 381,
+    "total_runs": 3331,
     "phishing_detection_rate": 0.01
   },
   "all_phishing_domains": [
@@ -249,6 +250,7 @@
     "fibank.bg.successlogin5.site",
     "gateway.dsk-direct-bg0.site",
     "gav.mvrbg.cam",
+    "gcash-egov.pages.dev",
     "guce.econt-paydelivery.cfd",
     "heyun-egov.pages.dev",
     "hostmaster.new-bgpost.cam",
