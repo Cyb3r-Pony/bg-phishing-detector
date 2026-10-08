@@ -13712,5 +13712,41 @@
     },
     "detected_at": "2026-10-07T03:08:50.142338Z",
     "source": "scanner"
+  },
+  {
+    "domain": "cs-cztollpass.autos",
+    "score": 95,
+    "details": {
+      "brand_keywords": [],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "tol"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".autos",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": true,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "tollpass",
+          "typo": "cztollpass",
+          "distance": 2,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-10-08T22:39:22.950236Z",
+    "source": "scanner"
   }
 ]
