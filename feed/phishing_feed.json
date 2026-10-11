@@ -13748,5 +13748,36 @@
     },
     "detected_at": "2026-10-08T22:39:22.950236Z",
     "source": "scanner"
+  },
+  {
+    "domain": "main-bazar.xyz",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "bazar"
+      ],
+      "bg_exclusive_brands": [
+        "bazar"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:bazar"
+      ],
+      "suspicious_tld": ".xyz",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-10-11T20:43:07.605784Z",
+    "source": "scanner"
   }
 ]
