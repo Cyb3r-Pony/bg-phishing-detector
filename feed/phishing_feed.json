@@ -13779,5 +13779,41 @@
     },
     "detected_at": "2026-10-11T20:43:07.605784Z",
     "source": "scanner"
+  },
+  {
+    "domain": "mytollpass.pages.dev",
+    "score": 90,
+    "details": {
+      "brand_keywords": [],
+      "bg_exclusive_brands": [],
+      "ambiguous_brands": [],
+      "transaction_keywords": [
+        "tol"
+      ],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "direct-impersonation"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".pages.dev",
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "tollpass",
+          "typo": "mytollpass",
+          "distance": 2,
+          "type": "extra_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-10-13T04:21:36.530074Z",
+    "source": "scanner"
   }
 ]
