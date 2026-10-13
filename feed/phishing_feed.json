@@ -13815,5 +13815,36 @@
     },
     "detected_at": "2026-10-13T04:21:36.530074Z",
     "source": "scanner"
+  },
+  {
+    "domain": "saugat-egov-tools.pages.dev",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "egov"
+      ],
+      "bg_exclusive_brands": [
+        "egov"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:egov"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".pages.dev",
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-10-13T19:40:04.298430Z",
+    "source": "scanner"
   }
 ]
