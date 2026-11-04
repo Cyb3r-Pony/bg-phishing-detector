@@ -1,27 +1,27 @@
 {
-  "last_run": "2026-11-04T11:45:25.121343Z",
+  "last_run": "2026-11-04T19:03:37.973986Z",
   "last_run_stats": {
-    "domains_processed": 1627,
-    "phishing_detected": 163,
-    "new_unique_phishing": 0,
-    "elapsed_time": 256.89,
+    "domains_processed": 1634,
+    "phishing_detected": 165,
+    "new_unique_phishing": 2,
+    "elapsed_time": 284.24,
     "excluded_by_reason": {
-      "no-brand": 507,
-      "not-suspicious-platform": 606,
-      "foreign-market:gambling": 7,
-      "gibberish-chain": 134,
-      "whitelisted": 91,
-      "foreign-market:id": 3,
-      "no-bg-context": 70,
+      "no-brand": 509,
+      "not-suspicious-platform": 610,
+      "gibberish-chain": 131,
+      "whitelisted": 87,
+      "foreign-market:id": 2,
+      "no-bg-context": 81,
       "infrastructure": 4,
-      "foreign-market:ru": 6,
-      "foreign-market:de": 12
+      "foreign-market:ru": 8,
+      "foreign-market:de": 11,
+      "foreign-market:gambling": 2
     }
   },
   "cumulative_stats": {
-    "total_domains_scanned": 5764884,
-    "total_unique_phishing_found": 385,
-    "total_runs": 3474,
+    "total_domains_scanned": 5766518,
+    "total_unique_phishing_found": 387,
+    "total_runs": 3475,
     "phishing_detection_rate": 0.01
   },
   "all_phishing_domains": [
@@ -409,6 +409,8 @@
     "webmail.dskdirect-client0.top",
     "xn--econtbg-6gg.secure-safe.xyz",
     "yettel-magyarorszag.online",
-    "yettel.shop"
+    "yettel.click",
+    "yettel.shop",
+    "yettel.store"
   ]
 }

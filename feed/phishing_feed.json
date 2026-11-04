@@ -13846,5 +13846,67 @@
     },
     "detected_at": "2026-10-13T19:40:04.298430Z",
     "source": "scanner"
+  },
+  {
+    "domain": "yettel.click",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "yettel"
+      ],
+      "bg_exclusive_brands": [
+        "yettel"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:yettel"
+      ],
+      "suspicious_tld": ".click",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-11-04T19:03:36.893492Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "yettel.store",
+    "score": 75,
+    "details": {
+      "brand_keywords": [
+        "yettel"
+      ],
+      "bg_exclusive_brands": [
+        "yettel"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:yettel"
+      ],
+      "suspicious_tld": ".store",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-11-04T19:03:37.005203Z",
+    "source": "scanner"
   }
 ]
