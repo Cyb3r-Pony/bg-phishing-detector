@@ -13908,5 +13908,36 @@
     },
     "detected_at": "2026-11-04T19:03:37.005203Z",
     "source": "scanner"
+  },
+  {
+    "domain": "speedy-coupons-e0ecae84.pages.dev",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "speedy"
+      ],
+      "bg_exclusive_brands": [
+        "speedy"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:speedy"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".pages.dev",
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-11-07T08:00:10.431079Z",
+    "source": "scanner"
   }
 ]
