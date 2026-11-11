@@ -1,26 +1,27 @@
 {
-  "last_run": "2026-11-11T16:48:28.763051Z",
+  "last_run": "2026-11-11T23:15:39.586323Z",
   "last_run_stats": {
-    "domains_processed": 1624,
-    "phishing_detected": 162,
-    "new_unique_phishing": 0,
-    "elapsed_time": 281.07,
+    "domains_processed": 1618,
+    "phishing_detected": 163,
+    "new_unique_phishing": 1,
+    "elapsed_time": 258.44,
     "excluded_by_reason": {
-      "no-brand": 525,
-      "gibberish-chain": 143,
-      "not-suspicious-platform": 592,
+      "gibberish-chain": 138,
+      "not-suspicious-platform": 587,
+      "no-brand": 526,
       "whitelisted": 85,
-      "foreign-market:id": 3,
+      "foreign-market:de": 13,
       "no-bg-context": 69,
       "infrastructure": 5,
       "foreign-market:ru": 5,
-      "foreign-market:de": 11
+      "foreign-market:gambling": 2,
+      "foreign-market:id": 1
     }
   },
   "cumulative_stats": {
-    "total_domains_scanned": 5810758,
-    "total_unique_phishing_found": 388,
-    "total_runs": 3502,
+    "total_domains_scanned": 5812376,
+    "total_unique_phishing_found": 389,
+    "total_runs": 3503,
     "phishing_detection_rate": 0.01
   },
   "all_phishing_domains": [
@@ -248,6 +249,7 @@
     "fibank.bg.successlogin3.site",
     "fibank.bg.successlogin4.site",
     "fibank.bg.successlogin5.site",
+    "fibankbg.live",
     "gateway.dsk-direct-bg0.site",
     "gav.mvrbg.cam",
     "gcash-egov.pages.dev",
