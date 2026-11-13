@@ -13972,5 +13972,36 @@
     },
     "detected_at": "2026-11-11T23:14:56.940806Z",
     "source": "scanner"
+  },
+  {
+    "domain": "speedy-medical-services.pages.dev",
+    "score": 90,
+    "details": {
+      "brand_keywords": [
+        "speedy"
+      ],
+      "bg_exclusive_brands": [
+        "speedy"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:speedy"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".pages.dev",
+      "multiple_hyphens": true,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-11-13T10:18:17.874062Z",
+    "source": "scanner"
   }
 ]
