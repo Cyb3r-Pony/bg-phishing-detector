@@ -14003,5 +14003,44 @@
     },
     "detected_at": "2026-11-13T10:18:17.874062Z",
     "source": "scanner"
+  },
+  {
+    "domain": "bgpost.ijgeui.cfd",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "bgpost"
+      ],
+      "bg_exclusive_brands": [
+        "bgpost"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:bgpost",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".cfd",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bg-post",
+          "typo": "bgpost",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-11-14T18:37:01.668460Z",
+    "source": "scanner"
   }
 ]
