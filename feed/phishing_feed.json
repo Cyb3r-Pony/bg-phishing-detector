@@ -14073,5 +14073,36 @@
     },
     "detected_at": "2026-11-15T02:17:27.728545Z",
     "source": "scanner"
+  },
+  {
+    "domain": "speedy-repo.pages.dev",
+    "score": 80,
+    "details": {
+      "brand_keywords": [
+        "speedy"
+      ],
+      "bg_exclusive_brands": [
+        "speedy"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:speedy"
+      ],
+      "suspicious_tld": null,
+      "free_hosting": ".pages.dev",
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": false,
+      "typosquatting_details": [],
+      "direct_impersonation": false
+    },
+    "detected_at": "2026-11-27T09:17:04.956829Z",
+    "source": "scanner"
   }
 ]
