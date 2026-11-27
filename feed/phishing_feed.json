@@ -14104,5 +14104,83 @@
     },
     "detected_at": "2026-11-27T09:17:04.956829Z",
     "source": "scanner"
+  },
+  {
+    "domain": "bgpost.ifichaefr.cc",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "bgpost"
+      ],
+      "bg_exclusive_brands": [
+        "bgpost"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:bgpost",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".cc",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bg-post",
+          "typo": "bgpost",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-11-27T19:17:17.932721Z",
+    "source": "scanner"
+  },
+  {
+    "domain": "bgpost.ifichaeft.cc",
+    "score": 100,
+    "details": {
+      "brand_keywords": [
+        "bgpost"
+      ],
+      "bg_exclusive_brands": [
+        "bgpost"
+      ],
+      "ambiguous_brands": [],
+      "transaction_keywords": [],
+      "geo_indicators": [],
+      "bg_context_signals": [
+        "brand:bgpost",
+        "direct-impersonation"
+      ],
+      "suspicious_tld": ".cc",
+      "free_hosting": null,
+      "multiple_hyphens": false,
+      "numeric_suffix": false,
+      "subdomain_stacking": false,
+      "high_entropy": false,
+      "homoglyphs_detected": false,
+      "homoglyphs_used": [],
+      "typosquatting_detected": true,
+      "typosquatting_details": [
+        {
+          "brand": "bg-post",
+          "typo": "bgpost",
+          "distance": 1,
+          "type": "missing_char"
+        }
+      ],
+      "direct_impersonation": true
+    },
+    "detected_at": "2026-11-27T19:17:17.986384Z",
+    "source": "scanner"
   }
 ]
